@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F12EA5820BC2FBF00A2A543 /* wakeup_aifar_comm_20180104.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1F12EA5720BC2FBF00A2A543 /* wakeup_aifar_comm_20180104.bin */; };
+		1F12F39320AD58F800D6D973 /* ASRLocalViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F12F39220AD58F800D6D973 /* ASRLocalViewControler.m */; };
+		1F12F39F20AD5E6E00D6D973 /* ebnfr.aicar.1.2.0.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1F12F39E20AD5E6E00D6D973 /* ebnfr.aicar.1.2.0.bin */; };
+		1F12F3A420AD5EDA00D6D973 /* ebnfc.aicar.1.1.0.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1F12F3A320AD5EDA00D6D973 /* ebnfc.aicar.1.1.0.bin */; };
+		1F12F3A620AD5EEE00D6D973 /* gram.xbnf in Resources */ = {isa = PBXBuildFile; fileRef = 1F12F3A520AD5EEE00D6D973 /* gram.xbnf */; };
+		1F12F3B620AD7F4D00D6D973 /* vad_aihome_v0.6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1F12F3B520AD7F4D00D6D973 /* vad_aihome_v0.6.bin */; };
+		1F1316F61FECBCE300659D3B /* myAudio in Resources */ = {isa = PBXBuildFile; fileRef = 1F1316F51FECBCE300659D3B /* myAudio */; };
+		1F422A9C1FD0149800EE871A /* AsrRealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F422A9B1FD0149800EE871A /* AsrRealViewController.m */; };
+		1F422AA01FD03F1300EE871A /* myAudio in Resources */ = {isa = PBXBuildFile; fileRef = 1F422A9F1FD03F1300EE871A /* myAudio */; };
+		1F42BBD820AE5F1600B0EE02 /* nhxp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F42BBD120AE5F1500B0EE02 /* nhxp.wav */; };
+		1F5CC70B21D466A900B6DB21 /* aitts_dict_idx_common.2.0.4.db in Resources */ = {isa = PBXBuildFile; fileRef = 1F5CC70921D466A900B6DB21 /* aitts_dict_idx_common.2.0.4.db */; };
+		1F5CC70C21D466A900B6DB21 /* zhilingf_common_param_ce_local.v2.008.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1F5CC70A21D466A900B6DB21 /* zhilingf_common_param_ce_local.v2.008.bin */; };
+		47548B582060E3F800C878B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47548B522060E3F800C878B0 /* SystemConfiguration.framework */; };
+		47548B5A2060E42B00C878B0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47548B592060E42B00C878B0 /* Security.framework */; };
+		47548B5C2060E43900C878B0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47548B5B2060E43900C878B0 /* libz.tbd */; };
+		47548B5E2060E44200C878B0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47548B5D2060E44200C878B0 /* libc++.tbd */; };
+		47548B622060E67D00C878B0 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47548B612060E67D00C878B0 /* Bugly.framework */; };
+		4792804D20CF9BC700D2A2A2 /* libDUILite_ios_wakeup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4792803620CF9BC600D2A2A2 /* libDUILite_ios_wakeup.a */; };
+		4792804E20CF9BC700D2A2A2 /* libDUILiteAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4792803720CF9BC600D2A2A2 /* libDUILiteAuth.a */; };
+		4792804F20CF9BC700D2A2A2 /* libDUILite_ios_CloudTTS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4792803820CF9BC600D2A2A2 /* libDUILite_ios_CloudTTS.a */; };
+		4792805020CF9BC700D2A2A2 /* libDUILite_ios_asr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4792804A20CF9BC600D2A2A2 /* libDUILite_ios_asr.a */; };
+		4792805120CF9BC700D2A2A2 /* libDUILite_ios_LocalTTS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4792804B20CF9BC600D2A2A2 /* libDUILite_ios_LocalTTS.a */; };
+		4792805220CF9BC700D2A2A2 /* libDUILite_ios_localASR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4792804C20CF9BC600D2A2A2 /* libDUILite_ios_localASR.a */; };
+		47A0CBD6206248FC00CF746B /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBB0206248FB00CF746B /* IQTextView.m */; };
+		47A0CBD7206248FC00CF746B /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBB4206248FB00CF746B /* IQToolbar.m */; };
+		47A0CBD8206248FC00CF746B /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBB6206248FB00CF746B /* IQTitleBarButtonItem.m */; };
+		47A0CBD9206248FC00CF746B /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBB7206248FB00CF746B /* IQBarButtonItem.m */; };
+		47A0CBDA206248FC00CF746B /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBB8206248FB00CF746B /* IQUIView+IQKeyboardToolbar.m */; };
+		47A0CBDB206248FC00CF746B /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBB9206248FB00CF746B /* IQPreviousNextView.m */; };
+		47A0CBDC206248FC00CF746B /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 47A0CBC1206248FB00CF746B /* IQKeyboardManager.bundle */; };
+		47A0CBDD206248FC00CF746B /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBC4206248FB00CF746B /* IQKeyboardManager.m */; };
+		47A0CBDE206248FC00CF746B /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBC6206248FB00CF746B /* IQNSArray+Sort.m */; };
+		47A0CBDF206248FC00CF746B /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBC8206248FB00CF746B /* IQUITextFieldView+Additions.m */; };
+		47A0CBE0206248FC00CF746B /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBC9206248FB00CF746B /* IQUIScrollView+Additions.m */; };
+		47A0CBE1206248FC00CF746B /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBCA206248FB00CF746B /* IQUIView+Hierarchy.m */; };
+		47A0CBE2206248FC00CF746B /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBCE206248FB00CF746B /* IQUIViewController+Additions.m */; };
+		47A0CBE3206248FC00CF746B /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBD0206248FB00CF746B /* IQKeyboardReturnKeyHandler.m */; };
+		47B931FF1FC518BD0049ABE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B931FE1FC518BD0049ABE8 /* main.m */; };
+		47B932021FC518BD0049ABE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B932011FC518BD0049ABE8 /* AppDelegate.m */; };
+		47B932051FC518BD0049ABE8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B932041FC518BD0049ABE8 /* RootViewController.m */; };
+		47B932081FC518BD0049ABE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B932061FC518BD0049ABE8 /* Main.storyboard */; };
+		47B9320A1FC518BD0049ABE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B932091FC518BD0049ABE8 /* Assets.xcassets */; };
+		47B9320D1FC518BD0049ABE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B9320B1FC518BD0049ABE8 /* LaunchScreen.storyboard */; };
+		47DF64561FC554FE00F6480B /* TTSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DF64551FC554FE00F6480B /* TTSViewController.m */; };
+		47DF64681FC558F800F6480B /* TTSLocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DF64671FC558F800F6480B /* TTSLocalViewController.m */; };
+		47DF64971FC5764000F6480B /* test.pcm in Resources */ = {isa = PBXBuildFile; fileRef = 47DF64951FC5764000F6480B /* test.pcm */; };
+		47DF64981FC5764000F6480B /* vad_aihome_v0.6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 47DF64961FC5764000F6480B /* vad_aihome_v0.6.bin */; };
+		47DF649D1FC576B600F6480B /* AsrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DF649C1FC576B600F6480B /* AsrViewController.m */; };
+		47DF64A21FC577E400F6480B /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DF64A11FC577E400F6480B /* libicucore.tbd */; };
+		47DF64A91FC57ABB00F6480B /* WakeupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DF64A81FC57ABB00F6480B /* WakeupViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F12EA5720BC2FBF00A2A543 /* wakeup_aifar_comm_20180104.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = wakeup_aifar_comm_20180104.bin; sourceTree = "<group>"; };
+		1F12F39120AD58F800D6D973 /* ASRLocalViewControler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASRLocalViewControler.h; sourceTree = "<group>"; };
+		1F12F39220AD58F800D6D973 /* ASRLocalViewControler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASRLocalViewControler.m; sourceTree = "<group>"; };
+		1F12F39E20AD5E6E00D6D973 /* ebnfr.aicar.1.2.0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = ebnfr.aicar.1.2.0.bin; sourceTree = "<group>"; };
+		1F12F3A320AD5EDA00D6D973 /* ebnfc.aicar.1.1.0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = ebnfc.aicar.1.1.0.bin; sourceTree = "<group>"; };
+		1F12F3A520AD5EEE00D6D973 /* gram.xbnf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gram.xbnf; sourceTree = "<group>"; };
+		1F12F3B520AD7F4D00D6D973 /* vad_aihome_v0.6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = vad_aihome_v0.6.bin; sourceTree = "<group>"; };
+		1F1316F51FECBCE300659D3B /* myAudio */ = {isa = PBXFileReference; lastKnownFileType = text; path = myAudio; sourceTree = "<group>"; };
+		1F135B4D1FD6CC3800820FDD /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
+		1F422A9A1FD0149800EE871A /* AsrRealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsrRealViewController.h; sourceTree = "<group>"; };
+		1F422A9B1FD0149800EE871A /* AsrRealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsrRealViewController.m; sourceTree = "<group>"; };
+		1F422A9F1FD03F1300EE871A /* myAudio */ = {isa = PBXFileReference; lastKnownFileType = text; path = myAudio; sourceTree = "<group>"; };
+		1F42BBD120AE5F1500B0EE02 /* nhxp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nhxp.wav; sourceTree = "<group>"; };
+		1F5CC70921D466A900B6DB21 /* aitts_dict_idx_common.2.0.4.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = aitts_dict_idx_common.2.0.4.db; sourceTree = "<group>"; };
+		1F5CC70A21D466A900B6DB21 /* zhilingf_common_param_ce_local.v2.008.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = zhilingf_common_param_ce_local.v2.008.bin; sourceTree = "<group>"; };
+		47548B522060E3F800C878B0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		47548B592060E42B00C878B0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		47548B5B2060E43900C878B0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		47548B5D2060E44200C878B0 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		47548B612060E67D00C878B0 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
+		4792803620CF9BC600D2A2A2 /* libDUILite_ios_wakeup.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_wakeup.a; sourceTree = "<group>"; };
+		4792803720CF9BC600D2A2A2 /* libDUILiteAuth.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILiteAuth.a; sourceTree = "<group>"; };
+		4792803820CF9BC600D2A2A2 /* libDUILite_ios_CloudTTS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_CloudTTS.a; sourceTree = "<group>"; };
+		4792803B20CF9BC600D2A2A2 /* wakeupEngineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wakeupEngineConfig.h; sourceTree = "<group>"; };
+		4792803C20CF9BC600D2A2A2 /* wakeupEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wakeupEngine.h; sourceTree = "<group>"; };
+		4792803E20CF9BC600D2A2A2 /* AICloudASREngineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AICloudASREngineConfig.h; sourceTree = "<group>"; };
+		4792803F20CF9BC600D2A2A2 /* AICloudASREngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AICloudASREngine.h; sourceTree = "<group>"; };
+		4792804120CF9BC600D2A2A2 /* DUILiteAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteAuth.h; sourceTree = "<group>"; };
+		4792804220CF9BC600D2A2A2 /* DUILiteAuthConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteAuthConfig.h; sourceTree = "<group>"; };
+		4792804420CF9BC600D2A2A2 /* AISTTSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISTTSPlayer.h; sourceTree = "<group>"; };
+		4792804620CF9BC600D2A2A2 /* DUILiteLocalASREngineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteLocalASREngineConfig.h; sourceTree = "<group>"; };
+		4792804720CF9BC600D2A2A2 /* DUILiteLocalASREngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteLocalASREngine.h; sourceTree = "<group>"; };
+		4792804920CF9BC600D2A2A2 /* AISLocalTTSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISLocalTTSPlayer.h; sourceTree = "<group>"; };
+		4792804A20CF9BC600D2A2A2 /* libDUILite_ios_asr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_asr.a; sourceTree = "<group>"; };
+		4792804B20CF9BC600D2A2A2 /* libDUILite_ios_LocalTTS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_LocalTTS.a; sourceTree = "<group>"; };
+		4792804C20CF9BC600D2A2A2 /* libDUILite_ios_localASR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_localASR.a; sourceTree = "<group>"; };
+		47A0CBB0206248FB00CF746B /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		47A0CBB1206248FB00CF746B /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		47A0CBB3206248FB00CF746B /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		47A0CBB4206248FB00CF746B /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		47A0CBB5206248FB00CF746B /* IQPreviousNextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
+		47A0CBB6206248FB00CF746B /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		47A0CBB7206248FB00CF746B /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		47A0CBB8206248FB00CF746B /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		47A0CBB9206248FB00CF746B /* IQPreviousNextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
+		47A0CBBA206248FB00CF746B /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		47A0CBBB206248FB00CF746B /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		47A0CBBC206248FB00CF746B /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		47A0CBBE206248FB00CF746B /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		47A0CBBF206248FB00CF746B /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		47A0CBC1206248FB00CF746B /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		47A0CBC2206248FB00CF746B /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		47A0CBC3206248FB00CF746B /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		47A0CBC4206248FB00CF746B /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		47A0CBC6206248FB00CF746B /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		47A0CBC7206248FB00CF746B /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		47A0CBC8206248FB00CF746B /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		47A0CBC9206248FB00CF746B /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		47A0CBCA206248FB00CF746B /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		47A0CBCB206248FB00CF746B /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		47A0CBCC206248FB00CF746B /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		47A0CBCD206248FB00CF746B /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		47A0CBCE206248FB00CF746B /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		47A0CBCF206248FB00CF746B /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		47A0CBD0206248FB00CF746B /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		47A0CBE4206249C000CF746B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		47A0CBE620624A0300CF746B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		47A0CBE820624A0E00CF746B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		47B931FA1FC518BD0049ABE8 /* DUILite_iOS_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DUILite_iOS_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B931FE1FC518BD0049ABE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47B932001FC518BD0049ABE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47B932011FC518BD0049ABE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47B932031FC518BD0049ABE8 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		47B932041FC518BD0049ABE8 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		47B932071FC518BD0049ABE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47B932091FC518BD0049ABE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47B9320C1FC518BD0049ABE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47B9320E1FC518BD0049ABE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47DF644C1FC549FE00F6480B /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		47DF64541FC554FE00F6480B /* TTSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSViewController.h; sourceTree = "<group>"; };
+		47DF64551FC554FE00F6480B /* TTSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSViewController.m; sourceTree = "<group>"; };
+		47DF64661FC558F800F6480B /* TTSLocalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSLocalViewController.h; sourceTree = "<group>"; };
+		47DF64671FC558F800F6480B /* TTSLocalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSLocalViewController.m; sourceTree = "<group>"; };
+		47DF646D1FC55A1F00F6480B /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		47DF64951FC5764000F6480B /* test.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.pcm; sourceTree = "<group>"; };
+		47DF64961FC5764000F6480B /* vad_aihome_v0.6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = vad_aihome_v0.6.bin; sourceTree = "<group>"; };
+		47DF649B1FC576B600F6480B /* AsrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsrViewController.h; sourceTree = "<group>"; };
+		47DF649C1FC576B600F6480B /* AsrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsrViewController.m; sourceTree = "<group>"; };
+		47DF64A11FC577E400F6480B /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		47DF64A71FC57ABB00F6480B /* WakeupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WakeupViewController.h; sourceTree = "<group>"; };
+		47DF64A81FC57ABB00F6480B /* WakeupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WakeupViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47B931F71FC518BD0049ABE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4792805020CF9BC700D2A2A2 /* libDUILite_ios_asr.a in Frameworks */,
+				47548B5E2060E44200C878B0 /* libc++.tbd in Frameworks */,
+				4792805120CF9BC700D2A2A2 /* libDUILite_ios_LocalTTS.a in Frameworks */,
+				47548B5C2060E43900C878B0 /* libz.tbd in Frameworks */,
+				47548B5A2060E42B00C878B0 /* Security.framework in Frameworks */,
+				4792804D20CF9BC700D2A2A2 /* libDUILite_ios_wakeup.a in Frameworks */,
+				4792805220CF9BC700D2A2A2 /* libDUILite_ios_localASR.a in Frameworks */,
+				4792804E20CF9BC700D2A2A2 /* libDUILiteAuth.a in Frameworks */,
+				47548B582060E3F800C878B0 /* SystemConfiguration.framework in Frameworks */,
+				47548B622060E67D00C878B0 /* Bugly.framework in Frameworks */,
+				47DF64A21FC577E400F6480B /* libicucore.tbd in Frameworks */,
+				4792804F20CF9BC700D2A2A2 /* libDUILite_ios_CloudTTS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F0CE5DB20A983D400DAE0AF /* localASR */ = {
+			isa = PBXGroup;
+			children = (
+				1F12F3A220AD5EC100D6D973 /* ASR */,
+				1F12F3A120AD5EBA00D6D973 /* VAD */,
+				1F12F3A020AD5EAF00D6D973 /* gram */,
+			);
+			name = localASR;
+			sourceTree = "<group>";
+		};
+		1F12F3A020AD5EAF00D6D973 /* gram */ = {
+			isa = PBXGroup;
+			children = (
+				1F12F3A520AD5EEE00D6D973 /* gram.xbnf */,
+				1F12F3A320AD5EDA00D6D973 /* ebnfc.aicar.1.1.0.bin */,
+			);
+			name = gram;
+			sourceTree = "<group>";
+		};
+		1F12F3A120AD5EBA00D6D973 /* VAD */ = {
+			isa = PBXGroup;
+			children = (
+				1F12F3B520AD7F4D00D6D973 /* vad_aihome_v0.6.bin */,
+			);
+			name = VAD;
+			sourceTree = "<group>";
+		};
+		1F12F3A220AD5EC100D6D973 /* ASR */ = {
+			isa = PBXGroup;
+			children = (
+				1F12F39E20AD5E6E00D6D973 /* ebnfr.aicar.1.2.0.bin */,
+			);
+			name = ASR;
+			sourceTree = "<group>";
+		};
+		4792803920CF9BC600D2A2A2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4792803A20CF9BC600D2A2A2 /* DUILite_ios_wakeup */,
+				4792803D20CF9BC600D2A2A2 /* DUILite_ios_asr */,
+				4792804020CF9BC600D2A2A2 /* DUILiteAuth */,
+				4792804320CF9BC600D2A2A2 /* DUILite_ios_CloudTTS */,
+				4792804520CF9BC600D2A2A2 /* DUILite_ios_localASR */,
+				4792804820CF9BC600D2A2A2 /* DUILite_ios_LocalTTS */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		4792803A20CF9BC600D2A2A2 /* DUILite_ios_wakeup */ = {
+			isa = PBXGroup;
+			children = (
+				4792803B20CF9BC600D2A2A2 /* wakeupEngineConfig.h */,
+				4792803C20CF9BC600D2A2A2 /* wakeupEngine.h */,
+			);
+			path = DUILite_ios_wakeup;
+			sourceTree = "<group>";
+		};
+		4792803D20CF9BC600D2A2A2 /* DUILite_ios_asr */ = {
+			isa = PBXGroup;
+			children = (
+				4792803E20CF9BC600D2A2A2 /* AICloudASREngineConfig.h */,
+				4792803F20CF9BC600D2A2A2 /* AICloudASREngine.h */,
+			);
+			path = DUILite_ios_asr;
+			sourceTree = "<group>";
+		};
+		4792804020CF9BC600D2A2A2 /* DUILiteAuth */ = {
+			isa = PBXGroup;
+			children = (
+				4792804120CF9BC600D2A2A2 /* DUILiteAuth.h */,
+				4792804220CF9BC600D2A2A2 /* DUILiteAuthConfig.h */,
+			);
+			path = DUILiteAuth;
+			sourceTree = "<group>";
+		};
+		4792804320CF9BC600D2A2A2 /* DUILite_ios_CloudTTS */ = {
+			isa = PBXGroup;
+			children = (
+				4792804420CF9BC600D2A2A2 /* AISTTSPlayer.h */,
+			);
+			path = DUILite_ios_CloudTTS;
+			sourceTree = "<group>";
+		};
+		4792804520CF9BC600D2A2A2 /* DUILite_ios_localASR */ = {
+			isa = PBXGroup;
+			children = (
+				4792804620CF9BC600D2A2A2 /* DUILiteLocalASREngineConfig.h */,
+				4792804720CF9BC600D2A2A2 /* DUILiteLocalASREngine.h */,
+			);
+			path = DUILite_ios_localASR;
+			sourceTree = "<group>";
+		};
+		4792804820CF9BC600D2A2A2 /* DUILite_ios_LocalTTS */ = {
+			isa = PBXGroup;
+			children = (
+				4792804920CF9BC600D2A2A2 /* AISLocalTTSPlayer.h */,
+			);
+			path = DUILite_ios_LocalTTS;
+			sourceTree = "<group>";
+		};
+		47A0CBAE206248FB00CF746B /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				47A0CBAF206248FB00CF746B /* IQTextView */,
+				47A0CBB2206248FB00CF746B /* IQToolbar */,
+				47A0CBBD206248FB00CF746B /* Constants */,
+				47A0CBC0206248FB00CF746B /* Resources */,
+				47A0CBC2206248FB00CF746B /* IQKeyboardReturnKeyHandler.h */,
+				47A0CBC3206248FB00CF746B /* IQKeyboardManager.h */,
+				47A0CBC4206248FB00CF746B /* IQKeyboardManager.m */,
+				47A0CBC5206248FB00CF746B /* Categories */,
+				47A0CBD0206248FB00CF746B /* IQKeyboardReturnKeyHandler.m */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		47A0CBAF206248FB00CF746B /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				47A0CBB0206248FB00CF746B /* IQTextView.m */,
+				47A0CBB1206248FB00CF746B /* IQTextView.h */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		47A0CBB2206248FB00CF746B /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				47A0CBB3206248FB00CF746B /* IQUIView+IQKeyboardToolbar.h */,
+				47A0CBB4206248FB00CF746B /* IQToolbar.m */,
+				47A0CBB5206248FB00CF746B /* IQPreviousNextView.h */,
+				47A0CBB6206248FB00CF746B /* IQTitleBarButtonItem.m */,
+				47A0CBB7206248FB00CF746B /* IQBarButtonItem.m */,
+				47A0CBB8206248FB00CF746B /* IQUIView+IQKeyboardToolbar.m */,
+				47A0CBB9206248FB00CF746B /* IQPreviousNextView.m */,
+				47A0CBBA206248FB00CF746B /* IQToolbar.h */,
+				47A0CBBB206248FB00CF746B /* IQBarButtonItem.h */,
+				47A0CBBC206248FB00CF746B /* IQTitleBarButtonItem.h */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		47A0CBBD206248FB00CF746B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				47A0CBBE206248FB00CF746B /* IQKeyboardManagerConstantsInternal.h */,
+				47A0CBBF206248FB00CF746B /* IQKeyboardManagerConstants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		47A0CBC0206248FB00CF746B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47A0CBC1206248FB00CF746B /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		47A0CBC5206248FB00CF746B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				47A0CBC6206248FB00CF746B /* IQNSArray+Sort.m */,
+				47A0CBC7206248FB00CF746B /* IQUIViewController+Additions.h */,
+				47A0CBC8206248FB00CF746B /* IQUITextFieldView+Additions.m */,
+				47A0CBC9206248FB00CF746B /* IQUIScrollView+Additions.m */,
+				47A0CBCA206248FB00CF746B /* IQUIView+Hierarchy.m */,
+				47A0CBCB206248FB00CF746B /* IQNSArray+Sort.h */,
+				47A0CBCC206248FB00CF746B /* IQUIScrollView+Additions.h */,
+				47A0CBCD206248FB00CF746B /* IQUITextFieldView+Additions.h */,
+				47A0CBCE206248FB00CF746B /* IQUIViewController+Additions.m */,
+				47A0CBCF206248FB00CF746B /* IQUIView+Hierarchy.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		47B931F11FC518BD0049ABE8 = {
+			isa = PBXGroup;
+			children = (
+				47B931FC1FC518BD0049ABE8 /* DUILite_iOS_Demo */,
+				47B931FB1FC518BD0049ABE8 /* Products */,
+				47DF646C1FC55A1F00F6480B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		47B931FB1FC518BD0049ABE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47B931FA1FC518BD0049ABE8 /* DUILite_iOS_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47B931FC1FC518BD0049ABE8 /* DUILite_iOS_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4792803920CF9BC600D2A2A2 /* include */,
+				4792804A20CF9BC600D2A2A2 /* libDUILite_ios_asr.a */,
+				4792803820CF9BC600D2A2A2 /* libDUILite_ios_CloudTTS.a */,
+				4792804C20CF9BC600D2A2A2 /* libDUILite_ios_localASR.a */,
+				4792804B20CF9BC600D2A2A2 /* libDUILite_ios_LocalTTS.a */,
+				4792803620CF9BC600D2A2A2 /* libDUILite_ios_wakeup.a */,
+				4792803720CF9BC600D2A2A2 /* libDUILiteAuth.a */,
+				47A0CBAE206248FB00CF746B /* IQKeyboardManager */,
+				47DF64611FC5585A00F6480B /* res */,
+				1F1316F51FECBCE300659D3B /* myAudio */,
+				47B932001FC518BD0049ABE8 /* AppDelegate.h */,
+				47B932011FC518BD0049ABE8 /* AppDelegate.m */,
+				47B932031FC518BD0049ABE8 /* RootViewController.h */,
+				47B932041FC518BD0049ABE8 /* RootViewController.m */,
+				47DF64541FC554FE00F6480B /* TTSViewController.h */,
+				47DF64551FC554FE00F6480B /* TTSViewController.m */,
+				47DF64661FC558F800F6480B /* TTSLocalViewController.h */,
+				47DF64671FC558F800F6480B /* TTSLocalViewController.m */,
+				47DF649B1FC576B600F6480B /* AsrViewController.h */,
+				47DF649C1FC576B600F6480B /* AsrViewController.m */,
+				1F422A9A1FD0149800EE871A /* AsrRealViewController.h */,
+				1F422A9B1FD0149800EE871A /* AsrRealViewController.m */,
+				1F12F39120AD58F800D6D973 /* ASRLocalViewControler.h */,
+				1F12F39220AD58F800D6D973 /* ASRLocalViewControler.m */,
+				47DF64A71FC57ABB00F6480B /* WakeupViewController.h */,
+				47DF64A81FC57ABB00F6480B /* WakeupViewController.m */,
+				47B932061FC518BD0049ABE8 /* Main.storyboard */,
+				47B932091FC518BD0049ABE8 /* Assets.xcassets */,
+				47B9320B1FC518BD0049ABE8 /* LaunchScreen.storyboard */,
+				47B9320E1FC518BD0049ABE8 /* Info.plist */,
+				47B931FD1FC518BD0049ABE8 /* Supporting Files */,
+			);
+			path = DUILite_iOS_Demo;
+			sourceTree = "<group>";
+		};
+		47B931FD1FC518BD0049ABE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47548B612060E67D00C878B0 /* Bugly.framework */,
+				47DF644C1FC549FE00F6480B /* PrefixHeader.pch */,
+				47B931FE1FC518BD0049ABE8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47DF64611FC5585A00F6480B /* res */ = {
+			isa = PBXGroup;
+			children = (
+				1F0CE5DB20A983D400DAE0AF /* localASR */,
+				1F422A9F1FD03F1300EE871A /* myAudio */,
+				1F42BBD120AE5F1500B0EE02 /* nhxp.wav */,
+				47DF64951FC5764000F6480B /* test.pcm */,
+				47DF64A31FC5791100F6480B /* wakeup */,
+				47DF649A1FC5765600F6480B /* cloudASR */,
+				47DF64991FC5764C00F6480B /* localTTS */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		47DF646C1FC55A1F00F6480B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47A0CBE820624A0E00CF746B /* CoreGraphics.framework */,
+				47A0CBE620624A0300CF746B /* Foundation.framework */,
+				47A0CBE4206249C000CF746B /* UIKit.framework */,
+				47548B5D2060E44200C878B0 /* libc++.tbd */,
+				47548B5B2060E43900C878B0 /* libz.tbd */,
+				47548B592060E42B00C878B0 /* Security.framework */,
+				47548B522060E3F800C878B0 /* SystemConfiguration.framework */,
+				1F135B4D1FD6CC3800820FDD /* libz.1.2.8.tbd */,
+				47DF64A11FC577E400F6480B /* libicucore.tbd */,
+				47DF646D1FC55A1F00F6480B /* libstdc++.6.0.9.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47DF64991FC5764C00F6480B /* localTTS */ = {
+			isa = PBXGroup;
+			children = (
+				1F5CC70921D466A900B6DB21 /* aitts_dict_idx_common.2.0.4.db */,
+				1F5CC70A21D466A900B6DB21 /* zhilingf_common_param_ce_local.v2.008.bin */,
+			);
+			name = localTTS;
+			sourceTree = "<group>";
+		};
+		47DF649A1FC5765600F6480B /* cloudASR */ = {
+			isa = PBXGroup;
+			children = (
+				47DF64961FC5764000F6480B /* vad_aihome_v0.6.bin */,
+			);
+			name = cloudASR;
+			sourceTree = "<group>";
+		};
+		47DF64A31FC5791100F6480B /* wakeup */ = {
+			isa = PBXGroup;
+			children = (
+				1F12EA5720BC2FBF00A2A543 /* wakeup_aifar_comm_20180104.bin */,
+			);
+			name = wakeup;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47B931F91FC518BD0049ABE8 /* DUILite_iOS_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47B932111FC518BD0049ABE8 /* Build configuration list for PBXNativeTarget "DUILite_iOS_Demo" */;
+			buildPhases = (
+				47B931F61FC518BD0049ABE8 /* Sources */,
+				47B931F71FC518BD0049ABE8 /* Frameworks */,
+				47B931F81FC518BD0049ABE8 /* Resources */,
+				47548B632060E72000C878B0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DUILite_iOS_Demo;
+			productName = DUILite_iOS_Demo;
+			productReference = 47B931FA1FC518BD0049ABE8 /* DUILite_iOS_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47B931F21FC518BD0049ABE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = speech;
+				TargetAttributes = {
+					47B931F91FC518BD0049ABE8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Q3LE5KPHW5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 47B931F51FC518BD0049ABE8 /* Build configuration list for PBXProject "DUILite_iOS_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 47B931F11FC518BD0049ABE8;
+			productRefGroup = 47B931FB1FC518BD0049ABE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47B931F91FC518BD0049ABE8 /* DUILite_iOS_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47B931F81FC518BD0049ABE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5CC70C21D466A900B6DB21 /* zhilingf_common_param_ce_local.v2.008.bin in Resources */,
+				1F422AA01FD03F1300EE871A /* myAudio in Resources */,
+				47A0CBDC206248FC00CF746B /* IQKeyboardManager.bundle in Resources */,
+				1F12EA5820BC2FBF00A2A543 /* wakeup_aifar_comm_20180104.bin in Resources */,
+				1F42BBD820AE5F1600B0EE02 /* nhxp.wav in Resources */,
+				1F12F3A620AD5EEE00D6D973 /* gram.xbnf in Resources */,
+				47DF64971FC5764000F6480B /* test.pcm in Resources */,
+				1F12F39F20AD5E6E00D6D973 /* ebnfr.aicar.1.2.0.bin in Resources */,
+				1F12F3B620AD7F4D00D6D973 /* vad_aihome_v0.6.bin in Resources */,
+				1F12F3A420AD5EDA00D6D973 /* ebnfc.aicar.1.1.0.bin in Resources */,
+				1F1316F61FECBCE300659D3B /* myAudio in Resources */,
+				47DF64981FC5764000F6480B /* vad_aihome_v0.6.bin in Resources */,
+				47B9320D1FC518BD0049ABE8 /* LaunchScreen.storyboard in Resources */,
+				47B9320A1FC518BD0049ABE8 /* Assets.xcassets in Resources */,
+				47B932081FC518BD0049ABE8 /* Main.storyboard in Resources */,
+				1F5CC70B21D466A900B6DB21 /* aitts_dict_idx_common.2.0.4.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47548B632060E72000C878B0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n#\n# Copyright 2016 Bugly, Tencent. All rights reserved.\n#\n# V1.4.0\n#\n# 2016.08.03\n#\n#\n#\n######################################################\n# 1. 脚本集成到Xcode工程的Target\n######################################################\n#\n# --- Copy the SCRIPT to the Run Script of Build Phases in the Xcode project ---\n#\n# #\nBUGLY_APP_ID=\"7d28ddc6ce\"\n# #\nBUGLY_APP_KEY=\"5bba9c6d-0b8b-4558-a0aa-71e0989a3c04\"\n# #\nBUNDLE_IDENTIFIER=\"ClassroomM.DUILiteDemol\"\n# #\nUPLOAD_DSYM_ONLY=1\n#\n# # 脚本默认配置的版本格式为CFBundleShortVersionString(CFBundleVersion),  如果你修改默认的版本格式, 请设置此变量, 如果不想修改, 请忽略此设置\n# CUSTOMIZED_APP_VERSION=\"\"\n#\n# # Debug模式编译是否上传，1＝上传 0＝不上传，默认不上传\n UPLOAD_DEBUG_SYMBOLS=1\n#\n# # 模拟器编译是否上传，1=上传 0=不上传，默认不上传\n UPLOAD_SIMULATOR_SYMBOLS=1\n#\n# #只有Archive操作时上传, 1=支持Archive上传 0=所有Release模式编译都上传\n# UPLOAD_ARCHIVE_ONLY=0\n#\n# #\n# source dSYMUpload.sh\n#\n# --- END OF SCRIPT ---\n#\n#\n#\n#\n#######################################################\n# 2. 脚本根据输入参数处理\n#######################################################\n#\n# #命令行下输入应用基本信息, .dSYM文件的父目录路径, 输出文件目录即可\n#\n# sh dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir>\n#\n# #\n#\n# #注意:\n# # 1. dSYMUpload.sh会调用buglySymboliOS.jar进行.dSYM解析，所以依赖Java运行时环境\n# # 2. dSYMUpload.sh和buglySymboliOS.jar的文件路径需一致\n#\n#\n\n#\n# --- CONTENT OF SCRIPT ---\n#\n\n# Bugly服务域名\nBUGLY_DSYM_UPLOAD_DOMAIN=\"api.bugly.qq.com\"\n\n# 注意jar工具的路径跟dSYMUpload.sh脚本路径一致, 请务必保证jar路径的正确性\nBUGLY_SYMBOL_JAR_PATH=\"dsymtool/buglySymboliOS.jar\"\n# 查找添加到系统目录的jar工具\nif [ ! -f \"${BUGLY_SYMBOL_JAR_PATH}\" ]; then\nBUGLY_SYMBOL_JAR_PATH=\"$HOME/bin/buglySymboliOS.jar\"\nfi\n\n# 打印错误信息\nfunction exitWithMessage(){\n    echo \"--------------------------------\"\n    echo \"${1}\"\n    echo \"--------------------------------\"\n    exit ${2}\n}\n\n# 上传bSYMBOL文件\nfunction dSYMUpload() {\n    P_APP_ID=\"$1\"\n    P_APP_KEY=\"$2\"\n    P_APP_BUNDLE_ID=\"$3\"\n    P_APP_VERSION=\"$4\"\n    P_BSYMBOL_ZIP_FILE=\"$5\"\n    \n    #\n    P_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE##*/}\n        P_BSYMBOL_ZIP_FILE_NAME=${P_BSYMBOL_ZIP_FILE_NAME//&/_}\n            P_BSYMBOL_ZIP_FILE_NAME=\"${P_BSYMBOL_ZIP_FILE_NAME// /_}\"\n            \n            DSYM_UPLOAD_URL=\"https://${BUGLY_DSYM_UPLOAD_DOMAIN}/openapi/file/upload/symbol?app_id=${P_APP_ID}&app_key=${P_APP_KEY}\"\n            echo \"dSYM upload url: ${DSYM_UPLOAD_URL}\"\n            \n            echo \"-----------------------------\"\n            STATUS=$(/usr/bin/curl -k \"${DSYM_UPLOAD_URL}\" --form \"api_version=1\" --form \"app_id=${P_APP_ID}\" --form \"app_key=${P_APP_KEY}\" --form \"symbolType=2\"  --form \"bundleId=${BUNDLE_IDENTIFIER}\" --form \"productVersion=${BUGLY_APP_VERSION}\" --form \"fileName=${P_BSYMBOL_ZIP_FILE_NAME}\" --form \"file=@${P_BSYMBOL_ZIP_FILE}\" --verbose)\n            echo \"-----------------------------\"\n            \n            UPLOAD_RESULT=\"FAILTURE\"\n            echo \"Bugly server response: ${STATUS}\"\n            if [ ! \"${STATUS}\" ]; then\n            echo \"Error: Failed to upload the zip archive file.\"\n            elif [[ \"${STATUS}\" == *\"{\\\"reponseCode\\\":\\\"0\\\"}\"* ]]; then\n            echo \"Success to upload the dSYM for the app [${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION}]\"\n            UPLOAD_RESULT=\"SUCCESS\"\n            else\n            echo \"Error: Failed to upload the zip archive file to Bugly.\"\n            fi\n            \n            #Remove temp dSYM archive\n            #echo \"Remove temporary zip archive: ${DSYM_ZIP_FPATH}\"\n            #/bin/rm -f \"${DSYM_ZIP_FPATH}\"\n            \n            if [ \"$?\" -ne 0 ]; then\n            exitWithMessage \"Error: Failed to remove temporary zip archive.\" 0\n            fi\n            \n            echo \"--------------------------------\"\n            echo \"${UPLOAD_RESULT} - dSYM upload complete.\"\n            \n            if [[ \"${UPLOAD_RESULT}\" == \"FAILTURE\" ]]; then\n            echo \"--------------------------------\"\n            echo \"Failed to upload the dSYM\"\n            echo \"Please check the script and try it again.\"\n            fi\n        }\n        \n        # .dSYM解析为bSYMBOL文件\n        function dSYMParse() {\n            DSYM_FILE=\"$1\"\n            DSYM_SYMBOL_FILE=\"$2\"\n            \n            echo \"--------------------------------\"\n            echo \"Extract symbol info from .dSYM file. to ${DSYM_SYMBOL_FILE}\"\n            (/usr/bin/java -Xms512m -Xmx1024m -Dfile.encoding=UTF8 -jar \"${BUGLY_SYMBOL_JAR_PATH}\" -i \"${DSYM_FILE}\" -o \"${DSYM_SYMBOL_FILE}\" ) || exitWithMessage \"Error: Failed to extract symbols.\" 1\n            echo \"--------------------------------\"\n            \n        }\n        \n        # 执行\n        function run() {\n            \n            CONFIG_BUGLY_APP_ID=\"$1\"\n            CONFIG_BUGLY_APP_KEY=\"$2\"\n            \n            CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER=\"$3\"\n            CONFIG_BUGLY_APP_VERSION=\"$4\"\n            CONFIG_DSYM_SOURCE_DIR=\"$5\"\n            CONFIG_DSYM_DEST_DIR=\"$6\"\n            CONFIG_UPLOAD_DSYM_ONLY=\"$7\"\n            \n            # 检查必须参数是否设置\n            if [ ! \"${CONFIG_BUGLY_APP_ID}\" ]; then\n            exitWithMessage \"Error: Bugly App ID not defined. Please set 'BUGLY_APP_ID' \" 0\n            fi\n            \n            if [[ \"${CONFIG_BUGLY_APP_ID}\" == *\"App ID\"* ]]; then\n            exitWithMessage \"Error: Bugly App ID not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_KEY}\" ]; then\n            exitWithMessage \"Error: Bugly App Key not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER}\" ]; then\n            exitWithMessage \"Error: Bundle Identifier not defined.\" 0\n            fi\n            \n            if [ ! \"${CONFIG_BUGLY_APP_VERSION}\" ]; then\n            exitWithMessage \"Error: App Version not defined.\" 0\n            fi\n            \n            if [ ! -e \"${CONFIG_DSYM_SOURCE_DIR}\" ]; then\n            exitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_SOURCE_DIR}\" 0\n            fi\n            \n            if [ ! \"${CONFIG_DSYM_DEST_DIR}\" ]; then\n            exitWithMessage \"Error: Invalid dir ${CONFIG_DSYM_DEST_DIR}\" 0\n            fi\n            \n            if [ ! -e \"${CONFIG_DSYM_DEST_DIR}\" ]; then\n            mkdir ${CONFIG_DSYM_DEST_DIR}\n            fi\n            \n            DSYM_FOLDER=\"${CONFIG_DSYM_SOURCE_DIR}\"\n            IFS=$'\\n'\n            \n            echo \"Scaning dSYM FOLDER: ${DSYM_FOLDER} ...\"\n            RET=\"F\"\n            \n            #\n            for dsymFile in $(find \"$DSYM_FOLDER\" -name '*.dSYM'); do\n            RET=\"T\"\n            echo \"Found dSYM file: $dsymFile\"\n            \n            DSYM_FILE_NAME=${dsymFile##*/}\n                DSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_FILE_NAME}.zip\"\n                DSYM_SYMBOL_ZIP_FILE_NAME=\"${DSYM_SYMBOL_ZIP_FILE_NAME// /_}\"\n                DSYM_SYMBOL_ZIP_FILE=${CONFIG_DSYM_DEST_DIR}/${DSYM_SYMBOL_ZIP_FILE_NAME}\n                \n                if [ $CONFIG_UPLOAD_DSYM_ONLY -eq 1 ]; then\n                if [ -e $DSYM_SYMBOL_ZIP_FILE ]; then\n                rm -f $DSYM_SYMBOL_ZIP_FILE\n                fi\n                # 如果只上传dSYM，直接压缩dSYM目录\n                zip -r -j $DSYM_SYMBOL_ZIP_FILE $dsymFile -x *.plist\n                else\n                # 使用符号表工具来生成Symbol文件\n                dSYMParse $dsymFile $DSYM_SYMBOL_ZIP_FILE\n                fi\n                \n                # 上传\n                dSYMUpload $CONFIG_BUGLY_APP_ID $CONFIG_BUGLY_APP_KEY $CONFIG_BUGLY_APP_BUNDLE_IDENTIFIER $CONFIG_BUGLY_APP_VERSION $DSYM_SYMBOL_ZIP_FILE\n                done\n                \n                if [ $RET = \"F\" ]; then\n                exitWithMessage \"No .dSYM found in ${DSYM_FOLDER}\" 0\n                fi\n            }\n            \n            # 在Xcode工程中执行\n            function runInXcode(){\n                echo \"Uploading dSYM to Bugly in Xcode ...\"\n                \n                echo \"Info.Plist : ${INFOPLIST_FILE}\"\n                \n                BUNDLE_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleVersion' \"${INFOPLIST_FILE}\")\n                BUNDLE_SHORT_VERSION=$(/usr/libexec/PlistBuddy -c 'Print CFBundleShortVersionString' \"${INFOPLIST_FILE}\")\n                \n                # 组装Bugly默认识别的版本信息(格式为CFBundleShortVersionString(CFBundleVersion), 例如: 1.0(1))\n                if [ ! \"${CUSTOMIZED_APP_VERSION}\" ]; then\n                BUGLY_APP_VERSION=\"${BUNDLE_SHORT_VERSION}(${BUNDLE_VERSION})\"\n                else\n                BUGLY_APP_VERSION=\"${CUSTOMIZED_APP_VERSION}\"\n                fi\n                \n                echo \"--------------------------------\"\n                echo \"Prepare application information.\"\n                echo \"--------------------------------\"\n                \n                echo \"Product Name: ${PRODUCT_NAME}\"\n                echo \"Bundle Identifier: ${BUNDLE_IDENTIFIER}\"\n                echo \"Version: ${BUNDLE_SHORT_VERSION}\"\n                echo \"Build: ${BUNDLE_VERSION}\"\n                \n                echo \"Bugly App ID: ${BUGLY_APP_ID}\"\n                echo \"Bugly App key: ${BUGLY_APP_KEY}\"\n                echo \"Bugly App Version: ${BUGLY_APP_VERSION}\"\n                \n                echo \"--------------------------------\"\n                echo \"Check the arguments ...\"\n                \n                ##检查模拟器编译是否允许上传符号\n                if [ \"$EFFECTIVE_PLATFORM_NAME\" == \"-iphonesimulator\" ]; then\n                if [ $UPLOAD_SIMULATOR_SYMBOLS -eq 0 ]; then\n                exitWithMessage \"Warning: Build for simulator and skipping to upload. \\nYou can modify 'UPLOAD_SIMULATOR_SYMBOLS' to 1 in the script.\" 0\n                fi\n                fi\n                \n                ##检查是否是Release模式编译\n                if [ \"${CONFIGURATION=}\" == \"Debug\" ]; then\n                if [ $UPLOAD_DEBUG_SYMBOLS -eq 0 ]; then\n                exitWithMessage \"Warning: Build for debug mode and skipping to upload. \\nYou can modify 'UPLOAD_DEBUG_SYMBOLS' to 1 in the script.\" 0\n                fi\n                fi\n                \n                ##检查是否Archive操作\n                if [ $UPLOAD_ARCHIVE_ONLY -eq 1 ]; then\n                if [[ \"$TARGET_BUILD_DIR\" == *\"/Archive\"* ]]; then\n                echo \"Archive the package\"\n                else\n                exitWithMessage \"Warning: Build for NOT Archive mode and skipping to upload. \\nYou can modify 'UPLOAD_ARCHIVE_ONLY' to 0 in the script.\" 0\n                fi\n                fi\n                \n                #\n                run ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${BUILD_DIR}/BuglySymbolTemp ${UPLOAD_DSYM_ONLY}\n            }\n            \n            # 根据Xcode的环境变量判断是否处于Xcode环境\n            INFO_PLIST_FILE=\"${INFOPLIST_FILE}\"\n            \n            BuildInXcode=\"F\"\n            if [ -f \"${INFO_PLIST_FILE}\" ]; then\n            BuildInXcode=\"T\"\n            fi\n            \n            if [ $BuildInXcode = \"T\" ]; then\n            runInXcode\n            else\n            echo \"\\nUsage: dSYMUpload.sh <bugly_app_id> <bugly_app_key> <app_bundle_identifier> <app_version> <dSYM_src_dir> <bSYMBOL_dest_dir> [upload_dsym_only]\\n\"\n            # 你可以在此处直接设置BuglyAppID和BuglyAppKey，排除不常变参数的输入\n            BUGLY_APP_ID=\"$1\"\n            BUGLY_APP_KEY=\"$2\"\n            BUNDLE_IDENTIFIER=\"$3\"\n            BUGLY_APP_VERSION=\"$4\"\n            DWARF_DSYM_FOLDER_PATH=\"$5\"\n            SYMBOL_OUTPUT_PATH=\"$6\"\n            UPLOAD_DSYM_ONLY=$7\n            run ${BUGLY_APP_ID} ${BUGLY_APP_KEY} ${BUNDLE_IDENTIFIER} ${BUGLY_APP_VERSION} ${DWARF_DSYM_FOLDER_PATH} ${SYMBOL_OUTPUT_PATH} ${UPLOAD_DSYM_ONLY}\n            fi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47B931F61FC518BD0049ABE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F12F39320AD58F800D6D973 /* ASRLocalViewControler.m in Sources */,
+				47A0CBDD206248FC00CF746B /* IQKeyboardManager.m in Sources */,
+				47A0CBE3206248FC00CF746B /* IQKeyboardReturnKeyHandler.m in Sources */,
+				47A0CBE0206248FC00CF746B /* IQUIScrollView+Additions.m in Sources */,
+				47DF64561FC554FE00F6480B /* TTSViewController.m in Sources */,
+				47B932051FC518BD0049ABE8 /* RootViewController.m in Sources */,
+				47A0CBD9206248FC00CF746B /* IQBarButtonItem.m in Sources */,
+				47A0CBE1206248FC00CF746B /* IQUIView+Hierarchy.m in Sources */,
+				47A0CBE2206248FC00CF746B /* IQUIViewController+Additions.m in Sources */,
+				47B932021FC518BD0049ABE8 /* AppDelegate.m in Sources */,
+				1F422A9C1FD0149800EE871A /* AsrRealViewController.m in Sources */,
+				47B931FF1FC518BD0049ABE8 /* main.m in Sources */,
+				47A0CBDF206248FC00CF746B /* IQUITextFieldView+Additions.m in Sources */,
+				47A0CBD7206248FC00CF746B /* IQToolbar.m in Sources */,
+				47A0CBDE206248FC00CF746B /* IQNSArray+Sort.m in Sources */,
+				47DF64681FC558F800F6480B /* TTSLocalViewController.m in Sources */,
+				47DF649D1FC576B600F6480B /* AsrViewController.m in Sources */,
+				47A0CBD6206248FC00CF746B /* IQTextView.m in Sources */,
+				47A0CBD8206248FC00CF746B /* IQTitleBarButtonItem.m in Sources */,
+				47A0CBDA206248FC00CF746B /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				47A0CBDB206248FC00CF746B /* IQPreviousNextView.m in Sources */,
+				47DF64A91FC57ABB00F6480B /* WakeupViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47B932061FC518BD0049ABE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47B932071FC518BD0049ABE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47B9320B1FC518BD0049ABE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47B9320C1FC518BD0049ABE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47B9320F1FC518BD0049ABE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		47B932101FC518BD0049ABE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47B932121FC518BD0049ABE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Q3LE5KPHW5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DUILite_iOS_Demo",
+				);
+				GCC_PREFIX_HEADER = DUILite_iOS_Demo/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../DUILite_ios_wakeup/**",
+					"$(PROJECT_DIR)/../DUILiteAuth/**",
+					"$(PROJECT_DIR)/../DUILite_ios_LocalTTS/**",
+					"$(PROJECT_DIR)/../DUILite_ios_asr/**",
+					"$(PROJECT_DIR)/../DUILite_ios_CloudTTS/**",
+					"$(PROJECT_DIR)/../DUILite_ios_localASR/**",
+					"$(PROJECT_DIR)/**",
+				);
+				INFOPLIST_FILE = DUILite_iOS_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DUILite_iOS_Demo",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ClassroomM.DUILiteDemol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47B932131FC518BD0049ABE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q3LE5KPHW5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DUILite_iOS_Demo",
+				);
+				GCC_PREFIX_HEADER = DUILite_iOS_Demo/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/../DUILite_ios_wakeup/**",
+					"$(PROJECT_DIR)/../DUILiteAuth/**",
+					"$(PROJECT_DIR)/../DUILite_ios_LocalTTS/**",
+					"$(PROJECT_DIR)/../DUILite_ios_asr/**",
+					"$(PROJECT_DIR)/../DUILite_ios_CloudTTS/**",
+					"$(PROJECT_DIR)/../DUILite_ios_localASR/**",
+					"$(PROJECT_DIR)/**",
+				);
+				INFOPLIST_FILE = DUILite_iOS_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DUILite_iOS_Demo",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ClassroomM.DUILiteDemol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47B931F51FC518BD0049ABE8 /* Build configuration list for PBXProject "DUILite_iOS_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B9320F1FC518BD0049ABE8 /* Debug */,
+				47B932101FC518BD0049ABE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47B932111FC518BD0049ABE8 /* Build configuration list for PBXNativeTarget "DUILite_iOS_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B932121FC518BD0049ABE8 /* Debug */,
+				47B932131FC518BD0049ABE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47B931F21FC518BD0049ABE8 /* Project object */;
+}

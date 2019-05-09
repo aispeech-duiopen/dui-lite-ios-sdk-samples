@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  DUILite_iOS_Demo
+//
+//  Created by hc on 2017/11/22.
+//  Copyright © 2017年 speech. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width
+
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+
+#endif /* PrefixHeader_pch */

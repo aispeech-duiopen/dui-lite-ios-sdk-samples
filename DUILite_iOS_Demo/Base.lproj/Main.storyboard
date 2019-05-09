@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="486-8p-Mun">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="aWG-96-RAr">
+            <objects>
+                <navigationController id="486-8p-Mun" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="foh-f1-DUO">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="2yI-Rx-nKa" kind="relationship" relationship="rootViewController" id="lBj-Oy-bVR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AYd-vT-Jnx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-439" y="94"/>
+        </scene>
+        <!--DUILite Dev-->
+        <scene sceneID="PL4-Hx-jK3">
+            <objects>
+                <viewController id="2yI-Rx-nKa" customClass="RootViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SbN-VH-Fuk"/>
+                        <viewControllerLayoutGuide type="bottom" id="QUD-zt-mX3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ESs-Gc-WrX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="DUILite Dev" id="1EZ-kQ-jh7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y2b-nY-eRI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="369" y="82"/>
+        </scene>
+        <!--在线语音合成-->
+        <scene sceneID="r5h-Qi-RVA">
+            <objects>
+                <viewController storyboardIdentifier="TTSViewController" id="g56-37-565" userLabel="在线语音合成" customClass="TTSViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yoK-dz-Glw"/>
+                        <viewControllerLayoutGuide type="bottom" id="EWf-th-Tph"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R0P-XK-LQi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="提示信息：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ii-LF-hpH">
+                                <rect key="frame" x="20" y="81" width="87" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="DUI平台是国内首个以对话为核心的一站式交互定制平台，覆盖多应用场景和第三方内容资源，内置国内最专业语音技能库，为物联网、移动互联网和互联网的开发者，提供单项技术服务和一站式对话交互定制解决方案。" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kXd-uN-vCf">
+                                <rect key="frame" x="20" y="116" width="374" height="205"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="205" id="dOG-GV-FQZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S8r-di-evb">
+                                <rect key="frame" x="115" y="81" width="188" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="188" id="Hcs-T8-cHr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mnN-G6-20q">
+                                <rect key="frame" x="28" y="341" width="72" height="30"/>
+                                <state key="normal" title="合成">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFromUIColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="ttsBtnAction:" destination="g56-37-565" eventType="touchUpInside" id="2PZ-OG-nsq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4R-rZ-qnl">
+                                <rect key="frame" x="108" y="341" width="68" height="30"/>
+                                <state key="normal" title="暂停">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFromUIColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pauseBtnAction:" destination="g56-37-565" eventType="touchUpInside" id="qDB-mx-uK1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VMU-oI-5pF">
+                                <rect key="frame" x="184" y="341" width="72" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="fUU-Ow-QXw"/>
+                                </constraints>
+                                <state key="normal" title="恢复">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFromUIColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="resumeBtnAction:" destination="g56-37-565" eventType="touchUpInside" id="8c2-S3-wU4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWE-lK-cce">
+                                <rect key="frame" x="104" y="379" width="72" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="清除">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFromUIColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="clearBtnAction:" destination="g56-37-565" eventType="touchUpInside" id="CsW-Ve-3gp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hm-LW-1MM">
+                                <rect key="frame" x="28" y="379" width="72" height="30"/>
+                                <state key="normal" title="停止">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFromUIColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="stopBtnAction:" destination="g56-37-565" eventType="touchUpInside" id="oXx-D7-1GA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VMU-oI-5pF" firstAttribute="baseline" secondItem="N4R-rZ-qnl" secondAttribute="baseline" id="0HN-iC-ufY"/>
+                            <constraint firstItem="kXd-uN-vCf" firstAttribute="top" secondItem="3Ii-LF-hpH" secondAttribute="bottom" constant="8" symbolic="YES" id="0uh-pQ-JtW"/>
+                            <constraint firstItem="kXd-uN-vCf" firstAttribute="trailing" secondItem="R0P-XK-LQi" secondAttribute="trailingMargin" id="1n2-Nl-gDX"/>
+                            <constraint firstItem="mnN-G6-20q" firstAttribute="centerX" secondItem="3Ii-LF-hpH" secondAttribute="centerX" id="8Z8-KB-Dqi"/>
+                            <constraint firstItem="kXd-uN-vCf" firstAttribute="top" secondItem="S8r-di-evb" secondAttribute="bottom" constant="8" symbolic="YES" id="9A0-SD-8L3"/>
+                            <constraint firstItem="mnN-G6-20q" firstAttribute="leading" secondItem="8hm-LW-1MM" secondAttribute="leading" id="Eor-dd-ham"/>
+                            <constraint firstItem="N4R-rZ-qnl" firstAttribute="leading" secondItem="mnN-G6-20q" secondAttribute="trailing" constant="8" symbolic="YES" id="Ikw-cx-ERE"/>
+                            <constraint firstItem="mnN-G6-20q" firstAttribute="leading" secondItem="R0P-XK-LQi" secondAttribute="leadingMargin" constant="8" id="J5r-Z9-0D5"/>
+                            <constraint firstItem="kXd-uN-vCf" firstAttribute="leading" secondItem="3Ii-LF-hpH" secondAttribute="leading" id="MmZ-Va-fmp"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="kXd-uN-vCf" secondAttribute="leading" id="Ssg-t9-IrQ"/>
+                            <constraint firstItem="S8r-di-evb" firstAttribute="top" secondItem="yoK-dz-Glw" secondAttribute="bottom" constant="17" id="U07-gG-Zuw"/>
+                            <constraint firstItem="VMU-oI-5pF" firstAttribute="top" secondItem="kXd-uN-vCf" secondAttribute="bottom" constant="20" id="Uj2-4O-0hp"/>
+                            <constraint firstItem="VMU-oI-5pF" firstAttribute="leading" secondItem="R0P-XK-LQi" secondAttribute="leading" constant="184" id="b1Q-2S-CJf"/>
+                            <constraint firstItem="kXd-uN-vCf" firstAttribute="top" secondItem="R0P-XK-LQi" secondAttribute="top" constant="116" id="g0c-OV-yjd"/>
+                            <constraint firstItem="S8r-di-evb" firstAttribute="top" secondItem="3Ii-LF-hpH" secondAttribute="top" id="h9M-Ar-5ct"/>
+                            <constraint firstItem="S8r-di-evb" firstAttribute="leading" secondItem="3Ii-LF-hpH" secondAttribute="trailing" constant="8" symbolic="YES" id="hJ3-vN-iEO"/>
+                            <constraint firstItem="VMU-oI-5pF" firstAttribute="leading" secondItem="N4R-rZ-qnl" secondAttribute="trailing" constant="8" symbolic="YES" id="ivh-YN-Uup"/>
+                            <constraint firstItem="VMU-oI-5pF" firstAttribute="baseline" secondItem="mnN-G6-20q" secondAttribute="baseline" id="m0M-ZQ-T7W"/>
+                            <constraint firstItem="8hm-LW-1MM" firstAttribute="top" secondItem="mnN-G6-20q" secondAttribute="bottom" constant="8" symbolic="YES" id="ns1-9j-GKM"/>
+                            <constraint firstItem="mnN-G6-20q" firstAttribute="trailing" secondItem="8hm-LW-1MM" secondAttribute="trailing" id="vb7-53-vsH"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="refTextView" destination="kXd-uN-vCf" id="XJd-eh-3Wq"/>
+                        <outlet property="tipLabel" destination="S8r-di-evb" id="wld-bK-05G"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Sk-ld-Fvt" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1058" y="81"/>
+        </scene>
+        <!--离线语音合成-->
+        <scene sceneID="fTE-9Q-l99">
+            <objects>
+                <viewController storyboardIdentifier="TTSLocalViewController" id="PZM-YJ-tQy" userLabel="离线语音合成" customClass="TTSLocalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QDj-O7-yHS"/>
+                        <viewControllerLayoutGuide type="bottom" id="9oC-l9-eAf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qGn-bw-Ams">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="提示信息：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2h-fl-wI0">
+                                <rect key="frame" x="20" y="72" width="87" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="dNB-gL-vyO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5L0-NS-0E6">
+                                <rect key="frame" x="20" y="107" width="374" height="205"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="205" id="wXS-uD-UNN"/>
+                                </constraints>
+                                <string key="text">苏州思必驰信息科技有限公司是一家语音技术公司，专注于将领先的系列智能语音技术应用于移动互联、智能设备、客户联络中心等行业。公司的中文名字是思必驰，思想必将驰骋，寓意着公司孤立自由的思想，以创新为本。同时这个名字还是英文单词Speech的音译，同样代表了公司立足智能语音技术行业的决心。而推出的DUI平台是国内首个以对话为核心的一站式交互定制平台，覆盖多应用场景和第三方内容资源，内置国内最专业语音技能库，为物联网、移动互联网和互联网的开发者，提供单项技术服务和一站式对话交互定制解决方案.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HWC-GJ-JBQ">
+                                <rect key="frame" x="115" y="72" width="188" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="188" id="Q6e-Nc-Fxa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiJ-7F-LcX">
+                                <rect key="frame" x="28" y="332" width="72" height="30"/>
+                                <state key="normal" title="合成">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFromUIColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="ttsBtnAction:" destination="PZM-YJ-tQy" eventType="touchUpInside" id="Xmc-Jg-6tK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hes-9q-dMP">
+                                <rect key="frame" x="108" y="332" width="68" height="30"/>
+                                <state key="normal" title="暂停">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFromUIColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="pauseBtnAction:" destination="PZM-YJ-tQy" eventType="touchUpInside" id="aXm-mb-opE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nBE-il-3sL">
+                                <rect key="frame" x="184" y="332" width="72" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="JJL-ZD-YTR"/>
+                                </constraints>
+                                <state key="normal" title="恢复">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFromUIColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="resumeBtnAction:" destination="PZM-YJ-tQy" eventType="touchUpInside" id="vyX-3m-Yje"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pVk-wb-zuN">
+                                <rect key="frame" x="108" y="370" width="68" height="30"/>
+                                <state key="normal" title="清除">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFromUIColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="clearBtnAction:" destination="PZM-YJ-tQy" eventType="touchUpInside" id="Dn3-iv-2em"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ewe-NH-hqb">
+                                <rect key="frame" x="28" y="370" width="72" height="30"/>
+                                <state key="normal" title="停止">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColorFromUIColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="stopBtnAction:" destination="PZM-YJ-tQy" eventType="touchUpInside" id="8z9-rv-zk5"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="fiJ-7F-LcX" firstAttribute="trailing" secondItem="ewe-NH-hqb" secondAttribute="trailing" id="0U6-6r-mmJ"/>
+                            <constraint firstItem="g2h-fl-wI0" firstAttribute="baseline" secondItem="HWC-GJ-JBQ" secondAttribute="baseline" id="4Ob-NK-nev"/>
+                            <constraint firstItem="nBE-il-3sL" firstAttribute="leading" secondItem="Hes-9q-dMP" secondAttribute="trailing" constant="8" symbolic="YES" id="5Xo-L0-ipG"/>
+                            <constraint firstItem="ewe-NH-hqb" firstAttribute="baseline" secondItem="pVk-wb-zuN" secondAttribute="baseline" id="ARs-mY-1Xv"/>
+                            <constraint firstItem="nBE-il-3sL" firstAttribute="baseline" secondItem="Hes-9q-dMP" secondAttribute="baseline" id="CH5-MD-df9"/>
+                            <constraint firstItem="Hes-9q-dMP" firstAttribute="leading" secondItem="pVk-wb-zuN" secondAttribute="leading" id="DKQ-E9-c86"/>
+                            <constraint firstItem="fiJ-7F-LcX" firstAttribute="leading" secondItem="ewe-NH-hqb" secondAttribute="leading" id="EJw-OR-MoN"/>
+                            <constraint firstItem="HWC-GJ-JBQ" firstAttribute="top" secondItem="g2h-fl-wI0" secondAttribute="top" id="JoI-Ej-WT4"/>
+                            <constraint firstItem="HWC-GJ-JBQ" firstAttribute="leading" secondItem="g2h-fl-wI0" secondAttribute="trailing" constant="8" symbolic="YES" id="KNa-lW-Pb4"/>
+                            <constraint firstItem="ewe-NH-hqb" firstAttribute="top" secondItem="fiJ-7F-LcX" secondAttribute="bottom" constant="8" symbolic="YES" id="OCx-wZ-Ub8"/>
+                            <constraint firstItem="nBE-il-3sL" firstAttribute="top" secondItem="5L0-NS-0E6" secondAttribute="bottom" constant="20" id="Ptf-q9-L5a"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="5L0-NS-0E6" secondAttribute="leading" id="Y7d-r6-4Fr"/>
+                            <constraint firstItem="fiJ-7F-LcX" firstAttribute="leading" secondItem="qGn-bw-Ams" secondAttribute="leadingMargin" constant="8" id="YJH-bx-vWB"/>
+                            <constraint firstItem="5L0-NS-0E6" firstAttribute="trailing" secondItem="qGn-bw-Ams" secondAttribute="trailingMargin" id="b70-h3-J6i"/>
+                            <constraint firstItem="Hes-9q-dMP" firstAttribute="leading" secondItem="fiJ-7F-LcX" secondAttribute="trailing" constant="8" symbolic="YES" id="gxk-b5-lYf"/>
+                            <constraint firstItem="nBE-il-3sL" firstAttribute="baseline" secondItem="fiJ-7F-LcX" secondAttribute="baseline" id="hG0-9D-iNx"/>
+                            <constraint firstItem="5L0-NS-0E6" firstAttribute="leading" secondItem="g2h-fl-wI0" secondAttribute="leading" id="iuu-rb-v9Y"/>
+                            <constraint firstItem="nBE-il-3sL" firstAttribute="leading" secondItem="qGn-bw-Ams" secondAttribute="leading" constant="184" id="pAu-HL-5up"/>
+                            <constraint firstItem="5L0-NS-0E6" firstAttribute="top" secondItem="g2h-fl-wI0" secondAttribute="bottom" constant="8" symbolic="YES" id="qar-b0-qO2"/>
+                            <constraint firstItem="g2h-fl-wI0" firstAttribute="top" secondItem="QDj-O7-yHS" secondAttribute="bottom" constant="8" symbolic="YES" id="qhv-TC-53Y"/>
+                            <constraint firstItem="fiJ-7F-LcX" firstAttribute="centerX" secondItem="g2h-fl-wI0" secondAttribute="centerX" id="r01-JO-dGX"/>
+                            <constraint firstItem="Hes-9q-dMP" firstAttribute="trailing" secondItem="pVk-wb-zuN" secondAttribute="trailing" id="sSs-IS-htT"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="refTextView" destination="5L0-NS-0E6" id="5bz-sN-cuF"/>
+                        <outlet property="tipLabel" destination="HWC-GJ-JBQ" id="LWl-qP-AeA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jbd-Hh-XWZ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-439" y="766"/>
+        </scene>
+        <!--在线语音识别-->
+        <scene sceneID="JhP-RD-0BH">
+            <objects>
+                <viewController storyboardIdentifier="AsrViewController" id="Zc1-Do-Yec" customClass="AsrViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0mG-rr-FU7"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mjs-dv-m21"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R92-yg-2cl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZv-vC-oHf">
+                                <rect key="frame" x="197" y="136" width="94" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="结束录音"/>
+                                <connections>
+                                    <action selector="stopRecorder:" destination="Zc1-Do-Yec" eventType="touchUpInside" id="I5N-Sa-fj6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAT-sy-koe">
+                                <rect key="frame" x="38" y="189" width="103" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="取消识别"/>
+                                <connections>
+                                    <action selector="cancelAsr:" destination="Zc1-Do-Yec" eventType="touchUpInside" id="Krt-oM-xQ5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GoE-op-K9s">
+                                <rect key="frame" x="38" y="136" width="106" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="开始录音"/>
+                                <connections>
+                                    <action selector="startRecorder:" destination="Zc1-Do-Yec" eventType="touchUpInside" id="6IF-wI-Sok"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CU1-fC-CJa">
+                                <rect key="frame" x="202" y="189" width="84" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="清除结果"/>
+                                <connections>
+                                    <action selector="clearResult:" destination="Zc1-Do-Yec" eventType="touchUpInside" id="skI-cR-tPS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="在线语音识别" id="csB-ln-4EK"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dYE-UA-nNP" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="368.80000000000001" y="765.96701649175418"/>
+        </scene>
+        <!--离线语音唤醒-->
+        <scene sceneID="twa-Vu-Ep5">
+            <objects>
+                <viewController storyboardIdentifier="WakeupViewController" id="sIX-l0-CZq" customClass="WakeupViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fnj-Sl-b9e"/>
+                        <viewControllerLayoutGuide type="bottom" id="zfS-DE-Ofr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yrV-co-M5C">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01n-JZ-e70">
+                                <rect key="frame" x="39" y="150" width="129" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="打开唤醒"/>
+                                <connections>
+                                    <action selector="startWakeup:" destination="sIX-l0-CZq" eventType="touchUpInside" id="Qot-EH-re4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6OE-Wv-uEZ">
+                                <rect key="frame" x="176" y="149" width="110" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="关闭唤醒"/>
+                                <connections>
+                                    <action selector="stopWakeup:" destination="sIX-l0-CZq" eventType="touchUpInside" id="Uyz-ea-GrI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pQ-QL-a7V">
+                                <rect key="frame" x="55" y="202" width="96" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="清除结果"/>
+                                <connections>
+                                    <action selector="clearResult:" destination="sIX-l0-CZq" eventType="touchUpInside" id="T6k-TM-RHW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="离线语音唤醒" id="ow1-pE-0vG"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OHy-O8-xUH" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1071.0144927536232" y="765.48913043478262"/>
+        </scene>
+        <!--在线语音识别实时反馈-->
+        <scene sceneID="WtY-iC-sFd">
+            <objects>
+                <viewController storyboardIdentifier="AsrRealViewController" id="hud-q2-faF" customClass="AsrRealViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m5U-Sh-dxW"/>
+                        <viewControllerLayoutGuide type="bottom" id="wVE-0z-IOE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j2t-wF-yzZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ohe-Gp-JMw">
+                                <rect key="frame" x="160" y="109" width="94" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="结束录音"/>
+                                <connections>
+                                    <action selector="stopRecorder:" destination="hud-q2-faF" eventType="touchUpInside" id="jMz-PF-A5V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lac-hu-lfk">
+                                <rect key="frame" x="36" y="109" width="106" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="开始录音"/>
+                                <connections>
+                                    <action selector="startRecorder:" destination="hud-q2-faF" eventType="touchUpInside" id="39r-Lw-LRe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzH-Bq-QN3">
+                                <rect key="frame" x="38" y="171" width="103" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="清除结果"/>
+                                <connections>
+                                    <action selector="cancelAsr:" destination="hud-q2-faF" eventType="touchUpInside" id="70W-Pu-nCE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="在线语音识别实时反馈" id="Y50-18-rud"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Agj-xw-R8X" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="369" y="1456"/>
+        </scene>
+        <!--离线语音识别-->
+        <scene sceneID="ESu-03-mzB">
+            <objects>
+                <viewController storyboardIdentifier="ASRLocalViewControllerID" id="wiN-ga-SGL" userLabel="离线语音识别" customClass="ASRLocalViewControler" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s5W-gM-bNk"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Bx-Qe-xVM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Q5Z-sI-iEw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IBC-lW-qlo">
+                                <rect key="frame" x="35" y="176" width="326" height="414"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="显示识别结果：" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sEw-Df-Aih">
+                                <rect key="frame" x="35" y="138" width="160" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b7g-fc-IJg">
+                                <rect key="frame" x="167" y="620" width="82" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="停止识别"/>
+                                <connections>
+                                    <action selector="stopLocalASREngne:" destination="wiN-ga-SGL" eventType="touchUpInside" id="V9g-Vv-NKl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kps-R7-Dml">
+                                <rect key="frame" x="279" y="620" width="101" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="取消识别"/>
+                                <connections>
+                                    <action selector="cancalLocalASREngine:" destination="wiN-ga-SGL" eventType="touchUpInside" id="2m4-qS-Nwu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XR9-q0-AFg">
+                                <rect key="frame" x="35" y="620" width="94" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="开始识别"/>
+                                <connections>
+                                    <action selector="startLocalASREngine:" destination="wiN-ga-SGL" eventType="touchUpInside" id="LSB-ik-xzL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <connections>
+                        <outlet property="textASRResult" destination="IBC-lW-qlo" id="wLB-Ar-IU3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vpn-J8-bGY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="1459.2391304347827"/>
+        </scene>
+    </scenes>
+</document>
