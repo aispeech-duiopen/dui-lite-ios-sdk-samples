@@ -1,0 +1,1109 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D7C832DBC8C1D99538BE017157DBD0 /* SRProxyConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DEB9058101D306F0429B4ABBC37CF75 /* SRProxyConnect.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		023786E50BAF30D415CCABE659D18D65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656529CC686CC732934CFB6E22F703CF /* Foundation.framework */; };
+		0424E17E1EF402BEE9A2B51484D30DB2 /* NSURLRequest+SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 707471837141F8BA6609349E24174F2B /* NSURLRequest+SRWebSocket.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		09127B91BDE70CB86024C476B215743A /* NSRunLoop+SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 590C37512A5A5F818543A11AFDEFAFB2 /* NSRunLoop+SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C6E52AEA5F9DB8CE08BFDAAFCA9BC4F /* Pods-DUILite_iOS_Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D91CEC52CCAEC06419C8D60D7D08E67D /* Pods-DUILite_iOS_Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		177663E3699561E99AB3E85793A91AE3 /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 483F744C02D41F8BB1B6823D17E078B2 /* YYCache.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		18D2D1233F6817F3BE2850A880442011 /* Pods-DUILite_iOS_Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA70DE32ED1E21793117BF157F9477E /* Pods-DUILite_iOS_Demo-dummy.m */; };
+		1AF41F159B98B98462499B86FD5D0650 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35B21EC8EB5C844A1778806D16D15BB8 /* UIKit.framework */; };
+		1DB1C80D19FFF8DB22AFE2817D95ACE9 /* SRDelegateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C640B0B5D5032D7FA9666E58572C5F7 /* SRDelegateController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		200B5035B166DEEBCAC13DA7065D2F3C /* SRRunLoopThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 47DCD9AC4C52CDCFB3A93C731B3A43C2 /* SRRunLoopThread.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		25F9684AA8200DA6B2BBA5BA539D7D04 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3500E9A7620A339F6EB06237D30D5B0F /* CFNetwork.framework */; };
+		2F519636257D7A59A103F744831A4300 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 7748BCD27F0AFA86CDBBA629DC058409 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DD698C2BBBE64BFDDC63447D0390FEA /* SRMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3BCF1195FF7085B660DD9FBAA3A6C2 /* SRMutex.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		410FA7DD82A9788E0EE2A3C5614BD702 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E06B66802519722D94516CAB27D8FB9 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47DFBA054EE53FE8825CA9B323FCE87A /* SRRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCA5136720AAF71B50CB9987E762533 /* SRRandom.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4DB97C357537EDD454964BC31FD53A99 /* SocketRocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EFEEF8A902FBCAF037A0A6260454097 /* SocketRocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DD99870D92ADC53653CB2DFA59B36C2 /* SRConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 9268F41AF48CDE0443CF42A154EC01AA /* SRConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5FBAFD240E03C3ECED861E573E91C8D6 /* SRProxyConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A16E9B97AD21FB538B8D3EC07AC37A /* SRProxyConnect.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		60B73BCEE1954BA156E81493AE6C5EBB /* SRMutex.m in Sources */ = {isa = PBXBuildFile; fileRef = E62DB560670DC2CEA950BFB1CB691AF8 /* SRMutex.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		67FF131CFE23AA01494A326F7ADD51E0 /* SRIOConsumerPool.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7D6B0EB1835DFE4772C864EED763B9 /* SRIOConsumerPool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		695A05721C41E816DB22C4696C58E109 /* NSRunLoop+SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF79123FE588998628924375E39BB98 /* NSRunLoop+SRWebSocket.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6AF174F59F473C3D9CB6AE23C9531AF2 /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F491493B84CA3F337DA7FF4053CCBB /* YYMemoryCache.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6AF81AECAB8DD747AF1F5BB5BF412162 /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D769E1B64C278E77CB8EF85A15E1A01E /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DF0FF6625A8AFAD20C913FDABA7C44C /* SRHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 2025F2DDB445944598A8CD838397D6E2 /* SRHash.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6EDBDDF584475677A49E24F2A97288A7 /* NSURLRequest+SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B503D0437E6137B76B31043BF6B8F85 /* NSURLRequest+SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EDC145DC082DEBD1F9424B6095CE1F0 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7440A4522E905E6925042C5E7FFD5471 /* CoreFoundation.framework */; };
+		6F2F79D93F5D0A64D0518D11F2C5B6C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656529CC686CC732934CFB6E22F703CF /* Foundation.framework */; };
+		73F513721F99512AEECE535D156B6415 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE66A4118D91FC48691EB8EAEB4B7D90 /* QuartzCore.framework */; };
+		7784A5584651BD05EE3EC03097FDE810 /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0088F784D1DF89A1E333C557E1B6E1 /* YYKVStorage.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7820CD9BECDD1A9392C27945E0B66C16 /* SRSIMDHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C1F574BF4E3EC4C1E42CD70D3B7ACF /* SRSIMDHelpers.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		78B3CAE4F84D006BA565DFDE48C53600 /* SRHTTPConnectMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F27AB418FE3B8DC0ABE47B37A0500B /* SRHTTPConnectMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		78B8C1FA542EE3A5F67359478C6ED0E2 /* SRError.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CA974AD9E1B8FDB0F6C33086216E082 /* SRError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		799CDDD648A29604A939C18E7743F3BE /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 22B3A66E5A2DC850ECA9A8C64AACA628 /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81298DDB3A022BB6A6505E258DA526EB /* SRLog.h in Headers */ = {isa = PBXBuildFile; fileRef = DF608893ED853FB85C28D1134FEB35D6 /* SRLog.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9362C3304A4D2A59038584D77BB466D0 /* YYCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F3992B4AA094E4FBFF97B653E80EA9 /* YYCache-dummy.m */; };
+		9F206361AEA923711F0529979778BFE3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7A965E3CE68C5985F6BFBDB407BA80 /* Security.framework */; };
+		9F4B7E81D42D2A18EDE1B36588FB31BF /* SRPinningSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = F256865A8D952213AA6DBA2B729942DB /* SRPinningSecurityPolicy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A2BFAE6F5506A45E9EFE48717C64DF2D /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 955D09ACE37BAA60ED018ACE5EF27D79 /* YYKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A410EE491156AA327BEBA4F9F7BA6695 /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 026843367B93AEDA347A591231E056FA /* Reachability-dummy.m */; };
+		A4E9758FD16A43BB61461D7FD0C71109 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F1E248C031753987FBD7C39E8BBD72 /* Reachability.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A6F95EF41A79B9193EFBBFED6AE091C6 /* SRConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCDFEEA102BCA53D1540DC6674DE6CD /* SRConstants.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A7350225B762EEF73ABEADD4C79160D4 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3914F8C35D3704D608FE2D5884A192 /* SRWebSocket.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AB24F70DE98ECA54BCF551F4753FE6EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656529CC686CC732934CFB6E22F703CF /* Foundation.framework */; };
+		AE1D82CE2E832DAF5C82CFED9CF2CFA9 /* SRSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BB81B788F4449793D966FAADEF3B4C3 /* SRSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE7B7E6EBDF1FE8154D1D5221852A895 /* SRError.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D8C13E5B99F55B6B597729B3118E94 /* SRError.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B07CE054B39D1D0D0AFEF845C8D22627 /* SRURLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D951C159D7C17EAACC815329F10E1774 /* SRURLUtilities.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B0AC63003E9729066A52828D1D575D8F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656529CC686CC732934CFB6E22F703CF /* Foundation.framework */; };
+		B386F8A8782E12680E47F5BC187864DF /* SRURLUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B35EB7FD61953B95FA317CA3316138 /* SRURLUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B422A89843AA257A504F6C96BC670436 /* NSRunLoop+SRWebSocketPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AFC27B1EFBD85F8C8EBFB89085DDF98 /* NSRunLoop+SRWebSocketPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B66261894EF82103168E5A63FBB7ED18 /* SRRunLoopThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4525C5234D2B0079B3ACC86F110F54 /* SRRunLoopThread.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B9DCE4F5B8783FD7BA42E1CE4D893171 /* SRPinningSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 886C4FC51F997A7206DE4167F970078A /* SRPinningSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA1B453698AFDB0F15345FAF07E5EBAC /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 811052E2D2FEF92726B4F8DFC42EB44E /* YYDiskCache.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CA817D9F82730D67C4AF332BE9EEBB5B /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76552227EA01BD82AE0E8D2CF3721CA9 /* SocketRocket-dummy.m */; };
+		CBB3356611690E54ED0584D6ACD4781B /* SRHTTPConnectMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 206A648F16A31B5FAE6095117AE3DAC7 /* SRHTTPConnectMessage.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CF0A8B140CF2603E7FC7F547B1EDFCC5 /* SRIOConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5537320DF6E63DE758EF8409D663E96C /* SRIOConsumer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D4E3B317534AEA2A6BA93D62AEB92F31 /* SRHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ED0B4FF4C476583AF042DB0B56077AD /* SRHash.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D5D7E649DFED9DF62DE10039B066E549 /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 5509C4B6851EAD7743B8C1CEAEDFC62F /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7FA2EB2B217ADDCD75E365E0CFDEB24 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3482C508B7CE043CEA0ED60DDEEB8E5C /* SystemConfiguration.framework */; };
+		DA97A751DFC8DCDC63F2738FE2031A68 /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B18159CA817B43D5C479A04AB467A2C /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC53851E501112952501DE71FA9647C8 /* YYCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA8BB9BE4B24899FA6B5EF37DE140BBA /* YYCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCA7197A7E3AE36B86C90CDAA2D37ADE /* NSURLRequest+SRWebSocketPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = A517B03DB682FBCEEF94D12B2E228996 /* NSURLRequest+SRWebSocketPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF12A79BE477C76277491D504AB6EC2A /* SRRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF9358C8ECADF72783819B2ADEF5AEF /* SRRandom.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F068704AB3234E5D62452FB1AC9AB141 /* SRSIMDHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = BADC2A26C1A79F101EC3DB4C8A3ECEB1 /* SRSIMDHelpers.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4678C28744A19CB63F45AD62BCF48CA /* SRLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F30856D71F3493965E52BE6632E28813 /* SRLog.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F6057E4CA7BE542EBA96467872EEF657 /* SRDelegateController.h in Headers */ = {isa = PBXBuildFile; fileRef = A550C7CFDF2A3A5A8E0B79E4E71684FB /* SRDelegateController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6D13E532C542F1B70E7B3079D9CB49B /* SRSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = F33EED480BC087A0820CA33D8542FC7E /* SRSecurityPolicy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FBF2D3BB83C329129A16DB8824648A26 /* Reachability-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F29ADC013A5B147ADD207FB22540F1 /* Reachability-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE231C747E09E22808E9421E998E16B3 /* SRIOConsumerPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1620DE90DDA007CF0B319750699F9C5E /* SRIOConsumerPool.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FE8BA0DFCCCBEA08EC5D4FBCA7C73CCB /* SRIOConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A6A070EB8631385B47466AC4A039BB /* SRIOConsumer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08342D9C79A4F530FA53B2CC36CB2020 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 490014E141BFEFD91FD7CEE69EE06071;
+			remoteInfo = YYCache;
+		};
+		84A13AE94E4191AAB00C3BCBA5D6338C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 176C21DF391CC6E37F224EF9E2AB0C8F;
+			remoteInfo = Reachability;
+		};
+		AA34BB62F8B4AB116AE97FEA54550E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D20255482134525A1364DD6B392229B;
+			remoteInfo = SocketRocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026843367B93AEDA347A591231E056FA /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		0C76DFA28F4CEB0A43E140C388BA2822 /* Pods-DUILite_iOS_Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DUILite_iOS_Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D2448432B16A8193604AC30F09661EC /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		0FF79123FE588998628924375E39BB98 /* NSRunLoop+SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSRunLoop+SRWebSocket.m"; path = "SocketRocket/NSRunLoop+SRWebSocket.m"; sourceTree = "<group>"; };
+		10F491493B84CA3F337DA7FF4053CCBB /* YYMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYMemoryCache.m; path = YYCache/YYMemoryCache.m; sourceTree = "<group>"; };
+		1620DE90DDA007CF0B319750699F9C5E /* SRIOConsumerPool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRIOConsumerPool.m; path = SocketRocket/Internal/IOConsumer/SRIOConsumerPool.m; sourceTree = "<group>"; };
+		19F29ADC013A5B147ADD207FB22540F1 /* Reachability-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-umbrella.h"; sourceTree = "<group>"; };
+		1B503D0437E6137B76B31043BF6B8F85 /* NSURLRequest+SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+SRWebSocket.h"; path = "SocketRocket/NSURLRequest+SRWebSocket.h"; sourceTree = "<group>"; };
+		1CA974AD9E1B8FDB0F6C33086216E082 /* SRError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRError.h; path = SocketRocket/Internal/Utilities/SRError.h; sourceTree = "<group>"; };
+		1ED0B4FF4C476583AF042DB0B56077AD /* SRHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRHash.h; path = SocketRocket/Internal/Utilities/SRHash.h; sourceTree = "<group>"; };
+		2025F2DDB445944598A8CD838397D6E2 /* SRHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRHash.m; path = SocketRocket/Internal/Utilities/SRHash.m; sourceTree = "<group>"; };
+		206A648F16A31B5FAE6095117AE3DAC7 /* SRHTTPConnectMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRHTTPConnectMessage.m; path = SocketRocket/Internal/Utilities/SRHTTPConnectMessage.m; sourceTree = "<group>"; };
+		22B3A66E5A2DC850ECA9A8C64AACA628 /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDiskCache.h; path = YYCache/YYDiskCache.h; sourceTree = "<group>"; };
+		27B35EB7FD61953B95FA317CA3316138 /* SRURLUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRURLUtilities.h; path = SocketRocket/Internal/Utilities/SRURLUtilities.h; sourceTree = "<group>"; };
+		2B18159CA817B43D5C479A04AB467A2C /* YYCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCache.h; path = YYCache/YYCache.h; sourceTree = "<group>"; };
+		2EFEEF8A902FBCAF037A0A6260454097 /* SocketRocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-umbrella.h"; sourceTree = "<group>"; };
+		3482C508B7CE043CEA0ED60DDEEB8E5C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		3500E9A7620A339F6EB06237D30D5B0F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		35B21EC8EB5C844A1778806D16D15BB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3F0088F784D1DF89A1E333C557E1B6E1 /* YYKVStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYKVStorage.m; path = YYCache/YYKVStorage.m; sourceTree = "<group>"; };
+		41F3992B4AA094E4FBFF97B653E80EA9 /* YYCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYCache-dummy.m"; sourceTree = "<group>"; };
+		44A6A070EB8631385B47466AC4A039BB /* SRIOConsumer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRIOConsumer.m; path = SocketRocket/Internal/IOConsumer/SRIOConsumer.m; sourceTree = "<group>"; };
+		469C519492AD3B902259FFE1823177B8 /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
+		4731E7E32B790CB86802A695349CB780 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47DCD9AC4C52CDCFB3A93C731B3A43C2 /* SRRunLoopThread.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRRunLoopThread.h; path = SocketRocket/Internal/RunLoop/SRRunLoopThread.h; sourceTree = "<group>"; };
+		483F744C02D41F8BB1B6823D17E078B2 /* YYCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYCache.m; path = YYCache/YYCache.m; sourceTree = "<group>"; };
+		49199354DABFFB2E02CC383CCA3C245F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C640B0B5D5032D7FA9666E58572C5F7 /* SRDelegateController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRDelegateController.m; path = SocketRocket/Internal/Delegate/SRDelegateController.m; sourceTree = "<group>"; };
+		4E06B66802519722D94516CAB27D8FB9 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		5509C4B6851EAD7743B8C1CEAEDFC62F /* YYMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYMemoryCache.h; path = YYCache/YYMemoryCache.h; sourceTree = "<group>"; };
+		5537320DF6E63DE758EF8409D663E96C /* SRIOConsumer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRIOConsumer.h; path = SocketRocket/Internal/IOConsumer/SRIOConsumer.h; sourceTree = "<group>"; };
+		590C37512A5A5F818543A11AFDEFAFB2 /* NSRunLoop+SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSRunLoop+SRWebSocket.h"; path = "SocketRocket/NSRunLoop+SRWebSocket.h"; sourceTree = "<group>"; };
+		652825624C2F1941290E16B9D44839EF /* Pods-DUILite_iOS_Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DUILite_iOS_Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		656529CC686CC732934CFB6E22F703CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6AFC27B1EFBD85F8C8EBFB89085DDF98 /* NSRunLoop+SRWebSocketPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSRunLoop+SRWebSocketPrivate.h"; path = "SocketRocket/Internal/NSRunLoop+SRWebSocketPrivate.h"; sourceTree = "<group>"; };
+		6F3914F8C35D3704D608FE2D5884A192 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		6F4525C5234D2B0079B3ACC86F110F54 /* SRRunLoopThread.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRRunLoopThread.m; path = SocketRocket/Internal/RunLoop/SRRunLoopThread.m; sourceTree = "<group>"; };
+		707471837141F8BA6609349E24174F2B /* NSURLRequest+SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+SRWebSocket.m"; path = "SocketRocket/NSURLRequest+SRWebSocket.m"; sourceTree = "<group>"; };
+		7440A4522E905E6925042C5E7FFD5471 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		7625D3A7D8458DAA6789BF387BE12043 /* Pods-DUILite_iOS_Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DUILite_iOS_Demo-resources.sh"; sourceTree = "<group>"; };
+		76552227EA01BD82AE0E8D2CF3721CA9 /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		7748BCD27F0AFA86CDBBA629DC058409 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		7EA70DE32ED1E21793117BF157F9477E /* Pods-DUILite_iOS_Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DUILite_iOS_Demo-dummy.m"; sourceTree = "<group>"; };
+		7EB9378AA5F3B13FEAFAC7EA9336558C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FCA5136720AAF71B50CB9987E762533 /* SRRandom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRRandom.h; path = SocketRocket/Internal/Utilities/SRRandom.h; sourceTree = "<group>"; };
+		7FEE810DD7EB0AD539E7CAB8EC28E4DD /* Pods-DUILite_iOS_Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DUILite_iOS_Demo.modulemap"; sourceTree = "<group>"; };
+		811052E2D2FEF92726B4F8DFC42EB44E /* YYDiskCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYDiskCache.m; path = YYCache/YYDiskCache.m; sourceTree = "<group>"; };
+		886C4FC51F997A7206DE4167F970078A /* SRPinningSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRPinningSecurityPolicy.h; path = SocketRocket/Internal/Security/SRPinningSecurityPolicy.h; sourceTree = "<group>"; };
+		89BE81C7698FE898B2E5859344372A24 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB81B788F4449793D966FAADEF3B4C3 /* SRSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRSecurityPolicy.h; path = SocketRocket/SRSecurityPolicy.h; sourceTree = "<group>"; };
+		8BDAF46A7688DA9E766DC786FBEA3094 /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SocketRocket.modulemap; sourceTree = "<group>"; };
+		9268F41AF48CDE0443CF42A154EC01AA /* SRConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRConstants.h; path = SocketRocket/Internal/SRConstants.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94F7B48F0CD0BE4A04D01B04A06AEFCE /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
+		955D09ACE37BAA60ED018ACE5EF27D79 /* YYKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKVStorage.h; path = YYCache/YYKVStorage.h; sourceTree = "<group>"; };
+		9DEB9058101D306F0429B4ABBC37CF75 /* SRProxyConnect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRProxyConnect.m; path = SocketRocket/Internal/Proxy/SRProxyConnect.m; sourceTree = "<group>"; };
+		9FA6E3D4C140DA1AB81E11856B28A12E /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		A517B03DB682FBCEEF94D12B2E228996 /* NSURLRequest+SRWebSocketPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+SRWebSocketPrivate.h"; path = "SocketRocket/Internal/NSURLRequest+SRWebSocketPrivate.h"; sourceTree = "<group>"; };
+		A550C7CFDF2A3A5A8E0B79E4E71684FB /* SRDelegateController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRDelegateController.h; path = SocketRocket/Internal/Delegate/SRDelegateController.h; sourceTree = "<group>"; };
+		AA8BB9BE4B24899FA6B5EF37DE140BBA /* YYCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-umbrella.h"; sourceTree = "<group>"; };
+		AE66A4118D91FC48691EB8EAEB4B7D90 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		AF7A965E3CE68C5985F6BFBDB407BA80 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		B1F1E248C031753987FBD7C39E8BBD72 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		B2F27AB418FE3B8DC0ABE47B37A0500B /* SRHTTPConnectMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRHTTPConnectMessage.h; path = SocketRocket/Internal/Utilities/SRHTTPConnectMessage.h; sourceTree = "<group>"; };
+		B58558FB475EFD6CDDD670EA8D760BAC /* Pods-DUILite_iOS_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DUILite_iOS_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		B735F8DA74BABC05438AD0A1D3A0167C /* Pods-DUILite_iOS_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DUILite_iOS_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		B8D8C13E5B99F55B6B597729B3118E94 /* SRError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRError.m; path = SocketRocket/Internal/Utilities/SRError.m; sourceTree = "<group>"; };
+		B9788DD54C541FEF1E4372D7926C91CF /* Reachability.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Reachability.modulemap; sourceTree = "<group>"; };
+		BADC2A26C1A79F101EC3DB4C8A3ECEB1 /* SRSIMDHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRSIMDHelpers.h; path = SocketRocket/Internal/Utilities/SRSIMDHelpers.h; sourceTree = "<group>"; };
+		BB3BCF1195FF7085B660DD9FBAA3A6C2 /* SRMutex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRMutex.h; path = SocketRocket/Internal/Utilities/SRMutex.h; sourceTree = "<group>"; };
+		BC7D6B0EB1835DFE4772C864EED763B9 /* SRIOConsumerPool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRIOConsumerPool.h; path = SocketRocket/Internal/IOConsumer/SRIOConsumerPool.h; sourceTree = "<group>"; };
+		C16F2BCC8B34D83E2A7E46BF2C13764C /* Pods_DUILite_iOS_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DUILite_iOS_Demo.framework; path = "Pods-DUILite_iOS_Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C536E05969C2D79309E9916F8C2CBDBF /* YYCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYCache.modulemap; sourceTree = "<group>"; };
+		C7A566DABBF5B5F0748D9639579BF693 /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA6E0937A8CA5C5FE1273F27E6FB8EB /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYCache.framework; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCDFEEA102BCA53D1540DC6674DE6CD /* SRConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRConstants.m; path = SocketRocket/Internal/SRConstants.m; sourceTree = "<group>"; };
+		D2C1F574BF4E3EC4C1E42CD70D3B7ACF /* SRSIMDHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRSIMDHelpers.m; path = SocketRocket/Internal/Utilities/SRSIMDHelpers.m; sourceTree = "<group>"; };
+		D769E1B64C278E77CB8EF85A15E1A01E /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		D91CEC52CCAEC06419C8D60D7D08E67D /* Pods-DUILite_iOS_Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DUILite_iOS_Demo-umbrella.h"; sourceTree = "<group>"; };
+		D951C159D7C17EAACC815329F10E1774 /* SRURLUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRURLUtilities.m; path = SocketRocket/Internal/Utilities/SRURLUtilities.m; sourceTree = "<group>"; };
+		DE9AACC2ADC7266F4E5148952CFA859C /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketRocket.framework; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF43AE67635F4F1BAD5A5A1C11DC986D /* Pods-DUILite_iOS_Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DUILite_iOS_Demo-frameworks.sh"; sourceTree = "<group>"; };
+		DF608893ED853FB85C28D1134FEB35D6 /* SRLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRLog.h; path = SocketRocket/Internal/Utilities/SRLog.h; sourceTree = "<group>"; };
+		E62DB560670DC2CEA950BFB1CB691AF8 /* SRMutex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRMutex.m; path = SocketRocket/Internal/Utilities/SRMutex.m; sourceTree = "<group>"; };
+		E99FAC0AF63F4A2E01C293370DB92F45 /* YYCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-prefix.pch"; sourceTree = "<group>"; };
+		E9B93CBBA911571274F46C1BF86C71BC /* YYCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYCache.xcconfig; sourceTree = "<group>"; };
+		F256865A8D952213AA6DBA2B729942DB /* SRPinningSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRPinningSecurityPolicy.m; path = SocketRocket/Internal/Security/SRPinningSecurityPolicy.m; sourceTree = "<group>"; };
+		F30856D71F3493965E52BE6632E28813 /* SRLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRLog.m; path = SocketRocket/Internal/Utilities/SRLog.m; sourceTree = "<group>"; };
+		F33EED480BC087A0820CA33D8542FC7E /* SRSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRSecurityPolicy.m; path = SocketRocket/SRSecurityPolicy.m; sourceTree = "<group>"; };
+		F9A16E9B97AD21FB538B8D3EC07AC37A /* SRProxyConnect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRProxyConnect.h; path = SocketRocket/Internal/Proxy/SRProxyConnect.h; sourceTree = "<group>"; };
+		FFF9358C8ECADF72783819B2ADEF5AEF /* SRRandom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRRandom.m; path = SocketRocket/Internal/Utilities/SRRandom.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0910F63CA3BFE10DD24B8DB2537D0762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EDC145DC082DEBD1F9424B6095CE1F0 /* CoreFoundation.framework in Frameworks */,
+				6F2F79D93F5D0A64D0518D11F2C5B6C7 /* Foundation.framework in Frameworks */,
+				73F513721F99512AEECE535D156B6415 /* QuartzCore.framework in Frameworks */,
+				1AF41F159B98B98462499B86FD5D0650 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CDFBEFCED716EC5BDF5AE16F1EDC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0AC63003E9729066A52828D1D575D8F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4721680103317F0264C3127213BD5083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB24F70DE98ECA54BCF551F4753FE6EA /* Foundation.framework in Frameworks */,
+				D7FA2EB2B217ADDCD75E365E0CFDEB24 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89CDA9FB5F5BF2CE587DC46154869FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F9684AA8200DA6B2BBA5BA539D7D04 /* CFNetwork.framework in Frameworks */,
+				023786E50BAF30D415CCABE659D18D65 /* Foundation.framework in Frameworks */,
+				9F206361AEA923711F0529979778BFE3 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B0895E1CCB3E9E3704333DDFD3805A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C16F2BCC8B34D83E2A7E46BF2C13764C /* Pods_DUILite_iOS_Demo.framework */,
+				C7A566DABBF5B5F0748D9639579BF693 /* Reachability.framework */,
+				DE9AACC2ADC7266F4E5148952CFA859C /* SocketRocket.framework */,
+				CCA6E0937A8CA5C5FE1273F27E6FB8EB /* YYCache.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1826F10CB66F3FD4A07BDBE339F400FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52DD3CFDEBBEE89D47B2971C2012A5FB /* Reachability */,
+				AFA62A82B44ADEC6C4B090F87F9ADE39 /* SocketRocket */,
+				56C434B83779B600CB358760982A1765 /* YYCache */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1A5452F4FCC899F95BA957C413D6B900 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4731E7E32B790CB86802A695349CB780 /* Info.plist */,
+				B9788DD54C541FEF1E4372D7926C91CF /* Reachability.modulemap */,
+				94F7B48F0CD0BE4A04D01B04A06AEFCE /* Reachability.xcconfig */,
+				026843367B93AEDA347A591231E056FA /* Reachability-dummy.m */,
+				469C519492AD3B902259FFE1823177B8 /* Reachability-prefix.pch */,
+				19F29ADC013A5B147ADD207FB22540F1 /* Reachability-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reachability";
+			sourceTree = "<group>";
+		};
+		3CAB501D6094E290BF4DAB21F8CCF88B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3AF2EB57925152FFF0B2732F9AEF1B3 /* Pods-DUILite_iOS_Demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		52DD3CFDEBBEE89D47B2971C2012A5FB /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				7748BCD27F0AFA86CDBBA629DC058409 /* Reachability.h */,
+				B1F1E248C031753987FBD7C39E8BBD72 /* Reachability.m */,
+				1A5452F4FCC899F95BA957C413D6B900 /* Support Files */,
+			);
+			name = Reachability;
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		56C434B83779B600CB358760982A1765 /* YYCache */ = {
+			isa = PBXGroup;
+			children = (
+				2B18159CA817B43D5C479A04AB467A2C /* YYCache.h */,
+				483F744C02D41F8BB1B6823D17E078B2 /* YYCache.m */,
+				22B3A66E5A2DC850ECA9A8C64AACA628 /* YYDiskCache.h */,
+				811052E2D2FEF92726B4F8DFC42EB44E /* YYDiskCache.m */,
+				955D09ACE37BAA60ED018ACE5EF27D79 /* YYKVStorage.h */,
+				3F0088F784D1DF89A1E333C557E1B6E1 /* YYKVStorage.m */,
+				5509C4B6851EAD7743B8C1CEAEDFC62F /* YYMemoryCache.h */,
+				10F491493B84CA3F337DA7FF4053CCBB /* YYMemoryCache.m */,
+				7A94D577A9A67C9E812438D4606A1A9F /* Support Files */,
+			);
+			name = YYCache;
+			path = YYCache;
+			sourceTree = "<group>";
+		};
+		7A94D577A9A67C9E812438D4606A1A9F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EB9378AA5F3B13FEAFAC7EA9336558C /* Info.plist */,
+				C536E05969C2D79309E9916F8C2CBDBF /* YYCache.modulemap */,
+				E9B93CBBA911571274F46C1BF86C71BC /* YYCache.xcconfig */,
+				41F3992B4AA094E4FBFF97B653E80EA9 /* YYCache-dummy.m */,
+				E99FAC0AF63F4A2E01C293370DB92F45 /* YYCache-prefix.pch */,
+				AA8BB9BE4B24899FA6B5EF37DE140BBA /* YYCache-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYCache";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */,
+				1826F10CB66F3FD4A07BDBE339F400FA /* Pods */,
+				09B0895E1CCB3E9E3704333DDFD3805A /* Products */,
+				3CAB501D6094E290BF4DAB21F8CCF88B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AFA62A82B44ADEC6C4B090F87F9ADE39 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				590C37512A5A5F818543A11AFDEFAFB2 /* NSRunLoop+SRWebSocket.h */,
+				0FF79123FE588998628924375E39BB98 /* NSRunLoop+SRWebSocket.m */,
+				6AFC27B1EFBD85F8C8EBFB89085DDF98 /* NSRunLoop+SRWebSocketPrivate.h */,
+				1B503D0437E6137B76B31043BF6B8F85 /* NSURLRequest+SRWebSocket.h */,
+				707471837141F8BA6609349E24174F2B /* NSURLRequest+SRWebSocket.m */,
+				A517B03DB682FBCEEF94D12B2E228996 /* NSURLRequest+SRWebSocketPrivate.h */,
+				4E06B66802519722D94516CAB27D8FB9 /* SocketRocket.h */,
+				9268F41AF48CDE0443CF42A154EC01AA /* SRConstants.h */,
+				CFCDFEEA102BCA53D1540DC6674DE6CD /* SRConstants.m */,
+				A550C7CFDF2A3A5A8E0B79E4E71684FB /* SRDelegateController.h */,
+				4C640B0B5D5032D7FA9666E58572C5F7 /* SRDelegateController.m */,
+				1CA974AD9E1B8FDB0F6C33086216E082 /* SRError.h */,
+				B8D8C13E5B99F55B6B597729B3118E94 /* SRError.m */,
+				1ED0B4FF4C476583AF042DB0B56077AD /* SRHash.h */,
+				2025F2DDB445944598A8CD838397D6E2 /* SRHash.m */,
+				B2F27AB418FE3B8DC0ABE47B37A0500B /* SRHTTPConnectMessage.h */,
+				206A648F16A31B5FAE6095117AE3DAC7 /* SRHTTPConnectMessage.m */,
+				5537320DF6E63DE758EF8409D663E96C /* SRIOConsumer.h */,
+				44A6A070EB8631385B47466AC4A039BB /* SRIOConsumer.m */,
+				BC7D6B0EB1835DFE4772C864EED763B9 /* SRIOConsumerPool.h */,
+				1620DE90DDA007CF0B319750699F9C5E /* SRIOConsumerPool.m */,
+				DF608893ED853FB85C28D1134FEB35D6 /* SRLog.h */,
+				F30856D71F3493965E52BE6632E28813 /* SRLog.m */,
+				BB3BCF1195FF7085B660DD9FBAA3A6C2 /* SRMutex.h */,
+				E62DB560670DC2CEA950BFB1CB691AF8 /* SRMutex.m */,
+				886C4FC51F997A7206DE4167F970078A /* SRPinningSecurityPolicy.h */,
+				F256865A8D952213AA6DBA2B729942DB /* SRPinningSecurityPolicy.m */,
+				F9A16E9B97AD21FB538B8D3EC07AC37A /* SRProxyConnect.h */,
+				9DEB9058101D306F0429B4ABBC37CF75 /* SRProxyConnect.m */,
+				7FCA5136720AAF71B50CB9987E762533 /* SRRandom.h */,
+				FFF9358C8ECADF72783819B2ADEF5AEF /* SRRandom.m */,
+				47DCD9AC4C52CDCFB3A93C731B3A43C2 /* SRRunLoopThread.h */,
+				6F4525C5234D2B0079B3ACC86F110F54 /* SRRunLoopThread.m */,
+				8BB81B788F4449793D966FAADEF3B4C3 /* SRSecurityPolicy.h */,
+				F33EED480BC087A0820CA33D8542FC7E /* SRSecurityPolicy.m */,
+				BADC2A26C1A79F101EC3DB4C8A3ECEB1 /* SRSIMDHelpers.h */,
+				D2C1F574BF4E3EC4C1E42CD70D3B7ACF /* SRSIMDHelpers.m */,
+				27B35EB7FD61953B95FA317CA3316138 /* SRURLUtilities.h */,
+				D951C159D7C17EAACC815329F10E1774 /* SRURLUtilities.m */,
+				D769E1B64C278E77CB8EF85A15E1A01E /* SRWebSocket.h */,
+				6F3914F8C35D3704D608FE2D5884A192 /* SRWebSocket.m */,
+				E2A89C4F1F74BAC88436F968823B32E5 /* Support Files */,
+			);
+			name = SocketRocket;
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		D3AF2EB57925152FFF0B2732F9AEF1B3 /* Pods-DUILite_iOS_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				89BE81C7698FE898B2E5859344372A24 /* Info.plist */,
+				7FEE810DD7EB0AD539E7CAB8EC28E4DD /* Pods-DUILite_iOS_Demo.modulemap */,
+				652825624C2F1941290E16B9D44839EF /* Pods-DUILite_iOS_Demo-acknowledgements.markdown */,
+				0C76DFA28F4CEB0A43E140C388BA2822 /* Pods-DUILite_iOS_Demo-acknowledgements.plist */,
+				7EA70DE32ED1E21793117BF157F9477E /* Pods-DUILite_iOS_Demo-dummy.m */,
+				DF43AE67635F4F1BAD5A5A1C11DC986D /* Pods-DUILite_iOS_Demo-frameworks.sh */,
+				7625D3A7D8458DAA6789BF387BE12043 /* Pods-DUILite_iOS_Demo-resources.sh */,
+				D91CEC52CCAEC06419C8D60D7D08E67D /* Pods-DUILite_iOS_Demo-umbrella.h */,
+				B735F8DA74BABC05438AD0A1D3A0167C /* Pods-DUILite_iOS_Demo.debug.xcconfig */,
+				B58558FB475EFD6CDDD670EA8D760BAC /* Pods-DUILite_iOS_Demo.release.xcconfig */,
+			);
+			name = "Pods-DUILite_iOS_Demo";
+			path = "Target Support Files/Pods-DUILite_iOS_Demo";
+			sourceTree = "<group>";
+		};
+		E2A89C4F1F74BAC88436F968823B32E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49199354DABFFB2E02CC383CCA3C245F /* Info.plist */,
+				8BDAF46A7688DA9E766DC786FBEA3094 /* SocketRocket.modulemap */,
+				9FA6E3D4C140DA1AB81E11856B28A12E /* SocketRocket.xcconfig */,
+				76552227EA01BD82AE0E8D2CF3721CA9 /* SocketRocket-dummy.m */,
+				0D2448432B16A8193604AC30F09661EC /* SocketRocket-prefix.pch */,
+				2EFEEF8A902FBCAF037A0A6260454097 /* SocketRocket-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA431AB09488AB24D33309E0C026C681 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA431AB09488AB24D33309E0C026C681 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3500E9A7620A339F6EB06237D30D5B0F /* CFNetwork.framework */,
+				7440A4522E905E6925042C5E7FFD5471 /* CoreFoundation.framework */,
+				656529CC686CC732934CFB6E22F703CF /* Foundation.framework */,
+				AE66A4118D91FC48691EB8EAEB4B7D90 /* QuartzCore.framework */,
+				AF7A965E3CE68C5985F6BFBDB407BA80 /* Security.framework */,
+				3482C508B7CE043CEA0ED60DDEEB8E5C /* SystemConfiguration.framework */,
+				35B21EC8EB5C844A1778806D16D15BB8 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		50CFC26FC2B768F6E7802161D0FC1E92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF2D3BB83C329129A16DB8824648A26 /* Reachability-umbrella.h in Headers */,
+				2F519636257D7A59A103F744831A4300 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6789B02A5CEEC787162F354469063099 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6E52AEA5F9DB8CE08BFDAAFCA9BC4F /* Pods-DUILite_iOS_Demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86859794F6EFF86D50E42F485360B0F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09127B91BDE70CB86024C476B215743A /* NSRunLoop+SRWebSocket.h in Headers */,
+				B422A89843AA257A504F6C96BC670436 /* NSRunLoop+SRWebSocketPrivate.h in Headers */,
+				6EDBDDF584475677A49E24F2A97288A7 /* NSURLRequest+SRWebSocket.h in Headers */,
+				DCA7197A7E3AE36B86C90CDAA2D37ADE /* NSURLRequest+SRWebSocketPrivate.h in Headers */,
+				4DB97C357537EDD454964BC31FD53A99 /* SocketRocket-umbrella.h in Headers */,
+				410FA7DD82A9788E0EE2A3C5614BD702 /* SocketRocket.h in Headers */,
+				5DD99870D92ADC53653CB2DFA59B36C2 /* SRConstants.h in Headers */,
+				F6057E4CA7BE542EBA96467872EEF657 /* SRDelegateController.h in Headers */,
+				78B8C1FA542EE3A5F67359478C6ED0E2 /* SRError.h in Headers */,
+				D4E3B317534AEA2A6BA93D62AEB92F31 /* SRHash.h in Headers */,
+				78B3CAE4F84D006BA565DFDE48C53600 /* SRHTTPConnectMessage.h in Headers */,
+				CF0A8B140CF2603E7FC7F547B1EDFCC5 /* SRIOConsumer.h in Headers */,
+				67FF131CFE23AA01494A326F7ADD51E0 /* SRIOConsumerPool.h in Headers */,
+				81298DDB3A022BB6A6505E258DA526EB /* SRLog.h in Headers */,
+				3DD698C2BBBE64BFDDC63447D0390FEA /* SRMutex.h in Headers */,
+				B9DCE4F5B8783FD7BA42E1CE4D893171 /* SRPinningSecurityPolicy.h in Headers */,
+				5FBAFD240E03C3ECED861E573E91C8D6 /* SRProxyConnect.h in Headers */,
+				47DFBA054EE53FE8825CA9B323FCE87A /* SRRandom.h in Headers */,
+				200B5035B166DEEBCAC13DA7065D2F3C /* SRRunLoopThread.h in Headers */,
+				AE1D82CE2E832DAF5C82CFED9CF2CFA9 /* SRSecurityPolicy.h in Headers */,
+				F068704AB3234E5D62452FB1AC9AB141 /* SRSIMDHelpers.h in Headers */,
+				B386F8A8782E12680E47F5BC187864DF /* SRURLUtilities.h in Headers */,
+				6AF81AECAB8DD747AF1F5BB5BF412162 /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4F0990E86688030FE26DD12802A156 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC53851E501112952501DE71FA9647C8 /* YYCache-umbrella.h in Headers */,
+				DA97A751DFC8DCDC63F2738FE2031A68 /* YYCache.h in Headers */,
+				799CDDD648A29604A939C18E7743F3BE /* YYDiskCache.h in Headers */,
+				A2BFAE6F5506A45E9EFE48717C64DF2D /* YYKVStorage.h in Headers */,
+				D5D7E649DFED9DF62DE10039B066E549 /* YYMemoryCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		176C21DF391CC6E37F224EF9E2AB0C8F /* Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5517B521618564F275D029342BB98C68 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildPhases = (
+				02DEB58D5D38DFD0A6A7CE7C5205E983 /* Sources */,
+				4721680103317F0264C3127213BD5083 /* Frameworks */,
+				50CFC26FC2B768F6E7802161D0FC1E92 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reachability;
+			productName = Reachability;
+			productReference = C7A566DABBF5B5F0748D9639579BF693 /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		490014E141BFEFD91FD7CEE69EE06071 /* YYCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0257EE15EFDFF5C333634F9B239C2F34 /* Build configuration list for PBXNativeTarget "YYCache" */;
+			buildPhases = (
+				91FD42D85BC9CC08A30A67A5A128DE31 /* Sources */,
+				0910F63CA3BFE10DD24B8DB2537D0762 /* Frameworks */,
+				9C4F0990E86688030FE26DD12802A156 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYCache;
+			productName = YYCache;
+			productReference = CCA6E0937A8CA5C5FE1273F27E6FB8EB /* YYCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D20255482134525A1364DD6B392229B /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783A0CEFF68B00E88EAD272C654185A4 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				0A5E8728217337904575D259ED09E54F /* Sources */,
+				89CDA9FB5F5BF2CE587DC46154869FE8 /* Frameworks */,
+				86859794F6EFF86D50E42F485360B0F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = DE9AACC2ADC7266F4E5148952CFA859C /* SocketRocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F8870EB37003087F9C929A935A745479 /* Pods-DUILite_iOS_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83573F2BF2105E146A9D2496B20D349D /* Build configuration list for PBXNativeTarget "Pods-DUILite_iOS_Demo" */;
+			buildPhases = (
+				6E1E26285215C4395C258D7D3F8977CB /* Sources */,
+				28CDFBEFCED716EC5BDF5AE16F1EDC82 /* Frameworks */,
+				6789B02A5CEEC787162F354469063099 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03425BF5D8ADC9CB6BE4E64260E02E25 /* PBXTargetDependency */,
+				4B46D10801BD7E8F5CD1174E97EEAD84 /* PBXTargetDependency */,
+				C25ADBBE04DA9AB6FA92ADC96B3BFC9F /* PBXTargetDependency */,
+			);
+			name = "Pods-DUILite_iOS_Demo";
+			productName = "Pods-DUILite_iOS_Demo";
+			productReference = C16F2BCC8B34D83E2A7E46BF2C13764C /* Pods_DUILite_iOS_Demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 09B0895E1CCB3E9E3704333DDFD3805A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8870EB37003087F9C929A935A745479 /* Pods-DUILite_iOS_Demo */,
+				176C21DF391CC6E37F224EF9E2AB0C8F /* Reachability */,
+				4D20255482134525A1364DD6B392229B /* SocketRocket */,
+				490014E141BFEFD91FD7CEE69EE06071 /* YYCache */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02DEB58D5D38DFD0A6A7CE7C5205E983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A410EE491156AA327BEBA4F9F7BA6695 /* Reachability-dummy.m in Sources */,
+				A4E9758FD16A43BB61461D7FD0C71109 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A5E8728217337904575D259ED09E54F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				695A05721C41E816DB22C4696C58E109 /* NSRunLoop+SRWebSocket.m in Sources */,
+				0424E17E1EF402BEE9A2B51484D30DB2 /* NSURLRequest+SRWebSocket.m in Sources */,
+				CA817D9F82730D67C4AF332BE9EEBB5B /* SocketRocket-dummy.m in Sources */,
+				A6F95EF41A79B9193EFBBFED6AE091C6 /* SRConstants.m in Sources */,
+				1DB1C80D19FFF8DB22AFE2817D95ACE9 /* SRDelegateController.m in Sources */,
+				AE7B7E6EBDF1FE8154D1D5221852A895 /* SRError.m in Sources */,
+				6DF0FF6625A8AFAD20C913FDABA7C44C /* SRHash.m in Sources */,
+				CBB3356611690E54ED0584D6ACD4781B /* SRHTTPConnectMessage.m in Sources */,
+				FE8BA0DFCCCBEA08EC5D4FBCA7C73CCB /* SRIOConsumer.m in Sources */,
+				FE231C747E09E22808E9421E998E16B3 /* SRIOConsumerPool.m in Sources */,
+				F4678C28744A19CB63F45AD62BCF48CA /* SRLog.m in Sources */,
+				60B73BCEE1954BA156E81493AE6C5EBB /* SRMutex.m in Sources */,
+				9F4B7E81D42D2A18EDE1B36588FB31BF /* SRPinningSecurityPolicy.m in Sources */,
+				01D7C832DBC8C1D99538BE017157DBD0 /* SRProxyConnect.m in Sources */,
+				EF12A79BE477C76277491D504AB6EC2A /* SRRandom.m in Sources */,
+				B66261894EF82103168E5A63FBB7ED18 /* SRRunLoopThread.m in Sources */,
+				F6D13E532C542F1B70E7B3079D9CB49B /* SRSecurityPolicy.m in Sources */,
+				7820CD9BECDD1A9392C27945E0B66C16 /* SRSIMDHelpers.m in Sources */,
+				B07CE054B39D1D0D0AFEF845C8D22627 /* SRURLUtilities.m in Sources */,
+				A7350225B762EEF73ABEADD4C79160D4 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1E26285215C4395C258D7D3F8977CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D2D1233F6817F3BE2850A880442011 /* Pods-DUILite_iOS_Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91FD42D85BC9CC08A30A67A5A128DE31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9362C3304A4D2A59038584D77BB466D0 /* YYCache-dummy.m in Sources */,
+				177663E3699561E99AB3E85793A91AE3 /* YYCache.m in Sources */,
+				CA1B453698AFDB0F15345FAF07E5EBAC /* YYDiskCache.m in Sources */,
+				7784A5584651BD05EE3EC03097FDE810 /* YYKVStorage.m in Sources */,
+				6AF174F59F473C3D9CB6AE23C9531AF2 /* YYMemoryCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03425BF5D8ADC9CB6BE4E64260E02E25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = 176C21DF391CC6E37F224EF9E2AB0C8F /* Reachability */;
+			targetProxy = 84A13AE94E4191AAB00C3BCBA5D6338C /* PBXContainerItemProxy */;
+		};
+		4B46D10801BD7E8F5CD1174E97EEAD84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 4D20255482134525A1364DD6B392229B /* SocketRocket */;
+			targetProxy = AA34BB62F8B4AB116AE97FEA54550E8A /* PBXContainerItemProxy */;
+		};
+		C25ADBBE04DA9AB6FA92ADC96B3BFC9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYCache;
+			target = 490014E141BFEFD91FD7CEE69EE06071 /* YYCache */;
+			targetProxy = 08342D9C79A4F530FA53B2CC36CB2020 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		199D972A13F2B4C56847F7A89CCA83BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2522A95C1DBCF51F0680054CBE7B3A07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B93CBBA911571274F46C1BF86C71BC /* YYCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYCache/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
+				PRODUCT_MODULE_NAME = YYCache;
+				PRODUCT_NAME = YYCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		395E23A9B818A9309F02A39710781D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FA6E3D4C140DA1AB81E11856B28A12E /* SocketRocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		599288CD7854A03697462959F76880F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F7B48F0CD0BE4A04D01B04A06AEFCE /* Reachability.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		647E8B5E3B67F0322760D3517D70FBC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B93CBBA911571274F46C1BF86C71BC /* YYCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YYCache/YYCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YYCache/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YYCache/YYCache.modulemap";
+				PRODUCT_MODULE_NAME = YYCache;
+				PRODUCT_NAME = YYCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A91F6A5D19310128333C213BAFA1E89D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B58558FB475EFD6CDDD670EA8D760BAC /* Pods-DUILite_iOS_Demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DUILite_iOS_Demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DUILite_iOS_Demo/Pods-DUILite_iOS_Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5D60DDC003B57581B5B8310E3DB18D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B735F8DA74BABC05438AD0A1D3A0167C /* Pods-DUILite_iOS_Demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DUILite_iOS_Demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DUILite_iOS_Demo/Pods-DUILite_iOS_Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E1CF30F1A790AD594AF8E07CBC7A31F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F7B48F0CD0BE4A04D01B04A06AEFCE /* Reachability.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Reachability/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Reachability/Reachability.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECC3FC93271CF11E86B255AF1B50E3B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FA6E3D4C140DA1AB81E11856B28A12E /* SocketRocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FDB2FC4A1E5891381CD9D922145497F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0257EE15EFDFF5C333634F9B239C2F34 /* Build configuration list for PBXNativeTarget "YYCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				647E8B5E3B67F0322760D3517D70FBC6 /* Debug */,
+				2522A95C1DBCF51F0680054CBE7B3A07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D972A13F2B4C56847F7A89CCA83BC /* Debug */,
+				FDB2FC4A1E5891381CD9D922145497F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5517B521618564F275D029342BB98C68 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				599288CD7854A03697462959F76880F5 /* Debug */,
+				E1CF30F1A790AD594AF8E07CBC7A31F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783A0CEFF68B00E88EAD272C654185A4 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECC3FC93271CF11E86B255AF1B50E3B7 /* Debug */,
+				395E23A9B818A9309F02A39710781D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83573F2BF2105E146A9D2496B20D349D /* Build configuration list for PBXNativeTarget "Pods-DUILite_iOS_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D60DDC003B57581B5B8310E3DB18D6 /* Debug */,
+				A91F6A5D19310128333C213BAFA1E89D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

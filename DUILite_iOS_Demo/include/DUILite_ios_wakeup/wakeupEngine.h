@@ -85,7 +85,7 @@
 /*!
  协议wakeupEngineDelete的对象
  */
-@property (nonatomic,assign) id<wakeupEngineDelete>delegate;
+@property (nonatomic,weak) id<wakeupEngineDelete>delegate;
 
 /*!
  创建引擎实例

@@ -20,6 +20,7 @@ static NSString * TAG = @"testCloudTTS";
 @property (nonatomic, strong)  AISTTSPlayer* player;
 @property (strong, nonatomic) IBOutlet UILabel *tipLabel;
 @property (strong, nonatomic) IBOutlet UITextView *refTextView;
+@property (strong, nonatomic) NSMutableArray * array;
 
 @property (nonatomic, strong) NSTimer *timer;
 @end
@@ -31,6 +32,7 @@ static NSString * TAG = @"testCloudTTS";
     self.title = @"在线语音合成";
     [self setAudioConfig];
     [self initTTS];
+    _array = [[NSMutableArray alloc]  initWithArray:@[@"feyinf", @"xiyaof", @"lzliaf", @"xjingf", @"lucyfa", @"zhilingfa", @"lzliafa", @"lili1f_yubo", @"juyinf_guigushi", @"cyangf", @"xiyaof_laoshi", @"qianranfa", @"aningf", @"yaayif", @"gdgm", @"zhilingf", @"xizhef", @"xijunm", @"xijunma", @"kaolam", @"qiumum", @"tzruim", @"wjianm", @"qianranf", @"linbaf_qingxin", @"linbaf_gaoleng", @"anonyg", @"yukaim_all", @"xiyaof_qingxin", @"hyanif", @"xjingf_gushi", @"zzherf", @"zzhuaf", @"lili1f_diantai", @"hyanifa", @"lanyuf", @"jjingf", @"gqlanf", @"smjief", @"jlshim", @"zxcm", @"kaolaf", @"boy", @"lucyf", @"geyou", @"lili1f_shangwu", @"anonyf"]];
         // Do any additional setup after loading the view.
 }
 
@@ -44,11 +46,8 @@ static NSString * TAG = @"testCloudTTS";
 }
 
 -(void)initTTS{
-    
     NSMutableDictionary *authConfigDic = [[NSMutableDictionary alloc] init];
-
-#warning must write your own in dui
-    [authConfigDic setObject:@"userid123" forKey:K_USER_ID]; //任意数字、字母组合
+    [authConfigDic setObject:@"1000000120" forKey:K_USER_ID];
     [authConfigDic setObject:@"278581724" forKey:K_PRODUCT_ID];//用户产品ID
     [authConfigDic setObject:@"cbcbd79bd73822515ce5ab6e5cd3dace" forKey:K_API_KEYS];//用户授权key
     [authConfigDic setObject:@"576a24d2fa0f6cdb0642dd84d15aead0" forKey:K_PRODUCT_KEYS];//用户授权productKey
@@ -69,9 +68,18 @@ static NSString * TAG = @"testCloudTTS";
     
     //设置合成参数
     self.player.refText = self.refTextView.text;
+//     self.player.refText = @"张朝阳在公园散步，吃着Apple sing,唱着歌, 思必驰科技与限公司";
+//    self.player.refText = @"<?xml version='1.0' encoding='utf8'?><speak><sentence>张<phoneme py='zhao1'>朝</phoneme>阳在<phoneme py='chao2'>朝</phoneme>阳公园晨练，吃着Apple sing,唱着歌</sentence></speak>";
     self.player.speed = 1.0;
     self.player.volume = 50.0;
     self.player.speaker = @"zhilingf";
+//    self.player.ttsType = @"ssml";
+//    self.player.cache = [NSNumber numberWithBool:YES];
+    
+//    self.player.mp3Quality = @"high";
+    
+    self.player.audioType = @"wav";
+
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         //开始合成
         [self.player startTTS];

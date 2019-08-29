@@ -105,7 +105,22 @@
  */
 @property (nonatomic, strong) NSString * ttsType;
 
+
+/*!
+ 设置是否使用缓存，YES|NO, 默认NO
+ */
 @property (nonatomic, strong) NSNumber * cache;
+
+/*!
+ 设置MP3音频质量，取值low|high, 默认low
+ */
+@property (nonatomic, strong) NSString * mp3Quality;
+
+
+/*!
+ 合成音频格式，取值mp3|wav, 默认mp3
+ */
+@property (nonatomic, strong) NSString * audioType;
 
 /*!
  开启在线合成引擎，开始合成

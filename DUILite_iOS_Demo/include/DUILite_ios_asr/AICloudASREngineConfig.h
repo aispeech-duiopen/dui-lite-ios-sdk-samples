@@ -46,6 +46,9 @@ static NSString * K_ASR_RES = @"asr_res";//bool
 
 static NSString * K_CUSTOM_LMID = @"custom_lmid";//bool
 
+static NSString * K_ENABLECONFIDENCE = @"enableConfidence";//bool  置信度开关
+
+
 #endif /* AICloudASREngineConfig_h */
 
 

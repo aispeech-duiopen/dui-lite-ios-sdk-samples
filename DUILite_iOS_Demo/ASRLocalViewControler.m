@@ -43,12 +43,8 @@ static NSString * TAG = @"ASRLocalViewControl";
 
 
 -(void)initLocalASR{
-    
     NSMutableDictionary *authConfigDic = [[NSMutableDictionary alloc] init];
-    
-#warning must write your own in dui
-
-    [authConfigDic setObject:@"userid123" forKey:K_USER_ID]; //任意数字、字母组合
+    [authConfigDic setObject:@"1000000120" forKey:K_USER_ID];
     [authConfigDic setObject:@"278581724" forKey:K_PRODUCT_ID];//用户产品ID
     [authConfigDic setObject:@"cbcbd79bd73822515ce5ab6e5cd3dace" forKey:K_API_KEYS];//用户授权key
     [authConfigDic setObject:@"576a24d2fa0f6cdb0642dd84d15aead0" forKey:K_PRODUCT_KEYS];//用户授权productKey
@@ -80,7 +76,15 @@ static NSString * TAG = @"ASRLocalViewControl";
 
 - (IBAction)startLocalASREngine:(id)sender {
     self.textASRResult.text = @"可以说话了";
-    [localASREngine startLocalASREngine];
+//    [localASREngine startLocalASREngine];
+    
+    AILocalASRIntent *intent = [[AILocalASRIntent alloc] init];
+    intent.useXbnfRec = NO;
+    intent.useConf  = NO;
+    intent.usePinyin = NO;
+    intent.useHoldConf = NO;
+    [localASREngine startLocalASREngineWithIntent:intent];
+    
     if ([[cfg allKeys] containsObject:K_CUSTOM_FEED_DATA] && [[cfg objectForKey:K_CUSTOM_FEED_DATA] isEqualToString:@"true"]) {
         dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
             [self feedPcm];
@@ -118,9 +122,6 @@ static NSString * TAG = @"ASRLocalViewControl";
 }
 
 -(void)onLocalASRResult:(NSString*) result{
-    if (!result) {
-        return;
-    }
     dispatch_async(dispatch_get_main_queue(), ^{
         self.textASRResult.text = result;
     });

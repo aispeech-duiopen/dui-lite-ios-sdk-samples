@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AILocalASRIntent.h"
 
 /*!
  实现回调函数的代理协议AISLocalTTSPlayerDelegate
@@ -52,6 +53,12 @@
  开始语音识别,默认启动内置录音机
  */
 -(void) startLocalASREngine;
+
+/*!
+ 开始语音识别,默认启动内置录音机
+  @param intent 启动参数设置
+ */
+-(void) startLocalASREngineWithIntent:(AILocalASRIntent *)intent;
 
 /*!
  停止识别，等待识别结果，使用VAD时，超过VAD右边界则自动停止录音

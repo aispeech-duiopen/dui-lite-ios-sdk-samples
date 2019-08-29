@@ -1,0 +1,32 @@
+PODS:
+  - Reachability (3.2)
+  - SocketRocket (0.5.1)
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - Reachability (~> 3.2)
+  - SocketRocket (from `https://github.com/facebook/SocketRocket.git`)
+  - YYCache (~> 1.0.4)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Reachability
+    - YYCache
+
+EXTERNAL SOURCES:
+  SocketRocket:
+    :git: https://github.com/facebook/SocketRocket.git
+
+CHECKOUT OPTIONS:
+  SocketRocket:
+    :commit: 0a023409b138039d1ab5ac5431fe61c5f334e86b
+    :git: https://github.com/facebook/SocketRocket.git
+
+SPEC CHECKSUMS:
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SocketRocket: dbb1554b8fc288ef8ef370d6285aeca7361be31e
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: 897ac0b8af6a2f87fdaab8d6f1d0c7d4b1e660c6
+
+COCOAPODS: 1.5.0

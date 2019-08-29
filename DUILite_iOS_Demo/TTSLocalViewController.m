@@ -47,9 +47,7 @@ static NSString * TAG = @"testLocalTTS";
 
 -(void)initTTS{
     NSMutableDictionary *authConfigDic = [[NSMutableDictionary alloc] init];
-    
-#warning must write your own in dui
-    [authConfigDic setObject:@"userid123" forKey:K_USER_ID]; //任意数字、字母组合
+    [authConfigDic setObject:@"1000000120" forKey:K_USER_ID];
     [authConfigDic setObject:@"278581724" forKey:K_PRODUCT_ID];//用户产品ID
     [authConfigDic setObject:@"cbcbd79bd73822515ce5ab6e5cd3dace" forKey:K_API_KEYS];//用户授权key
     [authConfigDic setObject:@"576a24d2fa0f6cdb0642dd84d15aead0" forKey:K_PRODUCT_KEYS];//用户授权productKey
@@ -75,6 +73,7 @@ static NSString * TAG = @"testLocalTTS";
     
     //设置协议委托对象
     self.player.delegate = self;
+    //self.player.onlyTTS = @"true";
     
     //设置合成参数
     self.player.refText = self.refTextView.text;

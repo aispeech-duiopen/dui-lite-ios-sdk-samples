@@ -41,6 +41,17 @@
 
 @optional
 
+
+/**
+ 引擎初始化成功回调
+ */
+-(void)onAICloudASREngineInitSuccess;
+
+/*!
+ 开始语音识别初始化成功回调
+ */
+-(void)onAICloudASREngineStartSuccess;
+
 /*!
  收到实时反馈结果时执行，请解析
 

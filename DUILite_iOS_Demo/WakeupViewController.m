@@ -19,9 +19,9 @@ static NSString * TAG = @"testWakeupEngine";
 
 {
     wakeupEngine* engine;
-    BOOL authResult;
 }
 
+//@property (weak, nonatomic) IBOutlet UILabel *wakeupResult;
 @property(nonatomic,strong) UILabel *residueLabel;// 输入文本时剩余字数
 @property(nonatomic,strong) NSNumber *count;
 @property(nonatomic,strong) NSTimer *timer;
@@ -36,10 +36,6 @@ static NSString * TAG = @"testWakeupEngine";
 
 #pragma mark -按钮事件
 - (IBAction)startWakeup:(id)sender {
-    if (!authResult) {
-        NSLog(@"授权成功以后调用");
-        return;
-    }
     [engine startWakeup];
     //推荐-->创建方式2
     if([engine getCustomFeed]){
@@ -47,6 +43,8 @@ static NSString * TAG = @"testWakeupEngine";
         self.timer = [NSTimer timerWithTimeInterval:3 target:self selector:@selector(timerFeedData) userInfo:nil repeats:YES];
         [[NSRunLoop mainRunLoop] addTimer:self.timer forMode:NSDefaultRunLoopMode];
     }
+    
+    NSLog(@"huangc %@",[engine getWakeupWord]);
 }
 
 -(void)timerFeedData{
@@ -59,9 +57,18 @@ static NSString * TAG = @"testWakeupEngine";
     NSLog(@"%@, feedData:  %@", TAG, _count);
 }
 - (IBAction)clearResult:(id)sender {
-    self.placeHolderLabel.text = @"";
-    self.textView.text = @"";
-    [self textViewDidChange:nil];
+//    self.placeHolderLabel.text = @"";
+//    //int len = (int)[data length];
+//    self.textView.text = @"";
+//    [self textViewDidChange:nil];
+    [engine setWakeupWord:@[@"ni hao xiao hua", @"ni hao xiao le"] threshold:@[@"0.127", @"0.124"]];
+    
+}
+- (IBAction)deleteWakeup:(id)sender {
+    [engine cancelWakeupWord:@[@"ni hao xiao long"]];
+}
+- (IBAction)getWakeup:(id)sender {
+    NSLog(@"wakeup:%@", [engine getWakeupWord]);
 }
 
 - (IBAction)stopWakeup:(id)sender {
@@ -79,19 +86,18 @@ static NSString * TAG = @"testWakeupEngine";
     [super viewDidLoad];
     self.title = @"离线语音唤醒";
     [self setAudioConfig];
-    authResult = NO;
     NSMutableDictionary *authConfigDic = [[NSMutableDictionary alloc] init];
-#warning must write your own in dui
-
-    [authConfigDic setObject:@"userid123" forKey:K_USER_ID]; //任意数字、字母组合
+    
+    [authConfigDic setObject:@"1000000120" forKey:K_USER_ID];
     [authConfigDic setObject:@"278581724" forKey:K_PRODUCT_ID];//用户产品ID
     [authConfigDic setObject:@"cbcbd79bd73822515ce5ab6e5cd3dace" forKey:K_API_KEYS];//用户授权key
     [authConfigDic setObject:@"576a24d2fa0f6cdb0642dd84d15aead0" forKey:K_PRODUCT_KEYS];//用户授权productKey
     [authConfigDic setObject:@"a35b4d17663bb1341de98192034a1a21" forKey:K_PRODUCT_SECRET];//用户授权productSecret
-
+    
     [DUILiteAuth setLogEnabled:YES];
     [DUILiteAuth setAuthConfig:self config:authConfigDic];
     
+
     //先创建个方便多行输入的textView
     self.textView =[ [UITextView alloc]initWithFrame:CGRectMake(self.view.frame.size.width*0.09, self.view.frame.size.height*0.33, self.view.frame.size.width*0.82, self.view.frame.size.height*0.53)];
     self.textView.delegate = self;
@@ -128,14 +134,21 @@ static NSString * TAG = @"testWakeupEngine";
 
 -(void)initWakeup{
     NSString* wakeupResPath = [[NSBundle mainBundle] pathForResource:@"wakeup_aifar_comm_20180104.bin" ofType:nil];
+    
     NSMutableDictionary *dic = [[NSMutableDictionary alloc] init];
     [dic setObject:[NSNumber numberWithBool:NO] forKey:K_WAKE_CUSTOM];
     [dic setObject:@"wakeup_aifar_comm_20180104.bin" forKey:K_WAKE_RES_NAME];
     [dic setObject:wakeupResPath forKey:K_WAKE_RES_PATH];
     engine = [wakeupEngine shareInstance];
     [engine initWakeup:self config:dic];
+   
 }
 
+-(void)setMinWakeupWords{
+    if(![_wakeupWordsText.text isEqualToString:@""] && ![_wakeupValueText.text isEqualToString:@""]){
+        [engine setMinWakeupWords:@[self.wakeupWordsText.text] threshold:@[self.wakeupValueText.text]];
+    }
+}
 
 - (void)setAudioConfig{
     [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayAndRecord withOptions:AVAudioSessionCategoryOptionDefaultToSpeaker error:nil];
@@ -185,9 +198,9 @@ static NSString * TAG = @"testWakeupEngine";
 
 -(void) onAuthResult:(BOOL) message{
     NSLog(@"%@, auth is %@", TAG, message ? @"YES" : @"NO");
-    [engine setWakeupWord:@[@"ni hao xiao long", @"ni hao xiao chi"] threshold:@[@"0.124", @"0.127"]];
-    authResult = YES;
-    
+    if (message) {
+         [engine setWakeupWord:@[@"ni hao xiao chi", @"ni hao xiao long", @"ni hao xiao ming"] threshold:@[@"0.127", @"0.124", @"0.125"]];
+    }
 }
 
 -(void) onError:(NSString*) error{

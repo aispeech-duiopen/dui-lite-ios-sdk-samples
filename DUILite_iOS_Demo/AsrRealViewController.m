@@ -57,6 +57,9 @@ const static NSString * TAG = @"testAsrEngine";
     }
     _count = [NSNumber numberWithInteger:(int)([_count integerValue] + 1)];
     NSLog(@"%@, feedData:  %@", TAG, _count);
+//    NSString *str = @"";
+//    NSData *data = [str dataUsingEncoding:NSUTF8StringEncoding];
+//    [asrEngine feedData: data];
     if([_count integerValue] == 2 && [asrEngine getUseCustomFeed]){
         [self.timer invalidate];
     }
@@ -70,9 +73,14 @@ const static NSString * TAG = @"testAsrEngine";
     [asrEngine stopAsrEngine];
 }
 - (IBAction)cancelAsr:(id)sender {
+    //[asrEngine cancel];
     self.placeHolderLabel.text = @"";
     self.textView.text = @"";
     [self textViewDidChange:nil];
+//    if([asrEngine getUseCustomFeed]){
+//        [self.timer invalidate];
+//        self.timer = nil;
+//    }
 }
 
 
@@ -99,6 +107,7 @@ const static NSString * TAG = @"testAsrEngine";
     asrResult = @"";
     midAsrResult = @"";
     [self initAsrEngine];
+
     //先创建个方便多行输入的textView
     self.textView =[ [UITextView alloc]initWithFrame:CGRectMake(self.view.frame.size.width*0.09, self.view.frame.size.height*0.4, self.view.frame.size.width*0.82, self.view.frame.size.height*0.25)];
     self.textView.delegate = self;
@@ -154,10 +163,7 @@ const static NSString * TAG = @"testAsrEngine";
     [asrEngineConfigDic setObject:[NSNumber numberWithBool:NO] forKey:K_USE_CUSTOM_FEED];
     
     NSMutableDictionary *authConfigDic = [[NSMutableDictionary alloc] init];
-    
-#warning must write your own in dui
-
-    [authConfigDic setObject:@"userid123" forKey:K_USER_ID]; //任意数字、字母组合
+    [authConfigDic setObject:@"1000000120" forKey:K_USER_ID];
     [authConfigDic setObject:@"278581724" forKey:K_PRODUCT_ID];//用户产品ID
     [authConfigDic setObject:@"cbcbd79bd73822515ce5ab6e5cd3dace" forKey:K_API_KEYS];//用户授权key
     [authConfigDic setObject:@"576a24d2fa0f6cdb0642dd84d15aead0" forKey:K_PRODUCT_KEYS];//用户授权productKey
@@ -168,6 +174,7 @@ const static NSString * TAG = @"testAsrEngine";
     
     asrEngine = [AICloudASREngine sharedInstance];
     [asrEngine asrEngineInit:self config:asrEngineConfigDic];
+    //[AICloudASREngine setLogEnabled:YES];
 }
 
 - (void)setAudioConfig{
@@ -184,7 +191,15 @@ const static NSString * TAG = @"testAsrEngine";
 
 #pragma mark -用户回调
 -(void)onResults:(NSString *)result{
+    //self.placeHolderLabel.text = @"";
+    //self.textView.text = result;
+    //[self textViewDidChange:nil];
     NSLog(@"%@, asrResult: %@", TAG, result);
+    
+//    if([AICloudASREngine getInstance]){
+//        [AICloudASREngine dellocInstance];
+//        asrEngine = nil;
+//    }
 }
 
 -(void)onRealbackResults:(NSString *)result{
@@ -206,6 +221,13 @@ const static NSString * TAG = @"testAsrEngine";
         [self textViewDidChange:nil];
     }
     if(resultFlag == 1){
+        //NSString * resultText = [dic objectForKey:@"text"];
+//        self.placeHolderLabel.text = @"";
+//        self.textView.text = asrResult;
+//        [self textViewDidChange:nil];
+//        if([dic objectForKey:@"text"]){
+//            result = [result stringByAppendingString:[dic objectForKey:@"text"]];
+//        }
         if([dic objectForKey:@"result"] && [[dic objectForKey:@"result"] objectForKey:@"rec"]){
             asrResult = [asrResult stringByAppendingString:[[dic objectForKey:@"result"] objectForKey:@"rec"]];
         }

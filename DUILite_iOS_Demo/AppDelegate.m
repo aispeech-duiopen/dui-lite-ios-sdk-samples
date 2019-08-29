@@ -9,7 +9,6 @@
 #import "AppDelegate.h"
 #import <Bugly/Bugly.h>
 #import "IQKeyboardManager.h"
-
 @interface AppDelegate ()
 
 @end
@@ -24,6 +23,7 @@
     
     [Bugly startWithAppId:@"7d28ddc6ce"];
     [IQKeyboardManager sharedManager].enable = YES;
+    
 
     return YES;
 }
