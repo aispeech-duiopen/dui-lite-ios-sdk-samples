@@ -33,13 +33,10 @@
 		1F422AA01FD03F1300EE871A /* myAudio in Resources */ = {isa = PBXBuildFile; fileRef = 1F422A9F1FD03F1300EE871A /* myAudio */; };
 		1F42BBD820AE5F1600B0EE02 /* nhxp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F42BBD120AE5F1500B0EE02 /* nhxp.wav */; };
 		1F67984E21E717AC006B8188 /* Pods_DUILite_iOS_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F67984D21E717AC006B8188 /* Pods_DUILite_iOS_Demo.framework */; };
-		4733A9AC20B81EE900807C82 /* TTSLocalTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4733A9AB20B81EE900807C82 /* TTSLocalTest.m */; };
-		4733A9BA20B829EE00807C82 /* AsrReaTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4733A9B920B829EE00807C82 /* AsrReaTest.m */; };
 		47548B582060E3F800C878B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47548B522060E3F800C878B0 /* SystemConfiguration.framework */; };
 		47548B5A2060E42B00C878B0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47548B592060E42B00C878B0 /* Security.framework */; };
 		47548B5E2060E44200C878B0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47548B5D2060E44200C878B0 /* libc++.tbd */; };
 		47548B622060E67D00C878B0 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47548B612060E67D00C878B0 /* Bugly.framework */; };
-		4759D46920B8348D007BACAC /* ASRLocalTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4759D46820B8348D007BACAC /* ASRLocalTest.m */; };
 		477C1CD02317D692006DC1BF /* libDUILite_ios_LocalTTS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 477C1CCA2317D691006DC1BF /* libDUILite_ios_LocalTTS.a */; };
 		477C1CD12317D692006DC1BF /* libDUILite_ios_asr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 477C1CCB2317D691006DC1BF /* libDUILite_ios_asr.a */; };
 		477C1CD22317D692006DC1BF /* libDUILite_ios_wakeup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 477C1CCC2317D692006DC1BF /* libDUILite_ios_wakeup.a */; };
@@ -48,8 +45,6 @@
 		477C1CD52317D692006DC1BF /* libDUILite_ios_localASR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 477C1CCF2317D692006DC1BF /* libDUILite_ios_localASR.a */; };
 		478C88C121C8D04300A45483 /* aitts_dict_idx_common.2.0.4.db in Resources */ = {isa = PBXBuildFile; fileRef = 478C88C021C8D04300A45483 /* aitts_dict_idx_common.2.0.4.db */; };
 		478C88C321C8D0DB00A45483 /* zhilingf_common_param_ce_local.v2.008.bin in Resources */ = {isa = PBXBuildFile; fileRef = 478C88C221C8D0DB00A45483 /* zhilingf_common_param_ce_local.v2.008.bin */; };
-		479D69CE20B65EE0002898B6 /* WakeupTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 479D69CD20B65EE0002898B6 /* WakeupTest.m */; };
-		479D69EC20B6BE5C002898B6 /* TTSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 479D69EB20B6BE5C002898B6 /* TTSTest.m */; };
 		47A0CBD6206248FC00CF746B /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBB0206248FB00CF746B /* IQTextView.m */; };
 		47A0CBD7206248FC00CF746B /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBB4206248FB00CF746B /* IQToolbar.m */; };
 		47A0CBD8206248FC00CF746B /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBB6206248FB00CF746B /* IQTitleBarButtonItem.m */; };
@@ -79,44 +74,6 @@
 		47DF64A91FC57ABB00F6480B /* WakeupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DF64A81FC57ABB00F6480B /* WakeupViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		4733A9AE20B81EE900807C82 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 47B931F21FC518BD0049ABE8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 47B931F91FC518BD0049ABE8;
-			remoteInfo = DUILite_iOS_Demo;
-		};
-		4733A9BC20B829EE00807C82 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 47B931F21FC518BD0049ABE8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 47B931F91FC518BD0049ABE8;
-			remoteInfo = DUILite_iOS_Demo;
-		};
-		4759D46B20B8348D007BACAC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 47B931F21FC518BD0049ABE8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 47B931F91FC518BD0049ABE8;
-			remoteInfo = DUILite_iOS_Demo;
-		};
-		479D69D020B65EE0002898B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 47B931F21FC518BD0049ABE8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 47B931F91FC518BD0049ABE8;
-			remoteInfo = DUILite_iOS_Demo;
-		};
-		479D69EE20B6BE5C002898B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 47B931F21FC518BD0049ABE8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 47B931F91FC518BD0049ABE8;
-			remoteInfo = DUILite_iOS_Demo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		1510A6C5E8B671BFF3A8FE16 /* Pods-DUILite_iOS_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DUILite_iOS_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DUILite_iOS_Demo/Pods-DUILite_iOS_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		1F12EA5720BC2FBF00A2A543 /* wakeup_aifar_comm_20180104.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = wakeup_aifar_comm_20180104.bin; sourceTree = "<group>"; };
@@ -134,20 +91,11 @@
 		1F42BBD120AE5F1500B0EE02 /* nhxp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nhxp.wav; sourceTree = "<group>"; };
 		1F67983A21E6F7FD006B8188 /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F67984D21E717AC006B8188 /* Pods_DUILite_iOS_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_DUILite_iOS_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4733A9A920B81EE900807C82 /* TTSLocalTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTSLocalTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4733A9AB20B81EE900807C82 /* TTSLocalTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSLocalTest.m; sourceTree = "<group>"; };
-		4733A9AD20B81EE900807C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4733A9B720B829EE00807C82 /* AsrReaTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsrReaTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4733A9B920B829EE00807C82 /* AsrReaTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsrReaTest.m; sourceTree = "<group>"; };
-		4733A9BB20B829EE00807C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47548B522060E3F800C878B0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		47548B592060E42B00C878B0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		47548B5B2060E43900C878B0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		47548B5D2060E44200C878B0 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		47548B612060E67D00C878B0 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
-		4759D46620B8348D007BACAC /* ASRLocalTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASRLocalTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4759D46820B8348D007BACAC /* ASRLocalTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASRLocalTest.m; sourceTree = "<group>"; };
-		4759D46A20B8348D007BACAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		477C1CBA2317D691006DC1BF /* wakeupEngineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wakeupEngineConfig.h; sourceTree = "<group>"; };
 		477C1CBB2317D691006DC1BF /* wakeupEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wakeupEngine.h; sourceTree = "<group>"; };
 		477C1CBD2317D691006DC1BF /* AICloudASREngineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AICloudASREngineConfig.h; sourceTree = "<group>"; };
@@ -167,12 +115,6 @@
 		477C1CCF2317D692006DC1BF /* libDUILite_ios_localASR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_localASR.a; sourceTree = "<group>"; };
 		478C88C021C8D04300A45483 /* aitts_dict_idx_common.2.0.4.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = aitts_dict_idx_common.2.0.4.db; sourceTree = "<group>"; };
 		478C88C221C8D0DB00A45483 /* zhilingf_common_param_ce_local.v2.008.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = zhilingf_common_param_ce_local.v2.008.bin; sourceTree = "<group>"; };
-		479D69CB20B65EE0002898B6 /* WakeupTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WakeupTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		479D69CD20B65EE0002898B6 /* WakeupTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WakeupTest.m; sourceTree = "<group>"; };
-		479D69CF20B65EE0002898B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		479D69E920B6BE5C002898B6 /* TTSTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTSTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		479D69EB20B6BE5C002898B6 /* TTSTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSTest.m; sourceTree = "<group>"; };
-		479D69ED20B6BE5C002898B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47A0CBB0206248FB00CF746B /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
 		47A0CBB1206248FB00CF746B /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
 		47A0CBB3206248FB00CF746B /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
@@ -233,41 +175,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4733A9A620B81EE900807C82 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4733A9B420B829EE00807C82 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4759D46320B8348D007BACAC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		479D69C820B65EE0002898B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		479D69E620B6BE5C002898B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		47B931F71FC518BD0049ABE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,33 +231,6 @@
 				1F12F39E20AD5E6E00D6D973 /* ebnfr.aicar.1.2.0.bin */,
 			);
 			name = ASR;
-			sourceTree = "<group>";
-		};
-		4733A9AA20B81EE900807C82 /* TTSLocalTest */ = {
-			isa = PBXGroup;
-			children = (
-				4733A9AB20B81EE900807C82 /* TTSLocalTest.m */,
-				4733A9AD20B81EE900807C82 /* Info.plist */,
-			);
-			path = TTSLocalTest;
-			sourceTree = "<group>";
-		};
-		4733A9B820B829EE00807C82 /* AsrReaTest */ = {
-			isa = PBXGroup;
-			children = (
-				4733A9B920B829EE00807C82 /* AsrReaTest.m */,
-				4733A9BB20B829EE00807C82 /* Info.plist */,
-			);
-			path = AsrReaTest;
-			sourceTree = "<group>";
-		};
-		4759D46720B8348D007BACAC /* ASRLocalTest */ = {
-			isa = PBXGroup;
-			children = (
-				4759D46820B8348D007BACAC /* ASRLocalTest.m */,
-				4759D46A20B8348D007BACAC /* Info.plist */,
-			);
-			path = ASRLocalTest;
 			sourceTree = "<group>";
 		};
 		477C1CB82317D691006DC1BF /* include */ = {
@@ -417,24 +297,6 @@
 				477C1CC92317D691006DC1BF /* AISLocalTTSPlayer.h */,
 			);
 			path = DUILite_ios_LocalTTS;
-			sourceTree = "<group>";
-		};
-		479D69CC20B65EE0002898B6 /* WakeupTest */ = {
-			isa = PBXGroup;
-			children = (
-				479D69CD20B65EE0002898B6 /* WakeupTest.m */,
-				479D69CF20B65EE0002898B6 /* Info.plist */,
-			);
-			path = WakeupTest;
-			sourceTree = "<group>";
-		};
-		479D69EA20B6BE5C002898B6 /* TTSTest */ = {
-			isa = PBXGroup;
-			children = (
-				479D69EB20B6BE5C002898B6 /* TTSTest.m */,
-				479D69ED20B6BE5C002898B6 /* Info.plist */,
-			);
-			path = TTSTest;
 			sourceTree = "<group>";
 		};
 		47A0CBAE206248FB00CF746B /* IQKeyboardManager */ = {
@@ -517,11 +379,6 @@
 			isa = PBXGroup;
 			children = (
 				47B931FC1FC518BD0049ABE8 /* DUILite_iOS_Demo */,
-				479D69CC20B65EE0002898B6 /* WakeupTest */,
-				479D69EA20B6BE5C002898B6 /* TTSTest */,
-				4733A9AA20B81EE900807C82 /* TTSLocalTest */,
-				4733A9B820B829EE00807C82 /* AsrReaTest */,
-				4759D46720B8348D007BACAC /* ASRLocalTest */,
 				47B931FB1FC518BD0049ABE8 /* Products */,
 				47DF646C1FC55A1F00F6480B /* Frameworks */,
 				8AF4435135B272E9BA812E97 /* Pods */,
@@ -532,11 +389,6 @@
 			isa = PBXGroup;
 			children = (
 				47B931FA1FC518BD0049ABE8 /* DUILite_iOS_Demo.app */,
-				479D69CB20B65EE0002898B6 /* WakeupTest.xctest */,
-				479D69E920B6BE5C002898B6 /* TTSTest.xctest */,
-				4733A9A920B81EE900807C82 /* TTSLocalTest.xctest */,
-				4733A9B720B829EE00807C82 /* AsrReaTest.xctest */,
-				4759D46620B8348D007BACAC /* ASRLocalTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -660,96 +512,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4733A9A820B81EE900807C82 /* TTSLocalTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4733A9B020B81EE900807C82 /* Build configuration list for PBXNativeTarget "TTSLocalTest" */;
-			buildPhases = (
-				4733A9A520B81EE900807C82 /* Sources */,
-				4733A9A620B81EE900807C82 /* Frameworks */,
-				4733A9A720B81EE900807C82 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4733A9AF20B81EE900807C82 /* PBXTargetDependency */,
-			);
-			name = TTSLocalTest;
-			productName = TTSLocalTest;
-			productReference = 4733A9A920B81EE900807C82 /* TTSLocalTest.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4733A9B620B829EE00807C82 /* AsrReaTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4733A9BE20B829EE00807C82 /* Build configuration list for PBXNativeTarget "AsrReaTest" */;
-			buildPhases = (
-				4733A9B320B829EE00807C82 /* Sources */,
-				4733A9B420B829EE00807C82 /* Frameworks */,
-				4733A9B520B829EE00807C82 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4733A9BD20B829EE00807C82 /* PBXTargetDependency */,
-			);
-			name = AsrReaTest;
-			productName = AsrReaTest;
-			productReference = 4733A9B720B829EE00807C82 /* AsrReaTest.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		4759D46520B8348D007BACAC /* ASRLocalTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4759D47520B8348D007BACAC /* Build configuration list for PBXNativeTarget "ASRLocalTest" */;
-			buildPhases = (
-				4759D46220B8348D007BACAC /* Sources */,
-				4759D46320B8348D007BACAC /* Frameworks */,
-				4759D46420B8348D007BACAC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4759D46C20B8348D007BACAC /* PBXTargetDependency */,
-			);
-			name = ASRLocalTest;
-			productName = ASRLocalTest;
-			productReference = 4759D46620B8348D007BACAC /* ASRLocalTest.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		479D69CA20B65EE0002898B6 /* WakeupTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 479D69DD20B65EE0002898B6 /* Build configuration list for PBXNativeTarget "WakeupTest" */;
-			buildPhases = (
-				479D69C720B65EE0002898B6 /* Sources */,
-				479D69C820B65EE0002898B6 /* Frameworks */,
-				479D69C920B65EE0002898B6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				479D69D120B65EE0002898B6 /* PBXTargetDependency */,
-			);
-			name = WakeupTest;
-			productName = WakeupTest;
-			productReference = 479D69CB20B65EE0002898B6 /* WakeupTest.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		479D69E820B6BE5C002898B6 /* TTSTest */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 479D69F020B6BE5C002898B6 /* Build configuration list for PBXNativeTarget "TTSTest" */;
-			buildPhases = (
-				479D69E520B6BE5C002898B6 /* Sources */,
-				479D69E620B6BE5C002898B6 /* Frameworks */,
-				479D69E720B6BE5C002898B6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				479D69EF20B6BE5C002898B6 /* PBXTargetDependency */,
-			);
-			name = TTSTest;
-			productName = TTSTest;
-			productReference = 479D69E920B6BE5C002898B6 /* TTSTest.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		47B931F91FC518BD0049ABE8 /* DUILite_iOS_Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47B932111FC518BD0049ABE8 /* Build configuration list for PBXNativeTarget "DUILite_iOS_Demo" */;
@@ -784,36 +546,6 @@
 						DevelopmentTeam = Q3LE5KPHW5;
 						ProvisioningStyle = Automatic;
 					};
-					4733A9A820B81EE900807C82 = {
-						CreatedOnToolsVersion = 9.3.1;
-						DevelopmentTeam = Q3LE5KPHW5;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 47B931F91FC518BD0049ABE8;
-					};
-					4733A9B620B829EE00807C82 = {
-						CreatedOnToolsVersion = 9.3.1;
-						DevelopmentTeam = Q3LE5KPHW5;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 47B931F91FC518BD0049ABE8;
-					};
-					4759D46520B8348D007BACAC = {
-						CreatedOnToolsVersion = 9.3.1;
-						DevelopmentTeam = Q3LE5KPHW5;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 47B931F91FC518BD0049ABE8;
-					};
-					479D69CA20B65EE0002898B6 = {
-						CreatedOnToolsVersion = 9.3.1;
-						DevelopmentTeam = Q3LE5KPHW5;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 47B931F91FC518BD0049ABE8;
-					};
-					479D69E820B6BE5C002898B6 = {
-						CreatedOnToolsVersion = 9.3.1;
-						DevelopmentTeam = Q3LE5KPHW5;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 47B931F91FC518BD0049ABE8;
-					};
 					47B931F91FC518BD0049ABE8 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = Q3LE5KPHW5;
@@ -837,51 +569,11 @@
 			targets = (
 				47B931F91FC518BD0049ABE8 /* DUILite_iOS_Demo */,
 				1F0DF6441FCE454E009ADE2C /* documentAgg */,
-				479D69CA20B65EE0002898B6 /* WakeupTest */,
-				479D69E820B6BE5C002898B6 /* TTSTest */,
-				4733A9A820B81EE900807C82 /* TTSLocalTest */,
-				4733A9B620B829EE00807C82 /* AsrReaTest */,
-				4759D46520B8348D007BACAC /* ASRLocalTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4733A9A720B81EE900807C82 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4733A9B520B829EE00807C82 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4759D46420B8348D007BACAC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		479D69C920B65EE0002898B6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		479D69E720B6BE5C002898B6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		47B931F81FC518BD0049ABE8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -977,46 +669,6 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4733A9A520B81EE900807C82 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4733A9AC20B81EE900807C82 /* TTSLocalTest.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4733A9B320B829EE00807C82 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4733A9BA20B829EE00807C82 /* AsrReaTest.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4759D46220B8348D007BACAC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4759D46920B8348D007BACAC /* ASRLocalTest.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		479D69C720B65EE0002898B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				479D69CE20B65EE0002898B6 /* WakeupTest.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		479D69E520B6BE5C002898B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				479D69EC20B6BE5C002898B6 /* TTSTest.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		47B931F61FC518BD0049ABE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1047,34 +699,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4733A9AF20B81EE900807C82 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 47B931F91FC518BD0049ABE8 /* DUILite_iOS_Demo */;
-			targetProxy = 4733A9AE20B81EE900807C82 /* PBXContainerItemProxy */;
-		};
-		4733A9BD20B829EE00807C82 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 47B931F91FC518BD0049ABE8 /* DUILite_iOS_Demo */;
-			targetProxy = 4733A9BC20B829EE00807C82 /* PBXContainerItemProxy */;
-		};
-		4759D46C20B8348D007BACAC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 47B931F91FC518BD0049ABE8 /* DUILite_iOS_Demo */;
-			targetProxy = 4759D46B20B8348D007BACAC /* PBXContainerItemProxy */;
-		};
-		479D69D120B65EE0002898B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 47B931F91FC518BD0049ABE8 /* DUILite_iOS_Demo */;
-			targetProxy = 479D69D020B65EE0002898B6 /* PBXContainerItemProxy */;
-		};
-		479D69EF20B6BE5C002898B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 47B931F91FC518BD0049ABE8 /* DUILite_iOS_Demo */;
-			targetProxy = 479D69EE20B6BE5C002898B6 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		47B932061FC518BD0049ABE8 /* Main.storyboard */ = {
@@ -1109,336 +733,6 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = Q3LE5KPHW5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		4733A9B120B81EE900807C82 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q3LE5KPHW5;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../DUILiteAuth/**",
-					"$(PROJECT_DIR)/../DUILite_ios_LocalTTS/**",
-				);
-				INFOPLIST_FILE = TTSLocalTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.speech.TTSLocalTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DUILite_iOS_Demo.app/DUILite_iOS_Demo";
-			};
-			name = Debug;
-		};
-		4733A9B220B81EE900807C82 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q3LE5KPHW5;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../DUILiteAuth/**",
-					"$(PROJECT_DIR)/../DUILite_ios_LocalTTS/**",
-				);
-				INFOPLIST_FILE = TTSLocalTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.speech.TTSLocalTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DUILite_iOS_Demo.app/DUILite_iOS_Demo";
-			};
-			name = Release;
-		};
-		4733A9BF20B829EE00807C82 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q3LE5KPHW5;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../DUILiteAuth/**",
-					"$(PROJECT_DIR)/../DUILite_ios_asr/**",
-				);
-				INFOPLIST_FILE = AsrReaTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.speech.AsrReaTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DUILite_iOS_Demo.app/DUILite_iOS_Demo";
-			};
-			name = Debug;
-		};
-		4733A9C020B829EE00807C82 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q3LE5KPHW5;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../DUILiteAuth/**",
-					"$(PROJECT_DIR)/../DUILite_ios_asr/**",
-				);
-				INFOPLIST_FILE = AsrReaTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.speech.AsrReaTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DUILite_iOS_Demo.app/DUILite_iOS_Demo";
-			};
-			name = Release;
-		};
-		4759D46D20B8348D007BACAC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q3LE5KPHW5;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../DUILiteAuth/**",
-					"$(PROJECT_DIR)/../DUILite_ios_localASR/**",
-				);
-				INFOPLIST_FILE = ASRLocalTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.speech.ASRLocalTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DUILite_iOS_Demo.app/DUILite_iOS_Demo";
-			};
-			name = Debug;
-		};
-		4759D46E20B8348D007BACAC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q3LE5KPHW5;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../DUILiteAuth/**",
-					"$(PROJECT_DIR)/../DUILite_ios_localASR/**",
-				);
-				INFOPLIST_FILE = ASRLocalTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.speech.ASRLocalTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DUILite_iOS_Demo.app/DUILite_iOS_Demo";
-			};
-			name = Release;
-		};
-		479D69D220B65EE0002898B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q3LE5KPHW5;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../DUILiteAuth/**",
-					"$(PROJECT_DIR)/../DUILite_ios_wakeup/**",
-				);
-				INFOPLIST_FILE = WakeupTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.speech.WakeupTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DUILite_iOS_Demo.app/DUILite_iOS_Demo";
-			};
-			name = Debug;
-		};
-		479D69D320B65EE0002898B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q3LE5KPHW5;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../DUILiteAuth/**",
-					"$(PROJECT_DIR)/../DUILite_ios_wakeup/**",
-				);
-				INFOPLIST_FILE = WakeupTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.speech.WakeupTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DUILite_iOS_Demo.app/DUILite_iOS_Demo";
-			};
-			name = Release;
-		};
-		479D69F120B6BE5C002898B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q3LE5KPHW5;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../DUILiteAuth/**",
-					"$(PROJECT_DIR)/../DUILite_ios_CloudTTS/**",
-				);
-				INFOPLIST_FILE = TTSTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.speech.TTSTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DUILite_iOS_Demo.app/DUILite_iOS_Demo";
-			};
-			name = Debug;
-		};
-		479D69F220B6BE5C002898B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q3LE5KPHW5;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				HEADER_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/../DUILiteAuth/**",
-					"$(PROJECT_DIR)/../DUILite_ios_CloudTTS/**",
-				);
-				INFOPLIST_FILE = TTSTest/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.speech.TTSTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DUILite_iOS_Demo.app/DUILite_iOS_Demo";
 			};
 			name = Release;
 		};
@@ -1619,51 +913,6 @@
 			buildConfigurations = (
 				1F0DF6451FCE454E009ADE2C /* Debug */,
 				1F0DF6461FCE454E009ADE2C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4733A9B020B81EE900807C82 /* Build configuration list for PBXNativeTarget "TTSLocalTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4733A9B120B81EE900807C82 /* Debug */,
-				4733A9B220B81EE900807C82 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4733A9BE20B829EE00807C82 /* Build configuration list for PBXNativeTarget "AsrReaTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4733A9BF20B829EE00807C82 /* Debug */,
-				4733A9C020B829EE00807C82 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4759D47520B8348D007BACAC /* Build configuration list for PBXNativeTarget "ASRLocalTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4759D46D20B8348D007BACAC /* Debug */,
-				4759D46E20B8348D007BACAC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		479D69DD20B65EE0002898B6 /* Build configuration list for PBXNativeTarget "WakeupTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				479D69D220B65EE0002898B6 /* Debug */,
-				479D69D320B65EE0002898B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		479D69F020B6BE5C002898B6 /* Build configuration list for PBXNativeTarget "TTSTest" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				479D69F120B6BE5C002898B6 /* Debug */,
-				479D69F220B6BE5C002898B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
