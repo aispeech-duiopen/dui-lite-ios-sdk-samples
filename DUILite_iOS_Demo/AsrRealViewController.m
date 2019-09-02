@@ -87,7 +87,7 @@ const static NSString * TAG = @"testAsrEngine";
 #pragma mark  -初始化
 
 -(void) viewDidDisappear:(BOOL)animated{
-    
+    [[AICloudASREngine getInstance] stopAsrEngine];
     if([asrEngine getUseCustomFeed]){
         [self.timer invalidate];
         self.timer = nil;

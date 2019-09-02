@@ -35,6 +35,7 @@ static NSString * TAG = @"testLocalTTS";
 }
 
 -(void)viewDidDisappear:(BOOL)animated{
+    [self.player stopTTS];
     [self.player releaseTTS];
 }
 

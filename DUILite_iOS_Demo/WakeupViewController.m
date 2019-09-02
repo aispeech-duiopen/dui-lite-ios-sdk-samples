@@ -159,6 +159,7 @@ static NSString * TAG = @"testWakeupEngine";
 //页面消失，进入后台不显示该页面，关闭定时器
 -(void)viewDidDisappear:(BOOL)animated
 {
+    [[wakeupEngine getInstance] stopWakeup];
     //关闭定时器
     //[self.timer setFireDate:[NSDate distantFuture]];
     if([wakeupEngine getInstance]){

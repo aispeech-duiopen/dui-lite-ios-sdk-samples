@@ -33,6 +33,7 @@ static NSString * TAG = @"ASRLocalViewControl";
 }
 
 -(void)viewDidDisappear:(BOOL)animated{
+    [[DUILiteLocalASREngine getInstance] stopLocalASREngine];
     [DUILiteLocalASREngine releaseInstance];
 }
 
