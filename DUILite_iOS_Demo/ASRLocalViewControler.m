@@ -81,7 +81,7 @@ static NSString * TAG = @"ASRLocalViewControl";
     
     AILocalASRIntent *intent = [[AILocalASRIntent alloc] init];
     intent.useXbnfRec = NO;
-    intent.useConf  = NO;
+    intent.useConf  = YES;
     intent.usePinyin = NO;
     intent.useHoldConf = NO;
     [localASREngine startLocalASREngineWithIntent:intent];

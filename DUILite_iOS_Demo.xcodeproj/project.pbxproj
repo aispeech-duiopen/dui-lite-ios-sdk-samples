@@ -96,17 +96,6 @@
 		47548B5B2060E43900C878B0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		47548B5D2060E44200C878B0 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		47548B612060E67D00C878B0 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
-		477C1CBA2317D691006DC1BF /* wakeupEngineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wakeupEngineConfig.h; sourceTree = "<group>"; };
-		477C1CBB2317D691006DC1BF /* wakeupEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wakeupEngine.h; sourceTree = "<group>"; };
-		477C1CBD2317D691006DC1BF /* AICloudASREngineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AICloudASREngineConfig.h; sourceTree = "<group>"; };
-		477C1CBE2317D691006DC1BF /* AICloudASREngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AICloudASREngine.h; sourceTree = "<group>"; };
-		477C1CC02317D691006DC1BF /* DUILiteAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteAuth.h; sourceTree = "<group>"; };
-		477C1CC12317D691006DC1BF /* DUILiteAuthConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteAuthConfig.h; sourceTree = "<group>"; };
-		477C1CC32317D691006DC1BF /* AISTTSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISTTSPlayer.h; sourceTree = "<group>"; };
-		477C1CC52317D691006DC1BF /* AILocalASRIntent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AILocalASRIntent.h; sourceTree = "<group>"; };
-		477C1CC62317D691006DC1BF /* DUILiteLocalASREngineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteLocalASREngineConfig.h; sourceTree = "<group>"; };
-		477C1CC72317D691006DC1BF /* DUILiteLocalASREngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteLocalASREngine.h; sourceTree = "<group>"; };
-		477C1CC92317D691006DC1BF /* AISLocalTTSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISLocalTTSPlayer.h; sourceTree = "<group>"; };
 		477C1CCA2317D691006DC1BF /* libDUILite_ios_LocalTTS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_LocalTTS.a; sourceTree = "<group>"; };
 		477C1CCB2317D691006DC1BF /* libDUILite_ios_asr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_asr.a; sourceTree = "<group>"; };
 		477C1CCC2317D692006DC1BF /* libDUILite_ios_wakeup.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_wakeup.a; sourceTree = "<group>"; };
@@ -115,6 +104,17 @@
 		477C1CCF2317D692006DC1BF /* libDUILite_ios_localASR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_localASR.a; sourceTree = "<group>"; };
 		478C88C021C8D04300A45483 /* aitts_dict_idx_common.2.0.4.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = aitts_dict_idx_common.2.0.4.db; sourceTree = "<group>"; };
 		478C88C221C8D0DB00A45483 /* zhilingf_common_param_ce_local.v2.008.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = zhilingf_common_param_ce_local.v2.008.bin; sourceTree = "<group>"; };
+		4790FAE02320A0E4008556AB /* wakeupEngineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wakeupEngineConfig.h; sourceTree = "<group>"; };
+		4790FAE12320A0E4008556AB /* wakeupEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wakeupEngine.h; sourceTree = "<group>"; };
+		4790FAE32320A0E4008556AB /* AICloudASREngineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AICloudASREngineConfig.h; sourceTree = "<group>"; };
+		4790FAE42320A0E4008556AB /* AICloudASREngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AICloudASREngine.h; sourceTree = "<group>"; };
+		4790FAE62320A0E4008556AB /* DUILiteAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteAuth.h; sourceTree = "<group>"; };
+		4790FAE72320A0E4008556AB /* DUILiteAuthConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteAuthConfig.h; sourceTree = "<group>"; };
+		4790FAE92320A0E4008556AB /* AISTTSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISTTSPlayer.h; sourceTree = "<group>"; };
+		4790FAEB2320A0E4008556AB /* AILocalASRIntent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AILocalASRIntent.h; sourceTree = "<group>"; };
+		4790FAEC2320A0E4008556AB /* DUILiteLocalASREngineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteLocalASREngineConfig.h; sourceTree = "<group>"; };
+		4790FAED2320A0E4008556AB /* DUILiteLocalASREngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteLocalASREngine.h; sourceTree = "<group>"; };
+		4790FAEF2320A0E4008556AB /* AISLocalTTSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISLocalTTSPlayer.h; sourceTree = "<group>"; };
 		47A0CBB0206248FB00CF746B /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
 		47A0CBB1206248FB00CF746B /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
 		47A0CBB3206248FB00CF746B /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
@@ -233,68 +233,68 @@
 			name = ASR;
 			sourceTree = "<group>";
 		};
-		477C1CB82317D691006DC1BF /* include */ = {
+		4790FADE2320A0E4008556AB /* include */ = {
 			isa = PBXGroup;
 			children = (
-				477C1CB92317D691006DC1BF /* DUILite_ios_wakeup */,
-				477C1CBC2317D691006DC1BF /* DUILite_ios_asr */,
-				477C1CBF2317D691006DC1BF /* DUILiteAuth */,
-				477C1CC22317D691006DC1BF /* DUILite_ios_CloudTTS */,
-				477C1CC42317D691006DC1BF /* DUILite_ios_localASR */,
-				477C1CC82317D691006DC1BF /* DUILite_ios_LocalTTS */,
+				4790FADF2320A0E4008556AB /* DUILite_ios_wakeup */,
+				4790FAE22320A0E4008556AB /* DUILite_ios_asr */,
+				4790FAE52320A0E4008556AB /* DUILiteAuth */,
+				4790FAE82320A0E4008556AB /* DUILite_ios_CloudTTS */,
+				4790FAEA2320A0E4008556AB /* DUILite_ios_localASR */,
+				4790FAEE2320A0E4008556AB /* DUILite_ios_LocalTTS */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		477C1CB92317D691006DC1BF /* DUILite_ios_wakeup */ = {
+		4790FADF2320A0E4008556AB /* DUILite_ios_wakeup */ = {
 			isa = PBXGroup;
 			children = (
-				477C1CBA2317D691006DC1BF /* wakeupEngineConfig.h */,
-				477C1CBB2317D691006DC1BF /* wakeupEngine.h */,
+				4790FAE02320A0E4008556AB /* wakeupEngineConfig.h */,
+				4790FAE12320A0E4008556AB /* wakeupEngine.h */,
 			);
 			path = DUILite_ios_wakeup;
 			sourceTree = "<group>";
 		};
-		477C1CBC2317D691006DC1BF /* DUILite_ios_asr */ = {
+		4790FAE22320A0E4008556AB /* DUILite_ios_asr */ = {
 			isa = PBXGroup;
 			children = (
-				477C1CBD2317D691006DC1BF /* AICloudASREngineConfig.h */,
-				477C1CBE2317D691006DC1BF /* AICloudASREngine.h */,
+				4790FAE32320A0E4008556AB /* AICloudASREngineConfig.h */,
+				4790FAE42320A0E4008556AB /* AICloudASREngine.h */,
 			);
 			path = DUILite_ios_asr;
 			sourceTree = "<group>";
 		};
-		477C1CBF2317D691006DC1BF /* DUILiteAuth */ = {
+		4790FAE52320A0E4008556AB /* DUILiteAuth */ = {
 			isa = PBXGroup;
 			children = (
-				477C1CC02317D691006DC1BF /* DUILiteAuth.h */,
-				477C1CC12317D691006DC1BF /* DUILiteAuthConfig.h */,
+				4790FAE62320A0E4008556AB /* DUILiteAuth.h */,
+				4790FAE72320A0E4008556AB /* DUILiteAuthConfig.h */,
 			);
 			path = DUILiteAuth;
 			sourceTree = "<group>";
 		};
-		477C1CC22317D691006DC1BF /* DUILite_ios_CloudTTS */ = {
+		4790FAE82320A0E4008556AB /* DUILite_ios_CloudTTS */ = {
 			isa = PBXGroup;
 			children = (
-				477C1CC32317D691006DC1BF /* AISTTSPlayer.h */,
+				4790FAE92320A0E4008556AB /* AISTTSPlayer.h */,
 			);
 			path = DUILite_ios_CloudTTS;
 			sourceTree = "<group>";
 		};
-		477C1CC42317D691006DC1BF /* DUILite_ios_localASR */ = {
+		4790FAEA2320A0E4008556AB /* DUILite_ios_localASR */ = {
 			isa = PBXGroup;
 			children = (
-				477C1CC52317D691006DC1BF /* AILocalASRIntent.h */,
-				477C1CC62317D691006DC1BF /* DUILiteLocalASREngineConfig.h */,
-				477C1CC72317D691006DC1BF /* DUILiteLocalASREngine.h */,
+				4790FAEB2320A0E4008556AB /* AILocalASRIntent.h */,
+				4790FAEC2320A0E4008556AB /* DUILiteLocalASREngineConfig.h */,
+				4790FAED2320A0E4008556AB /* DUILiteLocalASREngine.h */,
 			);
 			path = DUILite_ios_localASR;
 			sourceTree = "<group>";
 		};
-		477C1CC82317D691006DC1BF /* DUILite_ios_LocalTTS */ = {
+		4790FAEE2320A0E4008556AB /* DUILite_ios_LocalTTS */ = {
 			isa = PBXGroup;
 			children = (
-				477C1CC92317D691006DC1BF /* AISLocalTTSPlayer.h */,
+				4790FAEF2320A0E4008556AB /* AISLocalTTSPlayer.h */,
 			);
 			path = DUILite_ios_LocalTTS;
 			sourceTree = "<group>";
@@ -396,7 +396,7 @@
 		47B931FC1FC518BD0049ABE8 /* DUILite_iOS_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				477C1CB82317D691006DC1BF /* include */,
+				4790FADE2320A0E4008556AB /* include */,
 				477C1CCB2317D691006DC1BF /* libDUILite_ios_asr.a */,
 				477C1CCE2317D692006DC1BF /* libDUILite_ios_CloudTTS.a */,
 				477C1CCF2317D692006DC1BF /* libDUILite_ios_localASR.a */,
