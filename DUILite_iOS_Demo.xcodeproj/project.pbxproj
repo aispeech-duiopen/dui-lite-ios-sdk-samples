@@ -37,6 +37,7 @@
 		47548B5A2060E42B00C878B0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47548B592060E42B00C878B0 /* Security.framework */; };
 		47548B5E2060E44200C878B0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47548B5D2060E44200C878B0 /* libc++.tbd */; };
 		47548B622060E67D00C878B0 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47548B612060E67D00C878B0 /* Bugly.framework */; };
+		475ECDF92375165400121C52 /* UITextViewWorkaround.m in Sources */ = {isa = PBXBuildFile; fileRef = 475ECDF82375165400121C52 /* UITextViewWorkaround.m */; };
 		477C1CD02317D692006DC1BF /* libDUILite_ios_LocalTTS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 477C1CCA2317D691006DC1BF /* libDUILite_ios_LocalTTS.a */; };
 		477C1CD12317D692006DC1BF /* libDUILite_ios_asr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 477C1CCB2317D691006DC1BF /* libDUILite_ios_asr.a */; };
 		477C1CD22317D692006DC1BF /* libDUILite_ios_wakeup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 477C1CCC2317D692006DC1BF /* libDUILite_ios_wakeup.a */; };
@@ -96,6 +97,8 @@
 		47548B5B2060E43900C878B0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		47548B5D2060E44200C878B0 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		47548B612060E67D00C878B0 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
+		475ECDF72375165400121C52 /* UITextViewWorkaround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextViewWorkaround.h; sourceTree = "<group>"; };
+		475ECDF82375165400121C52 /* UITextViewWorkaround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextViewWorkaround.m; sourceTree = "<group>"; };
 		477C1CCA2317D691006DC1BF /* libDUILite_ios_LocalTTS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_LocalTTS.a; sourceTree = "<group>"; };
 		477C1CCB2317D691006DC1BF /* libDUILite_ios_asr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_asr.a; sourceTree = "<group>"; };
 		477C1CCC2317D692006DC1BF /* libDUILite_ios_wakeup.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_wakeup.a; sourceTree = "<group>"; };
@@ -422,6 +425,8 @@
 				1F12F39220AD58F800D6D973 /* ASRLocalViewControler.m */,
 				47DF64A71FC57ABB00F6480B /* WakeupViewController.h */,
 				47DF64A81FC57ABB00F6480B /* WakeupViewController.m */,
+				475ECDF72375165400121C52 /* UITextViewWorkaround.h */,
+				475ECDF82375165400121C52 /* UITextViewWorkaround.m */,
 				47B932061FC518BD0049ABE8 /* Main.storyboard */,
 				47B932091FC518BD0049ABE8 /* Assets.xcassets */,
 				47B9320B1FC518BD0049ABE8 /* LaunchScreen.storyboard */,
@@ -679,6 +684,7 @@
 				47A0CBE0206248FC00CF746B /* IQUIScrollView+Additions.m in Sources */,
 				47DF64561FC554FE00F6480B /* TTSViewController.m in Sources */,
 				47B932051FC518BD0049ABE8 /* RootViewController.m in Sources */,
+				475ECDF92375165400121C52 /* UITextViewWorkaround.m in Sources */,
 				47A0CBD9206248FC00CF746B /* IQBarButtonItem.m in Sources */,
 				47A0CBE1206248FC00CF746B /* IQUIView+Hierarchy.m in Sources */,
 				47A0CBE2206248FC00CF746B /* IQUIViewController+Additions.m in Sources */,

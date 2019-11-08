@@ -27,6 +27,10 @@ static NSString * TAG = @"ASRLocalViewControl";
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setAudioConfig];
+    self.textASRResult.layer.borderWidth = 1.0;//边宽
+    self.textASRResult.layer.cornerRadius = 5.0;//设置圆角
+    self.textASRResult.layer.borderColor = UIColor.grayColor.CGColor;
+
     self.title = @"离线语音识别";
     [self initLocalASR];
     // Do any additional setup after loading the view.

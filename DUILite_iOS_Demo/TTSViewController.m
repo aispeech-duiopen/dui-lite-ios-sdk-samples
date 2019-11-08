@@ -30,6 +30,9 @@ static NSString * TAG = @"testCloudTTS";
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"在线语音合成";
+    self.refTextView.layer.borderWidth = 1.0;//边宽
+    self.refTextView.layer.cornerRadius = 5.0;//设置圆角
+    self.refTextView.layer.borderColor = UIColor.grayColor.CGColor;
     [self setAudioConfig];
     [self initTTS];
     _array = [[NSMutableArray alloc]  initWithArray:@[@"feyinf", @"xiyaof", @"lzliaf", @"xjingf", @"lucyfa", @"zhilingfa", @"lzliafa", @"lili1f_yubo", @"juyinf_guigushi", @"cyangf", @"xiyaof_laoshi", @"qianranfa", @"aningf", @"yaayif", @"gdgm", @"zhilingf", @"xizhef", @"xijunm", @"xijunma", @"kaolam", @"qiumum", @"tzruim", @"wjianm", @"qianranf", @"linbaf_qingxin", @"linbaf_gaoleng", @"anonyg", @"yukaim_all", @"xiyaof_qingxin", @"hyanif", @"xjingf_gushi", @"zzherf", @"zzhuaf", @"lili1f_diantai", @"hyanifa", @"lanyuf", @"jjingf", @"gqlanf", @"smjief", @"jlshim", @"zxcm", @"kaolaf", @"boy", @"lucyf", @"geyou", @"lili1f_shangwu", @"anonyf"]];

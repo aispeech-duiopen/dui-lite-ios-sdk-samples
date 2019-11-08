@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import <Bugly/Bugly.h>
 #import "IQKeyboardManager.h"
+#import "UITextViewWorkaround.h"
 @interface AppDelegate ()
 
 @end
@@ -24,7 +25,7 @@
     [Bugly startWithAppId:@"7d28ddc6ce"];
     [IQKeyboardManager sharedManager].enable = YES;
     
-
+    [UITextViewWorkaround executeWorkaround];
     return YES;
 }
 

@@ -28,7 +28,10 @@ static NSString * TAG = @"testLocalTTS";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+    self.refTextView.layer.borderWidth = 1.0;//边宽
+    self.refTextView.layer.cornerRadius = 5.0;//设置圆角
+    self.refTextView.layer.borderColor = UIColor.grayColor.CGColor;
+
     self.title = @"离线语音合成";
     [self initTTS];
         // Do any additional setup after loading the view.
