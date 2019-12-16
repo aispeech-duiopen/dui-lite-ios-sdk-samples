@@ -21,16 +21,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		1F12EA5820BC2FBF00A2A543 /* wakeup_aifar_comm_20180104.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1F12EA5720BC2FBF00A2A543 /* wakeup_aifar_comm_20180104.bin */; };
 		1F12F39320AD58F800D6D973 /* ASRLocalViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F12F39220AD58F800D6D973 /* ASRLocalViewControler.m */; };
-		1F12F39F20AD5E6E00D6D973 /* ebnfr.aicar.1.2.0.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1F12F39E20AD5E6E00D6D973 /* ebnfr.aicar.1.2.0.bin */; };
-		1F12F3A420AD5EDA00D6D973 /* ebnfc.aicar.1.1.0.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1F12F3A320AD5EDA00D6D973 /* ebnfc.aicar.1.1.0.bin */; };
-		1F12F3A620AD5EEE00D6D973 /* gram.xbnf in Resources */ = {isa = PBXBuildFile; fileRef = 1F12F3A520AD5EEE00D6D973 /* gram.xbnf */; };
-		1F12F3B620AD7F4D00D6D973 /* vad_aihome_v0.6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 1F12F3B520AD7F4D00D6D973 /* vad_aihome_v0.6.bin */; };
-		1F1316F61FECBCE300659D3B /* myAudio in Resources */ = {isa = PBXBuildFile; fileRef = 1F1316F51FECBCE300659D3B /* myAudio */; };
 		1F32C80A21CCBBEF008FD343 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47548B5B2060E43900C878B0 /* libz.tbd */; };
 		1F422A9C1FD0149800EE871A /* AsrRealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F422A9B1FD0149800EE871A /* AsrRealViewController.m */; };
-		1F422AA01FD03F1300EE871A /* myAudio in Resources */ = {isa = PBXBuildFile; fileRef = 1F422A9F1FD03F1300EE871A /* myAudio */; };
 		1F42BBD820AE5F1600B0EE02 /* nhxp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F42BBD120AE5F1500B0EE02 /* nhxp.wav */; };
 		1F67984E21E717AC006B8188 /* Pods_DUILite_iOS_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F67984D21E717AC006B8188 /* Pods_DUILite_iOS_Demo.framework */; };
 		47548B582060E3F800C878B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47548B522060E3F800C878B0 /* SystemConfiguration.framework */; };
@@ -38,14 +31,6 @@
 		47548B5E2060E44200C878B0 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47548B5D2060E44200C878B0 /* libc++.tbd */; };
 		47548B622060E67D00C878B0 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47548B612060E67D00C878B0 /* Bugly.framework */; };
 		475ECDF92375165400121C52 /* UITextViewWorkaround.m in Sources */ = {isa = PBXBuildFile; fileRef = 475ECDF82375165400121C52 /* UITextViewWorkaround.m */; };
-		477C1CD02317D692006DC1BF /* libDUILite_ios_LocalTTS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 477C1CCA2317D691006DC1BF /* libDUILite_ios_LocalTTS.a */; };
-		477C1CD12317D692006DC1BF /* libDUILite_ios_asr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 477C1CCB2317D691006DC1BF /* libDUILite_ios_asr.a */; };
-		477C1CD22317D692006DC1BF /* libDUILite_ios_wakeup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 477C1CCC2317D692006DC1BF /* libDUILite_ios_wakeup.a */; };
-		477C1CD32317D692006DC1BF /* libDUILiteAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 477C1CCD2317D692006DC1BF /* libDUILiteAuth.a */; };
-		477C1CD42317D692006DC1BF /* libDUILite_ios_CloudTTS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 477C1CCE2317D692006DC1BF /* libDUILite_ios_CloudTTS.a */; };
-		477C1CD52317D692006DC1BF /* libDUILite_ios_localASR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 477C1CCF2317D692006DC1BF /* libDUILite_ios_localASR.a */; };
-		478C88C121C8D04300A45483 /* aitts_dict_idx_common.2.0.4.db in Resources */ = {isa = PBXBuildFile; fileRef = 478C88C021C8D04300A45483 /* aitts_dict_idx_common.2.0.4.db */; };
-		478C88C321C8D0DB00A45483 /* zhilingf_common_param_ce_local.v2.008.bin in Resources */ = {isa = PBXBuildFile; fileRef = 478C88C221C8D0DB00A45483 /* zhilingf_common_param_ce_local.v2.008.bin */; };
 		47A0CBD6206248FC00CF746B /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBB0206248FB00CF746B /* IQTextView.m */; };
 		47A0CBD7206248FC00CF746B /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBB4206248FB00CF746B /* IQToolbar.m */; };
 		47A0CBD8206248FC00CF746B /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBB6206248FB00CF746B /* IQTitleBarButtonItem.m */; };
@@ -60,6 +45,22 @@
 		47A0CBE1206248FC00CF746B /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBCA206248FB00CF746B /* IQUIView+Hierarchy.m */; };
 		47A0CBE2206248FC00CF746B /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBCE206248FB00CF746B /* IQUIViewController+Additions.m */; };
 		47A0CBE3206248FC00CF746B /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 47A0CBD0206248FB00CF746B /* IQKeyboardReturnKeyHandler.m */; };
+		47B900B223A7714400D2FCE5 /* libDUILite_ios_localASR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B9009923A7714200D2FCE5 /* libDUILite_ios_localASR.a */; };
+		47B900B323A7714400D2FCE5 /* libDUILite_ios_wakeup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B9009A23A7714300D2FCE5 /* libDUILite_ios_wakeup.a */; };
+		47B900B423A7714400D2FCE5 /* libDUILite_ios_LocalTTS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B9009B23A7714300D2FCE5 /* libDUILite_ios_LocalTTS.a */; };
+		47B900B523A7714400D2FCE5 /* libDUILite_ios_CloudTTS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B900AF23A7714300D2FCE5 /* libDUILite_ios_CloudTTS.a */; };
+		47B900B623A7714400D2FCE5 /* libDUILite_ios_asr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B900B023A7714300D2FCE5 /* libDUILite_ios_asr.a */; };
+		47B900B723A7714400D2FCE5 /* libDUILiteAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47B900B123A7714400D2FCE5 /* libDUILiteAuth.a */; };
+		47B900C123A776BC00D2FCE5 /* myAudio in Resources */ = {isa = PBXBuildFile; fileRef = 47B900C023A776BC00D2FCE5 /* myAudio */; };
+		47B900D223A776DA00D2FCE5 /* wakeup_aifar_comm.bin in Resources */ = {isa = PBXBuildFile; fileRef = 47B900C423A776DA00D2FCE5 /* wakeup_aifar_comm.bin */; };
+		47B900D323A776DA00D2FCE5 /* gram.xbnf in Resources */ = {isa = PBXBuildFile; fileRef = 47B900C723A776DA00D2FCE5 /* gram.xbnf */; };
+		47B900D423A776DA00D2FCE5 /* ebnfc.aicar.1.2.0.bin in Resources */ = {isa = PBXBuildFile; fileRef = 47B900C823A776DA00D2FCE5 /* ebnfc.aicar.1.2.0.bin */; };
+		47B900D523A776DA00D2FCE5 /* ebnfr.aicar.1.3.1.bin in Resources */ = {isa = PBXBuildFile; fileRef = 47B900CA23A776DA00D2FCE5 /* ebnfr.aicar.1.3.1.bin */; };
+		47B900D623A776DA00D2FCE5 /* vad_aihome_v0.11.bin in Resources */ = {isa = PBXBuildFile; fileRef = 47B900CC23A776DA00D2FCE5 /* vad_aihome_v0.11.bin */; };
+		47B900D723A776DA00D2FCE5 /* aitts_sent_dict_local.db in Resources */ = {isa = PBXBuildFile; fileRef = 47B900CE23A776DA00D2FCE5 /* aitts_sent_dict_local.db */; };
+		47B900D823A776DA00D2FCE5 /* local_front.bin in Resources */ = {isa = PBXBuildFile; fileRef = 47B900CF23A776DA00D2FCE5 /* local_front.bin */; };
+		47B900D923A776DA00D2FCE5 /* zhilingf_common_back_ce_local.v2.1.0.bin in Resources */ = {isa = PBXBuildFile; fileRef = 47B900D023A776DA00D2FCE5 /* zhilingf_common_back_ce_local.v2.1.0.bin */; };
+		47B900DB23A7774C00D2FCE5 /* vad_aihome_v0.11.bin in Resources */ = {isa = PBXBuildFile; fileRef = 47B900DA23A7774C00D2FCE5 /* vad_aihome_v0.11.bin */; };
 		47B931FF1FC518BD0049ABE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B931FE1FC518BD0049ABE8 /* main.m */; };
 		47B932021FC518BD0049ABE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B932011FC518BD0049ABE8 /* AppDelegate.m */; };
 		47B932051FC518BD0049ABE8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B932041FC518BD0049ABE8 /* RootViewController.m */; };
@@ -69,7 +70,6 @@
 		47DF64561FC554FE00F6480B /* TTSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DF64551FC554FE00F6480B /* TTSViewController.m */; };
 		47DF64681FC558F800F6480B /* TTSLocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DF64671FC558F800F6480B /* TTSLocalViewController.m */; };
 		47DF64971FC5764000F6480B /* test.pcm in Resources */ = {isa = PBXBuildFile; fileRef = 47DF64951FC5764000F6480B /* test.pcm */; };
-		47DF64981FC5764000F6480B /* vad_aihome_v0.6.bin in Resources */ = {isa = PBXBuildFile; fileRef = 47DF64961FC5764000F6480B /* vad_aihome_v0.6.bin */; };
 		47DF649D1FC576B600F6480B /* AsrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DF649C1FC576B600F6480B /* AsrViewController.m */; };
 		47DF64A21FC577E400F6480B /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DF64A11FC577E400F6480B /* libicucore.tbd */; };
 		47DF64A91FC57ABB00F6480B /* WakeupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DF64A81FC57ABB00F6480B /* WakeupViewController.m */; };
@@ -77,18 +77,11 @@
 
 /* Begin PBXFileReference section */
 		1510A6C5E8B671BFF3A8FE16 /* Pods-DUILite_iOS_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DUILite_iOS_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DUILite_iOS_Demo/Pods-DUILite_iOS_Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		1F12EA5720BC2FBF00A2A543 /* wakeup_aifar_comm_20180104.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = wakeup_aifar_comm_20180104.bin; sourceTree = "<group>"; };
 		1F12F39120AD58F800D6D973 /* ASRLocalViewControler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASRLocalViewControler.h; sourceTree = "<group>"; };
 		1F12F39220AD58F800D6D973 /* ASRLocalViewControler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASRLocalViewControler.m; sourceTree = "<group>"; };
-		1F12F39E20AD5E6E00D6D973 /* ebnfr.aicar.1.2.0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = ebnfr.aicar.1.2.0.bin; sourceTree = "<group>"; };
-		1F12F3A320AD5EDA00D6D973 /* ebnfc.aicar.1.1.0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = ebnfc.aicar.1.1.0.bin; sourceTree = "<group>"; };
-		1F12F3A520AD5EEE00D6D973 /* gram.xbnf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gram.xbnf; sourceTree = "<group>"; };
-		1F12F3B520AD7F4D00D6D973 /* vad_aihome_v0.6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = vad_aihome_v0.6.bin; sourceTree = "<group>"; };
-		1F1316F51FECBCE300659D3B /* myAudio */ = {isa = PBXFileReference; lastKnownFileType = text; path = myAudio; sourceTree = "<group>"; };
 		1F135B4D1FD6CC3800820FDD /* libz.1.2.8.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.8.tbd; path = usr/lib/libz.1.2.8.tbd; sourceTree = SDKROOT; };
 		1F422A9A1FD0149800EE871A /* AsrRealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsrRealViewController.h; sourceTree = "<group>"; };
 		1F422A9B1FD0149800EE871A /* AsrRealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsrRealViewController.m; sourceTree = "<group>"; };
-		1F422A9F1FD03F1300EE871A /* myAudio */ = {isa = PBXFileReference; lastKnownFileType = text; path = myAudio; sourceTree = "<group>"; };
 		1F42BBD120AE5F1500B0EE02 /* nhxp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nhxp.wav; sourceTree = "<group>"; };
 		1F67983A21E6F7FD006B8188 /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F67984D21E717AC006B8188 /* Pods_DUILite_iOS_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_DUILite_iOS_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,25 +92,6 @@
 		47548B612060E67D00C878B0 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
 		475ECDF72375165400121C52 /* UITextViewWorkaround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITextViewWorkaround.h; sourceTree = "<group>"; };
 		475ECDF82375165400121C52 /* UITextViewWorkaround.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITextViewWorkaround.m; sourceTree = "<group>"; };
-		477C1CCA2317D691006DC1BF /* libDUILite_ios_LocalTTS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_LocalTTS.a; sourceTree = "<group>"; };
-		477C1CCB2317D691006DC1BF /* libDUILite_ios_asr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_asr.a; sourceTree = "<group>"; };
-		477C1CCC2317D692006DC1BF /* libDUILite_ios_wakeup.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_wakeup.a; sourceTree = "<group>"; };
-		477C1CCD2317D692006DC1BF /* libDUILiteAuth.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILiteAuth.a; sourceTree = "<group>"; };
-		477C1CCE2317D692006DC1BF /* libDUILite_ios_CloudTTS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_CloudTTS.a; sourceTree = "<group>"; };
-		477C1CCF2317D692006DC1BF /* libDUILite_ios_localASR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_localASR.a; sourceTree = "<group>"; };
-		478C88C021C8D04300A45483 /* aitts_dict_idx_common.2.0.4.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = aitts_dict_idx_common.2.0.4.db; sourceTree = "<group>"; };
-		478C88C221C8D0DB00A45483 /* zhilingf_common_param_ce_local.v2.008.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = zhilingf_common_param_ce_local.v2.008.bin; sourceTree = "<group>"; };
-		4790FAE02320A0E4008556AB /* wakeupEngineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wakeupEngineConfig.h; sourceTree = "<group>"; };
-		4790FAE12320A0E4008556AB /* wakeupEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wakeupEngine.h; sourceTree = "<group>"; };
-		4790FAE32320A0E4008556AB /* AICloudASREngineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AICloudASREngineConfig.h; sourceTree = "<group>"; };
-		4790FAE42320A0E4008556AB /* AICloudASREngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AICloudASREngine.h; sourceTree = "<group>"; };
-		4790FAE62320A0E4008556AB /* DUILiteAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteAuth.h; sourceTree = "<group>"; };
-		4790FAE72320A0E4008556AB /* DUILiteAuthConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteAuthConfig.h; sourceTree = "<group>"; };
-		4790FAE92320A0E4008556AB /* AISTTSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISTTSPlayer.h; sourceTree = "<group>"; };
-		4790FAEB2320A0E4008556AB /* AILocalASRIntent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AILocalASRIntent.h; sourceTree = "<group>"; };
-		4790FAEC2320A0E4008556AB /* DUILiteLocalASREngineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteLocalASREngineConfig.h; sourceTree = "<group>"; };
-		4790FAED2320A0E4008556AB /* DUILiteLocalASREngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteLocalASREngine.h; sourceTree = "<group>"; };
-		4790FAEF2320A0E4008556AB /* AISLocalTTSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISLocalTTSPlayer.h; sourceTree = "<group>"; };
 		47A0CBB0206248FB00CF746B /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
 		47A0CBB1206248FB00CF746B /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
 		47A0CBB3206248FB00CF746B /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
@@ -150,6 +124,34 @@
 		47A0CBE4206249C000CF746B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		47A0CBE620624A0300CF746B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		47A0CBE820624A0E00CF746B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		47B9009923A7714200D2FCE5 /* libDUILite_ios_localASR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_localASR.a; sourceTree = "<group>"; };
+		47B9009A23A7714300D2FCE5 /* libDUILite_ios_wakeup.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_wakeup.a; sourceTree = "<group>"; };
+		47B9009B23A7714300D2FCE5 /* libDUILite_ios_LocalTTS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_LocalTTS.a; sourceTree = "<group>"; };
+		47B9009E23A7714300D2FCE5 /* wakeupEngineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wakeupEngineConfig.h; sourceTree = "<group>"; };
+		47B9009F23A7714300D2FCE5 /* wakeupEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wakeupEngine.h; sourceTree = "<group>"; };
+		47B900A123A7714300D2FCE5 /* AICloudASREngineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AICloudASREngineConfig.h; sourceTree = "<group>"; };
+		47B900A223A7714300D2FCE5 /* AICloudASREngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AICloudASREngine.h; sourceTree = "<group>"; };
+		47B900A423A7714300D2FCE5 /* DUILiteAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteAuth.h; sourceTree = "<group>"; };
+		47B900A523A7714300D2FCE5 /* DUILiteAuthConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteAuthConfig.h; sourceTree = "<group>"; };
+		47B900A623A7714300D2FCE5 /* AIEngineBaseOB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIEngineBaseOB.h; sourceTree = "<group>"; };
+		47B900A823A7714300D2FCE5 /* AISTTSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISTTSPlayer.h; sourceTree = "<group>"; };
+		47B900AA23A7714300D2FCE5 /* AILocalASRIntent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AILocalASRIntent.h; sourceTree = "<group>"; };
+		47B900AB23A7714300D2FCE5 /* DUILiteLocalASREngineConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteLocalASREngineConfig.h; sourceTree = "<group>"; };
+		47B900AC23A7714300D2FCE5 /* DUILiteLocalASREngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUILiteLocalASREngine.h; sourceTree = "<group>"; };
+		47B900AE23A7714300D2FCE5 /* AISLocalTTSPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AISLocalTTSPlayer.h; sourceTree = "<group>"; };
+		47B900AF23A7714300D2FCE5 /* libDUILite_ios_CloudTTS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_CloudTTS.a; sourceTree = "<group>"; };
+		47B900B023A7714300D2FCE5 /* libDUILite_ios_asr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILite_ios_asr.a; sourceTree = "<group>"; };
+		47B900B123A7714400D2FCE5 /* libDUILiteAuth.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDUILiteAuth.a; sourceTree = "<group>"; };
+		47B900C023A776BC00D2FCE5 /* myAudio */ = {isa = PBXFileReference; lastKnownFileType = file; path = myAudio; sourceTree = "<group>"; };
+		47B900C423A776DA00D2FCE5 /* wakeup_aifar_comm.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = wakeup_aifar_comm.bin; sourceTree = "<group>"; };
+		47B900C723A776DA00D2FCE5 /* gram.xbnf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gram.xbnf; sourceTree = "<group>"; };
+		47B900C823A776DA00D2FCE5 /* ebnfc.aicar.1.2.0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = ebnfc.aicar.1.2.0.bin; sourceTree = "<group>"; };
+		47B900CA23A776DA00D2FCE5 /* ebnfr.aicar.1.3.1.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = ebnfr.aicar.1.3.1.bin; sourceTree = "<group>"; };
+		47B900CC23A776DA00D2FCE5 /* vad_aihome_v0.11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = vad_aihome_v0.11.bin; sourceTree = "<group>"; };
+		47B900CE23A776DA00D2FCE5 /* aitts_sent_dict_local.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = aitts_sent_dict_local.db; sourceTree = "<group>"; };
+		47B900CF23A776DA00D2FCE5 /* local_front.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = local_front.bin; sourceTree = "<group>"; };
+		47B900D023A776DA00D2FCE5 /* zhilingf_common_back_ce_local.v2.1.0.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = zhilingf_common_back_ce_local.v2.1.0.bin; sourceTree = "<group>"; };
+		47B900DA23A7774C00D2FCE5 /* vad_aihome_v0.11.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; name = vad_aihome_v0.11.bin; path = DUILite_iOS_Demo/res/localASR/VAD/vad_aihome_v0.11.bin; sourceTree = SOURCE_ROOT; };
 		47B931FA1FC518BD0049ABE8 /* DUILite_iOS_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DUILite_iOS_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B931FE1FC518BD0049ABE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		47B932001FC518BD0049ABE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -167,7 +169,6 @@
 		47DF64671FC558F800F6480B /* TTSLocalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSLocalViewController.m; sourceTree = "<group>"; };
 		47DF646D1FC55A1F00F6480B /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		47DF64951FC5764000F6480B /* test.pcm */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.pcm; sourceTree = "<group>"; };
-		47DF64961FC5764000F6480B /* vad_aihome_v0.6.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = vad_aihome_v0.6.bin; sourceTree = "<group>"; };
 		47DF649B1FC576B600F6480B /* AsrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsrViewController.h; sourceTree = "<group>"; };
 		47DF649C1FC576B600F6480B /* AsrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsrViewController.m; sourceTree = "<group>"; };
 		47DF64A11FC577E400F6480B /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
@@ -183,125 +184,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F67984E21E717AC006B8188 /* Pods_DUILite_iOS_Demo.framework in Frameworks */,
+				47B900B723A7714400D2FCE5 /* libDUILiteAuth.a in Frameworks */,
+				47B900B223A7714400D2FCE5 /* libDUILite_ios_localASR.a in Frameworks */,
 				1F32C80A21CCBBEF008FD343 /* libz.tbd in Frameworks */,
 				47548B5A2060E42B00C878B0 /* Security.framework in Frameworks */,
-				477C1CD32317D692006DC1BF /* libDUILiteAuth.a in Frameworks */,
-				477C1CD12317D692006DC1BF /* libDUILite_ios_asr.a in Frameworks */,
+				47B900B423A7714400D2FCE5 /* libDUILite_ios_LocalTTS.a in Frameworks */,
 				47548B582060E3F800C878B0 /* SystemConfiguration.framework in Frameworks */,
-				477C1CD52317D692006DC1BF /* libDUILite_ios_localASR.a in Frameworks */,
+				47B900B323A7714400D2FCE5 /* libDUILite_ios_wakeup.a in Frameworks */,
+				47B900B523A7714400D2FCE5 /* libDUILite_ios_CloudTTS.a in Frameworks */,
 				47548B622060E67D00C878B0 /* Bugly.framework in Frameworks */,
+				47B900B623A7714400D2FCE5 /* libDUILite_ios_asr.a in Frameworks */,
 				47548B5E2060E44200C878B0 /* libc++.tbd in Frameworks */,
-				477C1CD02317D692006DC1BF /* libDUILite_ios_LocalTTS.a in Frameworks */,
 				47DF64A21FC577E400F6480B /* libicucore.tbd in Frameworks */,
-				477C1CD42317D692006DC1BF /* libDUILite_ios_CloudTTS.a in Frameworks */,
-				477C1CD22317D692006DC1BF /* libDUILite_ios_wakeup.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F0CE5DB20A983D400DAE0AF /* localASR */ = {
-			isa = PBXGroup;
-			children = (
-				1F12F3A220AD5EC100D6D973 /* ASR */,
-				1F12F3A120AD5EBA00D6D973 /* VAD */,
-				1F12F3A020AD5EAF00D6D973 /* gram */,
-			);
-			name = localASR;
-			sourceTree = "<group>";
-		};
-		1F12F3A020AD5EAF00D6D973 /* gram */ = {
-			isa = PBXGroup;
-			children = (
-				1F12F3A520AD5EEE00D6D973 /* gram.xbnf */,
-				1F12F3A320AD5EDA00D6D973 /* ebnfc.aicar.1.1.0.bin */,
-			);
-			name = gram;
-			sourceTree = "<group>";
-		};
-		1F12F3A120AD5EBA00D6D973 /* VAD */ = {
-			isa = PBXGroup;
-			children = (
-				1F12F3B520AD7F4D00D6D973 /* vad_aihome_v0.6.bin */,
-			);
-			name = VAD;
-			sourceTree = "<group>";
-		};
-		1F12F3A220AD5EC100D6D973 /* ASR */ = {
-			isa = PBXGroup;
-			children = (
-				1F12F39E20AD5E6E00D6D973 /* ebnfr.aicar.1.2.0.bin */,
-			);
-			name = ASR;
-			sourceTree = "<group>";
-		};
-		4790FADE2320A0E4008556AB /* include */ = {
-			isa = PBXGroup;
-			children = (
-				4790FADF2320A0E4008556AB /* DUILite_ios_wakeup */,
-				4790FAE22320A0E4008556AB /* DUILite_ios_asr */,
-				4790FAE52320A0E4008556AB /* DUILiteAuth */,
-				4790FAE82320A0E4008556AB /* DUILite_ios_CloudTTS */,
-				4790FAEA2320A0E4008556AB /* DUILite_ios_localASR */,
-				4790FAEE2320A0E4008556AB /* DUILite_ios_LocalTTS */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		4790FADF2320A0E4008556AB /* DUILite_ios_wakeup */ = {
-			isa = PBXGroup;
-			children = (
-				4790FAE02320A0E4008556AB /* wakeupEngineConfig.h */,
-				4790FAE12320A0E4008556AB /* wakeupEngine.h */,
-			);
-			path = DUILite_ios_wakeup;
-			sourceTree = "<group>";
-		};
-		4790FAE22320A0E4008556AB /* DUILite_ios_asr */ = {
-			isa = PBXGroup;
-			children = (
-				4790FAE32320A0E4008556AB /* AICloudASREngineConfig.h */,
-				4790FAE42320A0E4008556AB /* AICloudASREngine.h */,
-			);
-			path = DUILite_ios_asr;
-			sourceTree = "<group>";
-		};
-		4790FAE52320A0E4008556AB /* DUILiteAuth */ = {
-			isa = PBXGroup;
-			children = (
-				4790FAE62320A0E4008556AB /* DUILiteAuth.h */,
-				4790FAE72320A0E4008556AB /* DUILiteAuthConfig.h */,
-			);
-			path = DUILiteAuth;
-			sourceTree = "<group>";
-		};
-		4790FAE82320A0E4008556AB /* DUILite_ios_CloudTTS */ = {
-			isa = PBXGroup;
-			children = (
-				4790FAE92320A0E4008556AB /* AISTTSPlayer.h */,
-			);
-			path = DUILite_ios_CloudTTS;
-			sourceTree = "<group>";
-		};
-		4790FAEA2320A0E4008556AB /* DUILite_ios_localASR */ = {
-			isa = PBXGroup;
-			children = (
-				4790FAEB2320A0E4008556AB /* AILocalASRIntent.h */,
-				4790FAEC2320A0E4008556AB /* DUILiteLocalASREngineConfig.h */,
-				4790FAED2320A0E4008556AB /* DUILiteLocalASREngine.h */,
-			);
-			path = DUILite_ios_localASR;
-			sourceTree = "<group>";
-		};
-		4790FAEE2320A0E4008556AB /* DUILite_ios_LocalTTS */ = {
-			isa = PBXGroup;
-			children = (
-				4790FAEF2320A0E4008556AB /* AISLocalTTSPlayer.h */,
-			);
-			path = DUILite_ios_LocalTTS;
-			sourceTree = "<group>";
-		};
 		47A0CBAE206248FB00CF746B /* IQKeyboardManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,6 +278,145 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		47B9009C23A7714300D2FCE5 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				47B9009D23A7714300D2FCE5 /* DUILite_ios_wakeup */,
+				47B900A023A7714300D2FCE5 /* DUILite_ios_asr */,
+				47B900A323A7714300D2FCE5 /* DUILiteAuth */,
+				47B900A723A7714300D2FCE5 /* DUILite_ios_CloudTTS */,
+				47B900A923A7714300D2FCE5 /* DUILite_ios_localASR */,
+				47B900AD23A7714300D2FCE5 /* DUILite_ios_LocalTTS */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		47B9009D23A7714300D2FCE5 /* DUILite_ios_wakeup */ = {
+			isa = PBXGroup;
+			children = (
+				47B9009E23A7714300D2FCE5 /* wakeupEngineConfig.h */,
+				47B9009F23A7714300D2FCE5 /* wakeupEngine.h */,
+			);
+			path = DUILite_ios_wakeup;
+			sourceTree = "<group>";
+		};
+		47B900A023A7714300D2FCE5 /* DUILite_ios_asr */ = {
+			isa = PBXGroup;
+			children = (
+				47B900A123A7714300D2FCE5 /* AICloudASREngineConfig.h */,
+				47B900A223A7714300D2FCE5 /* AICloudASREngine.h */,
+			);
+			path = DUILite_ios_asr;
+			sourceTree = "<group>";
+		};
+		47B900A323A7714300D2FCE5 /* DUILiteAuth */ = {
+			isa = PBXGroup;
+			children = (
+				47B900A423A7714300D2FCE5 /* DUILiteAuth.h */,
+				47B900A523A7714300D2FCE5 /* DUILiteAuthConfig.h */,
+				47B900A623A7714300D2FCE5 /* AIEngineBaseOB.h */,
+			);
+			path = DUILiteAuth;
+			sourceTree = "<group>";
+		};
+		47B900A723A7714300D2FCE5 /* DUILite_ios_CloudTTS */ = {
+			isa = PBXGroup;
+			children = (
+				47B900A823A7714300D2FCE5 /* AISTTSPlayer.h */,
+			);
+			path = DUILite_ios_CloudTTS;
+			sourceTree = "<group>";
+		};
+		47B900A923A7714300D2FCE5 /* DUILite_ios_localASR */ = {
+			isa = PBXGroup;
+			children = (
+				47B900AA23A7714300D2FCE5 /* AILocalASRIntent.h */,
+				47B900AB23A7714300D2FCE5 /* DUILiteLocalASREngineConfig.h */,
+				47B900AC23A7714300D2FCE5 /* DUILiteLocalASREngine.h */,
+			);
+			path = DUILite_ios_localASR;
+			sourceTree = "<group>";
+		};
+		47B900AD23A7714300D2FCE5 /* DUILite_ios_LocalTTS */ = {
+			isa = PBXGroup;
+			children = (
+				47B900AE23A7714300D2FCE5 /* AISLocalTTSPlayer.h */,
+			);
+			path = DUILite_ios_LocalTTS;
+			sourceTree = "<group>";
+		};
+		47B900C223A776DA00D2FCE5 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				47B900C323A776DA00D2FCE5 /* wakeup */,
+				47B900C523A776DA00D2FCE5 /* localASR */,
+				47B900CD23A776DA00D2FCE5 /* localTTS */,
+				47B900D123A776DA00D2FCE5 /* cloudASR */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		47B900C323A776DA00D2FCE5 /* wakeup */ = {
+			isa = PBXGroup;
+			children = (
+				47B900C423A776DA00D2FCE5 /* wakeup_aifar_comm.bin */,
+			);
+			path = wakeup;
+			sourceTree = "<group>";
+		};
+		47B900C523A776DA00D2FCE5 /* localASR */ = {
+			isa = PBXGroup;
+			children = (
+				47B900C623A776DA00D2FCE5 /* gram */,
+				47B900C923A776DA00D2FCE5 /* ASR */,
+				47B900CB23A776DA00D2FCE5 /* VAD */,
+			);
+			path = localASR;
+			sourceTree = "<group>";
+		};
+		47B900C623A776DA00D2FCE5 /* gram */ = {
+			isa = PBXGroup;
+			children = (
+				47B900C723A776DA00D2FCE5 /* gram.xbnf */,
+				47B900C823A776DA00D2FCE5 /* ebnfc.aicar.1.2.0.bin */,
+			);
+			path = gram;
+			sourceTree = "<group>";
+		};
+		47B900C923A776DA00D2FCE5 /* ASR */ = {
+			isa = PBXGroup;
+			children = (
+				47B900CA23A776DA00D2FCE5 /* ebnfr.aicar.1.3.1.bin */,
+			);
+			path = ASR;
+			sourceTree = "<group>";
+		};
+		47B900CB23A776DA00D2FCE5 /* VAD */ = {
+			isa = PBXGroup;
+			children = (
+				47B900CC23A776DA00D2FCE5 /* vad_aihome_v0.11.bin */,
+			);
+			path = VAD;
+			sourceTree = "<group>";
+		};
+		47B900CD23A776DA00D2FCE5 /* localTTS */ = {
+			isa = PBXGroup;
+			children = (
+				47B900CE23A776DA00D2FCE5 /* aitts_sent_dict_local.db */,
+				47B900CF23A776DA00D2FCE5 /* local_front.bin */,
+				47B900D023A776DA00D2FCE5 /* zhilingf_common_back_ce_local.v2.1.0.bin */,
+			);
+			path = localTTS;
+			sourceTree = "<group>";
+		};
+		47B900D123A776DA00D2FCE5 /* cloudASR */ = {
+			isa = PBXGroup;
+			children = (
+				47B900DA23A7774C00D2FCE5 /* vad_aihome_v0.11.bin */,
+			);
+			path = cloudASR;
+			sourceTree = "<group>";
+		};
 		47B931F11FC518BD0049ABE8 = {
 			isa = PBXGroup;
 			children = (
@@ -399,16 +438,18 @@
 		47B931FC1FC518BD0049ABE8 /* DUILite_iOS_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				4790FADE2320A0E4008556AB /* include */,
-				477C1CCB2317D691006DC1BF /* libDUILite_ios_asr.a */,
-				477C1CCE2317D692006DC1BF /* libDUILite_ios_CloudTTS.a */,
-				477C1CCF2317D692006DC1BF /* libDUILite_ios_localASR.a */,
-				477C1CCA2317D691006DC1BF /* libDUILite_ios_LocalTTS.a */,
-				477C1CCC2317D692006DC1BF /* libDUILite_ios_wakeup.a */,
-				477C1CCD2317D692006DC1BF /* libDUILiteAuth.a */,
+				47B9009C23A7714300D2FCE5 /* include */,
+				47B900B023A7714300D2FCE5 /* libDUILite_ios_asr.a */,
+				47B900AF23A7714300D2FCE5 /* libDUILite_ios_CloudTTS.a */,
+				47B9009923A7714200D2FCE5 /* libDUILite_ios_localASR.a */,
+				47B9009B23A7714300D2FCE5 /* libDUILite_ios_LocalTTS.a */,
+				47B9009A23A7714300D2FCE5 /* libDUILite_ios_wakeup.a */,
+				47B900B123A7714400D2FCE5 /* libDUILiteAuth.a */,
 				47A0CBAE206248FB00CF746B /* IQKeyboardManager */,
-				47DF64611FC5585A00F6480B /* res */,
-				1F1316F51FECBCE300659D3B /* myAudio */,
+				1F42BBD120AE5F1500B0EE02 /* nhxp.wav */,
+				47DF64951FC5764000F6480B /* test.pcm */,
+				47B900C023A776BC00D2FCE5 /* myAudio */,
+				47B900C223A776DA00D2FCE5 /* res */,
 				47B932001FC518BD0049ABE8 /* AppDelegate.h */,
 				47B932011FC518BD0049ABE8 /* AppDelegate.m */,
 				47B932031FC518BD0049ABE8 /* RootViewController.h */,
@@ -446,20 +487,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		47DF64611FC5585A00F6480B /* res */ = {
-			isa = PBXGroup;
-			children = (
-				1F0CE5DB20A983D400DAE0AF /* localASR */,
-				1F422A9F1FD03F1300EE871A /* myAudio */,
-				1F42BBD120AE5F1500B0EE02 /* nhxp.wav */,
-				47DF64951FC5764000F6480B /* test.pcm */,
-				47DF64A31FC5791100F6480B /* wakeup */,
-				47DF649A1FC5765600F6480B /* cloudASR */,
-				47DF64991FC5764C00F6480B /* localTTS */,
-			);
-			name = res;
-			sourceTree = "<group>";
-		};
 		47DF646C1FC55A1F00F6480B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -478,31 +505,6 @@
 				56B5ECC4868DD75F09A7F732 /* Pods_DUILite_iOS_Demo.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		47DF64991FC5764C00F6480B /* localTTS */ = {
-			isa = PBXGroup;
-			children = (
-				478C88C021C8D04300A45483 /* aitts_dict_idx_common.2.0.4.db */,
-				478C88C221C8D0DB00A45483 /* zhilingf_common_param_ce_local.v2.008.bin */,
-			);
-			name = localTTS;
-			sourceTree = "<group>";
-		};
-		47DF649A1FC5765600F6480B /* cloudASR */ = {
-			isa = PBXGroup;
-			children = (
-				47DF64961FC5764000F6480B /* vad_aihome_v0.6.bin */,
-			);
-			name = cloudASR;
-			sourceTree = "<group>";
-		};
-		47DF64A31FC5791100F6480B /* wakeup */ = {
-			isa = PBXGroup;
-			children = (
-				1F12EA5720BC2FBF00A2A543 /* wakeup_aifar_comm_20180104.bin */,
-			);
-			name = wakeup;
 			sourceTree = "<group>";
 		};
 		8AF4435135B272E9BA812E97 /* Pods */ = {
@@ -583,22 +585,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				478C88C321C8D0DB00A45483 /* zhilingf_common_param_ce_local.v2.008.bin in Resources */,
-				1F422AA01FD03F1300EE871A /* myAudio in Resources */,
 				47A0CBDC206248FC00CF746B /* IQKeyboardManager.bundle in Resources */,
-				1F12EA5820BC2FBF00A2A543 /* wakeup_aifar_comm_20180104.bin in Resources */,
 				1F42BBD820AE5F1600B0EE02 /* nhxp.wav in Resources */,
-				1F12F3A620AD5EEE00D6D973 /* gram.xbnf in Resources */,
+				47B900D723A776DA00D2FCE5 /* aitts_sent_dict_local.db in Resources */,
 				47DF64971FC5764000F6480B /* test.pcm in Resources */,
-				1F12F39F20AD5E6E00D6D973 /* ebnfr.aicar.1.2.0.bin in Resources */,
-				1F12F3B620AD7F4D00D6D973 /* vad_aihome_v0.6.bin in Resources */,
-				478C88C121C8D04300A45483 /* aitts_dict_idx_common.2.0.4.db in Resources */,
-				1F12F3A420AD5EDA00D6D973 /* ebnfc.aicar.1.1.0.bin in Resources */,
-				1F1316F61FECBCE300659D3B /* myAudio in Resources */,
-				47DF64981FC5764000F6480B /* vad_aihome_v0.6.bin in Resources */,
+				47B900D323A776DA00D2FCE5 /* gram.xbnf in Resources */,
 				47B9320D1FC518BD0049ABE8 /* LaunchScreen.storyboard in Resources */,
+				47B900D623A776DA00D2FCE5 /* vad_aihome_v0.11.bin in Resources */,
+				47B900D523A776DA00D2FCE5 /* ebnfr.aicar.1.3.1.bin in Resources */,
 				47B9320A1FC518BD0049ABE8 /* Assets.xcassets in Resources */,
+				47B900D823A776DA00D2FCE5 /* local_front.bin in Resources */,
+				47B900D923A776DA00D2FCE5 /* zhilingf_common_back_ce_local.v2.1.0.bin in Resources */,
 				47B932081FC518BD0049ABE8 /* Main.storyboard in Resources */,
+				47B900D423A776DA00D2FCE5 /* ebnfc.aicar.1.2.0.bin in Resources */,
+				47B900DB23A7774C00D2FCE5 /* vad_aihome_v0.11.bin in Resources */,
+				47B900D223A776DA00D2FCE5 /* wakeup_aifar_comm.bin in Resources */,
+				47B900C123A776BC00D2FCE5 /* myAudio in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

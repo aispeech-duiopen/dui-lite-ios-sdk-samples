@@ -150,10 +150,10 @@ const static NSString * TAG = @"testAsrEngine";
 -(void)initAsrEngine{
     [self setAudioConfig];
     
-    NSString* resBinFile = [[NSBundle mainBundle] pathForResource:@"vad_aihome_v0.6.bin" ofType:nil];
+    NSString* resBinFile = [[NSBundle mainBundle] pathForResource:@"vad_aihome_v0.11.bin" ofType:nil];
     
     NSMutableDictionary *asrEngineConfigDic = [[NSMutableDictionary alloc] init];
-    [asrEngineConfigDic setObject:@"vad_aihome_v0.6.bin" forKey:K_LOCAL_VAD_RES_NAME];
+    [asrEngineConfigDic setObject:@"vad_aihome_v0.11.bin" forKey:K_LOCAL_VAD_RES_NAME];
     [asrEngineConfigDic setObject:resBinFile forKey:K_LOCAL_VAD_RES_PATH];
     [asrEngineConfigDic setObject:[NSNumber numberWithBool:NO] forKey:K_REAL_BACK];
     [asrEngineConfigDic setObject:[NSNumber numberWithInt:300] forKey:K_PAUSE_TIME];

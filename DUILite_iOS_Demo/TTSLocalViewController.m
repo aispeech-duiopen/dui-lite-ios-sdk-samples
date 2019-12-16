@@ -70,8 +70,10 @@ static NSString * TAG = @"testLocalTTS";
         self.player = [[AISLocalTTSPlayer  alloc] init];
     }
     
-    NSString *resBinFile = [[NSBundle mainBundle] pathForResource:@"zhilingf_common_param_ce_local.v2.008.bin" ofType:nil];
-    NSString *resDBFile = [[NSBundle mainBundle] pathForResource:@"aitts_dict_idx_common.2.0.4.db" ofType:nil];
+    NSString *frontBinFile = [[NSBundle mainBundle] pathForResource:@"local_front.bin" ofType:nil];
+    NSString *resBinFile = [[NSBundle mainBundle] pathForResource:@"zhilingf_common_back_ce_local.v2.1.0.bin" ofType:nil];
+    NSString *resDBFile = [[NSBundle mainBundle] pathForResource:@"aitts_sent_dict_local.db" ofType:nil];
+    self.player.frontBinFile = frontBinFile;
     self.player.resBinFile = resBinFile;
     self.player.resDBFile = resDBFile;
     

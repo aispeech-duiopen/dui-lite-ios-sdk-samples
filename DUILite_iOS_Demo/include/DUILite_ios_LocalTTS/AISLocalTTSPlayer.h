@@ -85,6 +85,11 @@
 @property (nonatomic, weak) NSString * onlyTTS;
 
 /*!
+设置离线合成引擎front资源路径
+*/
+@property (nonatomic, copy) NSString * frontBinFile;
+
+/*!
  设置离线合成引擎发音人资源路径
  */
 @property (nonatomic, strong) NSString * resBinFile;

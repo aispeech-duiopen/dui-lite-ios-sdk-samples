@@ -61,9 +61,9 @@ static NSString * TAG = @"ASRLocalViewControl";
     self.textASRResult.text = @"";
     
     cfg = [[NSMutableDictionary alloc] init];
-    NSString * vadResPath = [[NSBundle mainBundle] pathForResource:@"vad_aihome_v0.6.bin" ofType:nil];
-    NSString * asrResPath = [[NSBundle mainBundle] pathForResource:@"ebnfr.aicar.1.2.0.bin" ofType:nil];
-    NSString * gramResPath = [[NSBundle mainBundle] pathForResource:@"ebnfc.aicar.1.1.0.bin" ofType:nil];
+    NSString * vadResPath = [[NSBundle mainBundle] pathForResource:@"vad_aihome_v0.11.bin" ofType:nil];
+    NSString * asrResPath = [[NSBundle mainBundle] pathForResource:@"ebnfr.aicar.1.3.1.bin" ofType:nil];
+    NSString * gramResPath = [[NSBundle mainBundle] pathForResource:@"ebnfc.aicar.1.2.0.bin" ofType:nil];
     NSString * gramXbnfPath = [[NSBundle mainBundle] pathForResource:@"gram.xbnf" ofType:nil];
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *path = [paths objectAtIndex:0];

@@ -135,7 +135,7 @@
  
         设置是否启用本地vad,默认为YES; 值为YES:使用Vad,值为NO:禁止Vad;
  
-        设置VAD名字 默认名字为vad_aihome_v0.6.bin;
+        设置VAD名字 默认名字为vad_aihome_v0.11.bin;
  
         设置VAD资源绝对路径，默认在main bundle中搜索提供的vad资源（须要设置VAD资源名;
  

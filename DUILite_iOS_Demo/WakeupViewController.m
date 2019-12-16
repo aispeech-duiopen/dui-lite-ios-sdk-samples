@@ -133,11 +133,11 @@ static NSString * TAG = @"testWakeupEngine";
 }
 
 -(void)initWakeup{
-    NSString* wakeupResPath = [[NSBundle mainBundle] pathForResource:@"wakeup_aifar_comm_20180104.bin" ofType:nil];
+    NSString* wakeupResPath = [[NSBundle mainBundle] pathForResource:@"wakeup_aifar_comm.bin" ofType:nil];
     
     NSMutableDictionary *dic = [[NSMutableDictionary alloc] init];
     [dic setObject:[NSNumber numberWithBool:NO] forKey:K_WAKE_CUSTOM];
-    [dic setObject:@"wakeup_aifar_comm_20180104.bin" forKey:K_WAKE_RES_NAME];
+    [dic setObject:@"wakeup_aifar_comm.bin" forKey:K_WAKE_RES_NAME];
     [dic setObject:wakeupResPath forKey:K_WAKE_RES_PATH];
     engine = [wakeupEngine shareInstance];
     [engine initWakeup:self config:dic];

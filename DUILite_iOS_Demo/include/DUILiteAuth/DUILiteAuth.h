@@ -110,4 +110,7 @@
  */
 + (void)setLogEnabled:(BOOL)value;
 
+
++ (void)setLogWriteToFile:(BOOL)value;
+
 @end
